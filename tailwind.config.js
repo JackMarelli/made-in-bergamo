@@ -23,19 +23,19 @@ module.exports = {
     },
     extend: {
       colors: {
-        deezer: {
-          white: "#FDFCFE",
-          gray: {
-            light: "#999999",
-            DEFAULT: "#7777777",
-            dark: "#444444",
+        mib: {
+          beige: {
+            light: "#F2F1F0",
+            medium: "#E3E1DE",
+            dark: "#DBD7D2",
           },
-          black: "#0F0D13",
-          primary: '#FF0066',
-          secondary: '#2C2C2C',
-          background: '#F5F5F5',
-          text: '#000000',
-          accent: '#1E1E1E',
+          brown: {
+            light: "#C7B09B",
+            dark: "#24201C",
+          },
+          green: {
+            DEFAULT: "#303026",
+          }
         },
       },
     },
