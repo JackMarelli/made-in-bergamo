@@ -15,9 +15,11 @@ export default function BaseLayout({ children }) {
     }, [lenis]);
 
     return (
-        <ReactLenis className="w-full" root>
-            <Navbar />
-            {children}
+        <ReactLenis root>
+            <div className="w-full h-fit bg-mib-beige-light">
+                <Navbar />
+                {children}
+            </div>
         </ReactLenis>
     )
 }

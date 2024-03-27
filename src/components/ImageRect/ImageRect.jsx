@@ -27,7 +27,7 @@ export default function ImageRect({ imageUrl, altText = "", dida = "", className
 
     return (
         <div
-            className={`${className} relative`} // Ensuring the container has a relative positioning.
+            className={`${className} h-fit relative`} // Ensuring the container has a relative positioning.
             onMouseEnter={handleMouseEnter}
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
