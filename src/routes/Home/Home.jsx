@@ -3,38 +3,53 @@ import IndexPoint from "../../components/IndexPoint/IndexPoint";
 import Quote from "../../components/Quote/Quote";
 import ImageRect from "../../components/ImageRect/ImageRect";
 import Paragraph from "../../components/Paragraph/Paragraph";
+import Heading from "../../components/Heading/Heading";
 
 export default function Home() {
-    return (
-        <BaseLayout>
-            <div className="h-fit m-4 mt-8 md:m-8 grid grid-cols-4 md:grid-cols-12 gap-4">
-                <div className="col-span-4 md:col-span-12 mt-24 md:mt-44"><img className="w-full" src="/assets/images/svg/madeinbergamo_fold.svg" alt="Made In Bergamo full width logotype" /></div>
-            </div>
-            <div className="w-full h-[80vh] -mt-4 sm:-mt-5 md:-mt-12 lg:-mt-14 xl:-mt-16"><img className="w-full h-full object-cover" src="assets/images/fullsize/8_1.jpg" alt="" /></div>
-            <div className="w-full h-fit py-24 px-4 md:py-32 md:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 bg-mib-beige-dark">
-                <IndexPoint className="col-span-4 md:col-span-6">Introduzione</IndexPoint>
-                <Quote
-                    className="col-span-4 md:col-start-7 md:col-span-6 mb-24"
-                    text="“L’artigianato ci fa sentire radicati, ci dà un senso di appartenenza e ci connette con la nostra storia.” "
-                    author="Phyllis George"
-                />
-                <ImageRect
-                    className="col-span-2 md:col-span-6"
-                    imageUrl="assets/images/fullsize/1.jpeg"
-                    dida="TEST DIDA 111"
-                />
-                <ImageRect
-                    className="col-span-2 md:col-start-10 md:col-span-3"
-                    imageUrl="assets/images/fullsize/6_2.jpg"
-                    dida="TEST DIDA 222"
-                />
-                <Paragraph
-                    className="col-span-4 md:col-start-5 md:col-span-6 mt-16"
-                    text="La mia tesi nasce da un interesse personale verso il mondo dell’artigianalità nel settore della moda."
-                />
-                <Paragraph
-                    className="col-span-4 md:col-start-5 md:col-span-6"
-                    text="L'elaborato andrà innanzitutto ad indagare, attraverso uno sguardo tecnico, come avviene la
+  return (
+    <BaseLayout>
+      <div className="h-fit m-4 mt-8 md:m-8 grid grid-cols-4 md:grid-cols-12 gap-4">
+        <div className="col-span-4 md:col-span-12 mt-24 md:mt-44">
+          <img
+            className="w-full"
+            src="/assets/images/svg/madeinbergamo_fold.svg"
+            alt="Made In Bergamo full width logotype"
+          />
+        </div>
+      </div>
+      <div className="w-full h-[80vh] -mt-4 sm:-mt-5 md:-mt-12 lg:-mt-14 xl:-mt-16">
+        <img
+          className="w-full h-full object-cover"
+          src="assets/images/fullsize/8_1.jpg"
+          alt=""
+        />
+      </div>
+      <div className="w-full h-fit py-24 px-4 md:py-32 md:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 bg-mib-beige-dark">
+        <IndexPoint className="col-span-4 md:col-span-6">
+          Introduzione
+        </IndexPoint>
+        <Quote
+          className="col-span-4 md:col-start-7 md:col-span-6 mb-24"
+          text="“L’artigianato ci fa sentire radicati, ci dà un senso di appartenenza e ci connette con la nostra storia.” "
+          author="Phyllis George"
+        />
+        <ImageRect
+          className="col-span-2 md:col-span-6"
+          imageUrl="assets/images/fullsize/1.jpeg"
+          dida="TEST DIDA 111"
+        />
+        <ImageRect
+          className="col-span-2 md:col-start-10 md:col-span-3"
+          imageUrl="assets/images/fullsize/6_2.jpg"
+          dida="TEST DIDA 222"
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 mt-16"
+          text="La mia tesi nasce da un interesse personale verso il mondo dell’artigianalità nel settore della moda."
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6"
+          text="L'elaborato andrà innanzitutto ad indagare, attraverso uno sguardo tecnico, come avviene la
                     produzione di un prodotto di moda artigianale, analizzandone ogni sua fase lungo la filiera, con
                     l’obiettivo di approfondire un tema che ormai da sempre contraddistingue l’Italia nel mondo: il
                     savoir-faire artigianale italiano. Oltre a voler condurre un'analisi del processo produttivo, il fine ultimo sarà quello di andare a
@@ -46,16 +61,25 @@ export default function Home() {
                     stati realizzati nuovi metodi di produzione, basati su un’idea di riciclaggio e di recupero dei
                     materiali.
                     "
-                />
-                <Paragraph
-                    className="col-span-4 md:col-start-5 md:col-span-6"
-                    text="Infine, mediante delle interviste ai brand artigianali del territorio bergamasco, in particolare Nei Miei Panni e Sophie Stique*, si analizzerà l’argomento della tesi da un punto di vista interno, fondamentale per comprendere al meglio quelle che sono la maestria e la sapienza artigiana che differenziano questi brand."
-                />
-            </div>
-            <div className="w-full h-fit py-24 px-4 md:py-32 md:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 bg-mib-beige-light">
-                <h1 className="col-span-4 md:col-span-12 h-fit text-center text-4xl md:text-[190px] leading-[166px] font-crimson-pro">Artigianalità</h1>  
-            </div>
-        </BaseLayout>
-
-    );
-}       
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6"
+          text="Infine, mediante delle interviste ai brand artigianali del territorio bergamasco, in particolare Nei Miei Panni e Sophie Stique*, si analizzerà l’argomento della tesi da un punto di vista interno, fondamentale per comprendere al meglio quelle che sono la maestria e la sapienza artigiana che differenziano questi brand."
+        />
+      </div>
+      <div className="w-full h-fit py-24 px-4 md:py-32 md:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 bg-mib-beige-light">
+        <Heading text="Artigianalità" />
+        <IndexPoint className="col-span-4 md:col-span-4">
+          L’importanza dell’artigianalità e la figura dell’artigiano
+        </IndexPoint>
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6"
+          text="L’artigianalità è un metodo produttivo che caratterizza una
+          creazione basata sul lavoro manuale, ovvero sulle abilità tecniche dell’artigiano, colui che fin dall’antichità si occupa di creare prodotti dal valore inestimabile, ove per “valore” si intende non solo – e non principalmente – quello economico,
+          ma piuttosto quello culturale, in quanto ciascun prodotto conserva uno specifico savoir-faire tramandato di generazione in generazione, con la sua bellezza ed unicità, ma anche con i suoi errori e le sue imperfezioni. Proprio a sottolineare questo carico culturale, si dice che quando si acquista un prodotto artigianale è come se nello stesso tempo ci si appropriasse di
+          una fetta di storia; dunque si può affermare che è proprio grazie agli artigiani se tuttora l’artigianalità rappresenta un tratto distintivo di vari Paesi, come quello italiano. (1)"
+        />
+      </div>
+    </BaseLayout>
+  );
+}
