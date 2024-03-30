@@ -1,9 +1,14 @@
+/* Layouts */
 import BaseLayout from "../../layouts/BaseLayout/BaseLayout";
+import SpyTextGalleryLayout from "../../layouts/SpyTextGalleryLayout/SpyTextGalleryLayout";
+
+/* Components */
 import IndexPoint from "../../components/IndexPoint/IndexPoint";
 import Quote from "../../components/Quote/Quote";
 import ImageRect from "../../components/ImageRect/ImageRect";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import Heading from "../../components/Heading/Heading";
+import FloatingText from "../../components/FloatingText/FloatingText";
 
 export default function Home() {
   return (
@@ -75,11 +80,50 @@ export default function Home() {
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
           text="L’artigianalità è un metodo produttivo che caratterizza una
-          creazione basata sul lavoro manuale, ovvero sulle abilità tecniche dell’artigiano, colui che fin dall’antichità si occupa di creare prodotti dal valore inestimabile, ove per “valore” si intende non solo – e non principalmente – quello economico,
-          ma piuttosto quello culturale, in quanto ciascun prodotto conserva uno specifico savoir-faire tramandato di generazione in generazione, con la sua bellezza ed unicità, ma anche con i suoi errori e le sue imperfezioni. Proprio a sottolineare questo carico culturale, si dice che quando si acquista un prodotto artigianale è come se nello stesso tempo ci si appropriasse di
-          una fetta di storia; dunque si può affermare che è proprio grazie agli artigiani se tuttora l’artigianalità rappresenta un tratto distintivo di vari Paesi, come quello italiano. (1)"
+                creazione basata sul lavoro manuale, ovvero sulle abilità tecniche dell’artigiano, colui che fin dall’antichità si occupa di creare prodotti dal valore inestimabile, ove per “valore” si intende non solo – e non principalmente – quello economico,
+                ma piuttosto quello culturale, in quanto ciascun prodotto conserva uno specifico savoir-faire tramandato di generazione in generazione, con la sua bellezza ed unicità, ma anche con i suoi errori e le sue imperfezioni. Proprio a sottolineare questo carico culturale, si dice che quando si acquista un prodotto artigianale è come se nello stesso tempo ci si appropriasse di
+                una fetta di storia; dunque si può affermare che è proprio grazie agli artigiani se tuttora l’artigianalità rappresenta un tratto distintivo di vari Paesi, come quello italiano. (1)"
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-3 my-8 md:my-0"
+          imageUrl="assets/images/fullsize/1.jpg"
+          dida="TEST DIDA 333" />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6"
+          text="L’immaginario immediatamente evocato dal termine “artigiano” trova il suo perno nella figura dell’uomo che lavora con i suoi vecchi arnesi all’interno della sua bottega, la quale permette essa stessa di percepire l’elevato grado di conoscenze e abilità manuali dell’uomo che la vive e le dona vita.
+                Una prima celebrazione di questa particolare figura di lavoratore era già comparsa all’interno dell’inno omerico al dio protettore degli artigiani, Efesto, il quale concepiva questa professione come portatrice di pace all’interno della civiltà,
+                arrivando ad attribuirle il suo stesso inizio. La verità storica è,
+                ovviamente, un’altra: gli uomini fabbricavano già da tempo gli
+                attrezzi necessari alla produzione, ma l’artigiano celebrato da
+                Efesto lavorava per il bene collettivo della società, rendendola
+                sedentaria, ed è per questo motivo che i Greci consideravano
+                l’artigianato e la comunità due elementi indissolubili. (2)"
+        />
+        <SpyTextGalleryLayout
+          text='L’importanza dell’artigianalità e la figura dell’artigiano"'
+          textColor="text-mib-beige-dark"
+          backgroundColor="bg-transparent">
+          <ImageRect
+            className="col-span-4 md:col-start-6 md:col-span-7 my-8 md:my-0 md:my-32"
+            imageUrl="assets/images/fullsize/4_2.jpg"
+            dida="TEST DIDA 333" />
+          <ImageRect
+            className="col-span-4 md:col-span-7 my-8 md:my-0"
+            imageUrl="assets/images/fullsize/3_1.jpg"
+            dida="TEST DIDA 333" />
+        </SpyTextGalleryLayout>
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6"
+          text="L’immaginario immediatamente evocato dal termine “artigiano” trova il suo perno nella figura dell’uomo che lavora con i suoi vecchi arnesi all’interno della sua bottega, la quale permette essa stessa di percepire l’elevato grado di conoscenze e abilità manuali dell’uomo che la vive e le dona vita.
+                Una prima celebrazione di questa particolare figura di lavoratore era già comparsa all’interno dell’inno omerico al dio protettore degli artigiani, Efesto, il quale concepiva questa professione come portatrice di pace all’interno della civiltà,
+                arrivando ad attribuirle il suo stesso inizio. La verità storica è,
+                ovviamente, un’altra: gli uomini fabbricavano già da tempo gli
+                attrezzi necessari alla produzione, ma l’artigiano celebrato da
+                Efesto lavorava per il bene collettivo della società, rendendola
+                sedentaria, ed è per questo motivo che i Greci consideravano
+                l’artigianato e la comunità due elementi indissolubili. (2)"
         />
       </div>
-    </BaseLayout>
+    </BaseLayout >
   );
 }
