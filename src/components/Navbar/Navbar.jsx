@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="h-fit p-4 pt-8 md:p-8 grid grid-cols-4 md:grid-cols-12 gap-4 text-xs font-semibold">
+    <nav className="h-fit p-4 pt-8 md:p-8 xl:px-16 grid grid-cols-4 md:grid-cols-12 gap-4 text-xs font-semibold">
       <span className="col-span-4 md:col-span-3">
         Il prodotto moda artigianale sostenibile: dalle materie prime al
         prodotto finito con un focus sulla produzione territoriale.

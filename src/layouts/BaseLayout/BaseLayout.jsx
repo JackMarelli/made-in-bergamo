@@ -16,6 +16,7 @@ export default function BaseLayout({ children }) {
 
     return (
         <ReactLenis root>
+            <div className="fixed w-full h-full bg-transparent hidden"></div>
             <div className="w-full h-fit bg-mib-beige-light">
                 <Navbar />
                 {children}

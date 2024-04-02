@@ -31,7 +31,7 @@ module.exports = {
           },
           brown: {
             light: "#C7B09B",
-            dark: "#24201C",
+            dark: "#1B1816",
           },
           green: {
             DEFAULT: "#303026",
