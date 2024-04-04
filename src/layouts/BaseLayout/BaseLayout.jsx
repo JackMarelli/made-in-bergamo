@@ -24,7 +24,3 @@ export default function BaseLayout({ children }) {
         </ReactLenis>
     )
 }
-
-/*
-
-about this... i will need to position the images as i like, so i cant give them all the same class. i was thinking about a layout where i can put my text and children as images, then tell the text where to hook, or state it directly in the layout and let the layout get the images as children and position them as i like, while the text is stuck to the layout top and to the bottom of the screen untile the bottom of the layout doesnt pick it up and bring it up with him*/
