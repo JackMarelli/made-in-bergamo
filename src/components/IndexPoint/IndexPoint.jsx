@@ -1,5 +1,5 @@
 export default function IndexPoint({ children, className, colorClass }) {
-    const containerClassName = `w-fit h-fit pt-1 flex flex-row justify-start items-start gap-2 ${className} text-${colorClass}`;
+    const containerClassName = `w-fit h-fit pt-1 mb-4 flex flex-row justify-start items-start gap-2 ${className} text-${colorClass}`;
 
     return (
         <div className={containerClassName}>

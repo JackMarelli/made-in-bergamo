@@ -56,7 +56,7 @@ export default function ImageRect({
   return (
     <div
       ref={containerRef}
-      className={`${className} h-fit md:my-16 relative select-none pointer-events-none`}
+      className={`${className} h-fit md:mb-12 relative select-none pointer-events-none`}
       style={containerStyle} // Apply the container style here
       onMouseEnter={handleMouseEnter}
       onMouseMove={handleMouseMove}

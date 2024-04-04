@@ -15,7 +15,7 @@ export default function SpyTextGalleryLayout({
           {text}
         </h2>
       </div>
-      <div className="w-full grid grid-cols-4 md:grid-cols-12 gap-4">
+      <div className="w-full grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0">
         {children}
       </div>
       <h2
