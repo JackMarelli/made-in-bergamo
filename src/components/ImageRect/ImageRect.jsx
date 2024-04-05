@@ -12,7 +12,6 @@ export default function ImageRect({
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const containerRef = useRef(null);
   const imageRef = useRef(null);
-  const didaTransitionDuration = 100;
 
   useEffect(() => {
     if (imageRef.current && parallax) {
@@ -22,22 +21,34 @@ export default function ImageRect({
         transition: "cubic-bezier(0,0,0,1)",
       });
     }
-  }, [parallax]);
+
+    const checkHoverState = () => {
+      const containerBounds = containerRef.current.getBoundingClientRect();
+      const isInside =
+        mousePosition.x >= containerBounds.left &&
+        mousePosition.x <= containerBounds.right &&
+        mousePosition.y >= containerBounds.top &&
+        mousePosition.y <= containerBounds.bottom;
+      setIsHovering(isInside);
+    };
+
+    // Attach scroll listener to update hover state based on cursor position
+    window.addEventListener("scroll", checkHoverState);
+
+    // Cleanup to remove the event listener
+    return () => window.removeEventListener("scroll", checkHoverState);
+  }, [parallax, mousePosition]);
 
   const handleMouseEnter = () => setIsHovering(true);
+
   const handleMouseMove = (event) => {
     setMousePosition({
       x: event.clientX,
       y: event.clientY,
     });
   };
-  const handleMouseLeave = () => {
-    setTimeout(() => setIsHovering(false), didaTransitionDuration);
-  };
 
-  const containerStyle = {
-    cursor: isHovering ? "none" : "auto",
-  };
+  const handleMouseLeave = () => setIsHovering(false);
 
   const followerStyle = {
     position: "fixed",
@@ -45,19 +56,18 @@ export default function ImageRect({
     left: mousePosition.x,
     transform: "translate(-50%, -50%)",
     opacity: isHovering ? 1 : 0,
-    transition: `opacity ${didaTransitionDuration}ms ease`,
+    transition: `opacity 300ms ease`,
     zIndex: 9999,
     pointerEvents: "none",
     whiteSpace: "nowrap",
     overflow: "hidden",
-    userSelect: "none"
+    userSelect: "none",
   };
 
   return (
     <div
       ref={containerRef}
-      className={`${className} h-fit md:mb-12 relative select-none pointer-events-none`}
-      style={containerStyle} // Apply the container style here
+      className={`${className} h-fit md:mb-12 relative`}
       onMouseEnter={handleMouseEnter}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
@@ -66,11 +76,11 @@ export default function ImageRect({
         ref={imageRef}
         src={imageUrl}
         alt={altText}
-        className="w-full h-auto"
+        className="w-full h-auto select-none pointer-events-none"
       />
       <div
         style={followerStyle}
-        className="px-5 py-2 bg-mib-beige-light border-2 border-mib-brown-dark rounded-full font-semibold text-mib-brown-dark select-none pointer-events-none"
+        className="px-5 py-2 bg-mib-beige-light border-2 border-mib-brown-dark rounded-full font-semibold text-mib-brown-dark"
       >
         {dida}
       </div>
