@@ -289,20 +289,113 @@ export default function Home() {
           />
         </SpyTextGalleryLayout>
       </div>
-      <div className="w-full h-fit px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
+      <div className="w-full h-fit px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-brown-light">
         <IndexPoint
-          colorClass="mib-brown-dark"
+          colorClass="mib-beige-dark"
           className="col-span-4 md:col-span-3"
         >
           La produzione tessile Bergamasca
         </IndexPoint>
         <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6"
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-beige-dark"
           text="Grazie al solido sistema produttivo, alla forte cultura del lavoro e alle connessioni geografiche, si sono svi - luppate, fin dai tempi più lontani, numerose aziende artigiane, le quali ad oggi rappresentano il trentasei percento circa del totale delle imprese produttive che si trovano nel territorio bergamasco. 18 L’artigianato ha da sempre avuto un ruolo fondamen - tale e in base alla zona, grazie alle caratteristiche ter - ritoriali e culturali, si svilupparono varie produzioni, tra cui quelle della seta e della lana, con la conseguente costruzione di edifici destinati all’attività tessile. L’allevamento dei bachi da seta per la produzione dei bozzoli da cui ricavare il filo di seta portò allo svilup - po dell’industria serica e di due delle principali attività, quelle di filatura e di tessitura, sviluppatesi in gran parte del territorio bergamasco. Inizialmente la seta veniva lavorata a mano, fino a quando, nel Seicento, arrivò il primo filatoio idraulico il quale aumentò la produzione e la commercializzazione, in particolare con i Venezia - ni, i quali acquistavano soprattutto sete, bozzoli e vellu - ti, con una conseguente crescita dell’attività serica ber - gamasca; iniziò così ad esserci richiesta di lavoratori anche da Milano e da Paesi esteri. Proprio dall’estero si iniziarono ad importare nel Settecento sete grezze e lane, che venivano lavorate e trasformate nel prodotto finito da esportare, ad esempio in Inghilterra e in Fran - cia. "
         />
         <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6"
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-beige-dark"
           text="Con il passare del tempo il lavoro e la qualità delle lane e delle sete bergamasche aumentavano e i lavo - ratori cercavano di emulare le più pregiate esistenti, come quelle orientali. Si contavano centinaia di filatoi e migliaia di operai, ma intorno alla fine del Settecento si iniziò a registrare un calo dell’attività serica e della produzione di lana; questo calo fu dovuto sia alla con - correnza estera sia alla diminuzione della pastorizia di pecore ed agnelli, causato dall’aumento dei prezzi del fieno e dalla nascente filatura di lino e canapa, che si sviluppò nel nord di Bergamo."
+        />
+        <SpyTextGalleryLayout
+          text="La produzione tessile Bergamasca"
+          textColor="text-mib-brown-dark"
+        >
+          <ImageRect
+            className="col-span-4 md:col-span-5"
+            imageUrl="assets/images/fullsize/3_1.jpg"
+            dida="Test Didascalia"
+          />
+          <ImageRect
+            className="col-span-4 md:col-start-7 md:col-span-6 mt-48"
+            imageUrl="assets/images/fullsize/28.jpg"
+            dida="Test Didascalia"
+          />
+          <ImageRect
+            className="col-span-4 md:col-span-8"
+            imageUrl="assets/images/fullsize/4_2.jpg"
+            dida="Test Didascalia"
+          />
+          <ImageRect
+            className="col-span-4 md:col-start-8 md:col-span-5"
+            imageUrl="assets/images/fullsize/5_2.jpg"
+            dida="Test Didascalia"
+          />
+        </SpyTextGalleryLayout>
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-beige-dark"
+          text="La diffusione di fabbriche in tutta la
+
+          provincia continuò nonostante i perio-
+          di di declino: ad esempio intorno agli
+          
+          anni Settanta dell'Ottocento nacquero
+          importanti industrie tessili, tra le quali
+          la fabbrica di Cristoforo Crespi, costru- ita a Crespi d’Adda, uno dei più antichi
+          villaggi operai pensato per la vita quo- tidiana del lavoratore, con abitazioni e
+          strutture per il suo tempo libero, il “Co- tonificio Val Seriana” a Cene e “l’Ho- negger-Spoerry” ad Albino.
+          Il settore tessile bergamasco ha sicu- ramente visto periodi di declino, ma
+          non ha mai smesso di esistere, nem- meno con l’arrivo della globalizzazione
+          – intorno agli anni Duemila, in cui si
+          temeva la fine di questa lunga tradi- zione con l’annullamento dell’Accordo
+          Multifibre nel 2005, il quale azzerò i
+          dazi doganali e favorì, di conseguenza,
+          l’importazione di prodotti dall’estero a
+          prezzi nettamente inferiori rispetto a
+          quelli locali, con la concorrenza cinese
+          o la recente pandemia."
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-6 md:mt-16"
+          imageUrl="assets/images/fullsize/7_2.jpg"
+          dida="Test Didascalia"
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-6 md:mt-48"
+          imageUrl="assets/images/fullsize/6_2.jpg"
+          dida="Test Didascalia"
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-beige-dark"
+          text="Varie aziende, invece, sono riuscite a superare la
+          crisi e a rilanciarsi ampliandosi sul mercato, of-
+          frendo nuovi servizi e mantenendo l’intera filiera
+          produttiva sotto la propria gestione, così da diffon-
+          dere il prodotto italiano in tutto il mondo; alcuni
+          esempi ne sono il Gruppo Albini, la Carvico, la Pe-
+          rofil, la Martinelli Ginetto, solide aziende ad oggi
+          molto attive. 21
+          Oltre alle fabbriche di filatura e tessitura, ci sono
+          anche aziende che si occupano esclusivamente di
+          tintoria e brand di moda che presentano collezioni.
+          Attualmente vari componenti del settore tessile
+          bergamasco lavorano adottando un’ottica di so-
+          stenibilità e di cura del territorio in cui operano,  
+          continuando a fare ricerca ed introducendo inno-
+          vazioni per la produzione, sempre a tutela dell’am-
+          biente."
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-5"
+          imageUrl="assets/images/fullsize/10_2.jpg"
+          dida="Test Didascalia"
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-3"
+          imageUrl="assets/images/fullsize/11_1.jpg"
+          dida="Test Didascalia"
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-3"
+          imageUrl="assets/images/fullsize/9_1.jpg"
+          dida="Test Didascalia"
         />
       </div>
     </BaseLayout>

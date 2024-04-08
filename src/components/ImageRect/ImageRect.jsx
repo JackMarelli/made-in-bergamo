@@ -9,6 +9,7 @@ export default function ImageRect({
   parallax = true,
 }) {
   const [isHovering, setIsHovering] = useState(false);
+  const [isActive, setIsActive] = useState(false); // Tracks if the component is actively hovered
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const containerRef = useRef(null);
   const imageRef = useRef(null);
@@ -23,12 +24,13 @@ export default function ImageRect({
     }
 
     const checkHoverState = () => {
+      if (!containerRef.current) return;
       const containerBounds = containerRef.current.getBoundingClientRect();
-      const isInside =
-        mousePosition.x >= containerBounds.left &&
-        mousePosition.x <= containerBounds.right &&
-        mousePosition.y >= containerBounds.top &&
-        mousePosition.y <= containerBounds.bottom;
+      const isInside = isActive && 
+                        mousePosition.x >= containerBounds.left &&
+                        mousePosition.x <= containerBounds.right &&
+                        mousePosition.y >= containerBounds.top &&
+                        mousePosition.y <= containerBounds.bottom;
       setIsHovering(isInside);
     };
 
@@ -37,9 +39,22 @@ export default function ImageRect({
 
     // Cleanup to remove the event listener
     return () => window.removeEventListener("scroll", checkHoverState);
-  }, [parallax, mousePosition]);
+  }, [parallax, mousePosition, isActive]);
 
-  const handleMouseEnter = () => setIsHovering(true);
+  useEffect(() => {
+    // This useEffect is used to handle cases where the mouse leaves the component while scrolling
+    const handleMouseLeaveOnScroll = () => {
+      if (!isActive) setIsHovering(false);
+    };
+
+    window.addEventListener('scroll', handleMouseLeaveOnScroll);
+    return () => window.removeEventListener('scroll', handleMouseLeaveOnScroll);
+  }, [isActive]);
+
+  const handleMouseEnter = () => {
+    setIsActive(true);
+    setIsHovering(true);
+  };
 
   const handleMouseMove = (event) => {
     setMousePosition({
@@ -48,7 +63,10 @@ export default function ImageRect({
     });
   };
 
-  const handleMouseLeave = () => setIsHovering(false);
+  const handleMouseLeave = () => {
+    setIsActive(false);
+    setIsHovering(false);
+  };
 
   const followerStyle = {
     position: "fixed",
@@ -56,7 +74,7 @@ export default function ImageRect({
     left: mousePosition.x,
     transform: "translate(-50%, -50%)",
     opacity: isHovering ? 1 : 0,
-    transition: `opacity 300ms ease`,
+    transition: "opacity 300ms ease",
     zIndex: 9999,
     pointerEvents: "none",
     whiteSpace: "nowrap",

@@ -10,7 +10,7 @@ export default function SpyTextGalleryLayout({
     <div className="relative col-span-4 md:col-span-12 md:my-24">
       <div className="sticky top-[30vh]">
         <h2
-          className={`mb-6 text-4xl md:text-7xl lg:text-9xl font-medium leading-none font-crimson-pro text-center select-none pointer-events-none ${textColor}`}
+          className={`mb-6 text-4xl md:text-7xl lg:text-9xl font-medium font-crimson-pro text-center select-none pointer-events-none ${textColor}`}
         >
           {text}
         </h2>
@@ -19,7 +19,7 @@ export default function SpyTextGalleryLayout({
         {children}
       </div>
       <h2
-        className={`mt-6 md:mt-20 text-4xl md:text-7xl lg:text-9xl font-medium leading-none font-crimson-pro text-center text-transparent select-none pointer-events-none`}
+        className={`mt-6 md:mt-20 text-4xl md:text-7xl lg:text-9xl font-medium font-crimson-pro text-center text-transparent select-none pointer-events-none`}
       >
         {text}
       </h2>
