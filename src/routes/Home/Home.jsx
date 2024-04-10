@@ -202,16 +202,16 @@ export default function Home() {
           dida="Test Didascalia"
         />
       </div>
-      <div className="w-full h-fit px-4 md:py-16 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-brown-dark">
-        <Heading text="Territorialità" colorClass="text-mib-beige-light" />
+      <div className="w-full h-fit px-4 md:py-16 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
+        <Heading text="Territorialità" colorClass="text-mib-brown-dark" />
         <IndexPoint
           className="col-span-4 md:col-span-3"
-          colorClass="mib-beige-light"
+          colorClass="mib-brown-dark"
         >
           Il territorio bergamasco
         </IndexPoint>
         <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-beige-light"
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
           text="Il territorio bergamasco è una delle zone geografiche maggiormente sviluppate in Europa grazie alla sua posizione strategica vicina a Milano, capoluogo della regione lombarda, e ad altre città come Sondrio, Como, Brescia e Cremona. Inoltre esso si trova sull’asse di comunicazione che collega la Lombardia con il Veneto, diventando così un importante snodo in grado di consentire, ormai da diverso tempo, un ampliamento dei rapporti con vari mercati e Paesi europei. 13 Questo territorio si può dire essere morfologicamente diversificato, in quanto è composto da zone alpine, lacustri, collinari e pianeggianti. Si alternano paesaggi naturali ed antropizzati, a causa della presenza di distretti produttivi e luoghi infrastrutturati, i quali rendono la zona una delle più rilevanti all’interno del Paese e al di fuori di esso. 14"
         />
         <ImageRect
@@ -235,7 +235,7 @@ export default function Home() {
           dida="Test Didascalia"
         />
         <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-beige-light"
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
           text="Da sempre il territorio bergamasco si è differenziato per la sua tradizione imprenditoriale e per la sua cultura del lavoro, divenuti con il tempo dei valori radicati all’interno della società, i quali hanno permesso di creare un’identità e un tessuto sociale molto forti, in grado di unire i suoi abitanti costruendo una comunità che opera in un’ottica di associazionismo, volontariato e aggregazione in vari ambiti. Qui il lavoro non è solo economia, ma è soprattutto identità e cultura, due aspetti che arricchiscono un territorio all’interno del quale l’impegno e la dedizione del cittadino bergamasco fanno sì che la Bergamasca abbia raggiunto il livello di sviluppo con il quale la ri-conosciamo oggi e che non smetta mai di evolvere. Questo impegno costante permette anche di creare nuovi posti di lavoro ed iniziative volte all’integrazione di gruppi più deboli e svantaggiati, come i tanti giovani alla ricerca di una posizione lavorativa, consentendo loro, nella maggior parte dei casi, un inserimento in tempi brevi nel mondo del lavoro, nonostante l’odierna crisi. Tale forma mentis ed il conseguente modus operandi sono stati tramandati di generazione in generazione, radicandosi così in quella che oggi possiamo definire come la cultura del lavoro nella Bergamasca. Cospicui sono dunque gli investimenti nel settore lavorativo, ma anche in quello sociale e territoriale, con il fine di formare giovani e non e di trasmettere loro competenze in grado di portare a proficue innovazioni. 15"
         />
         <ImageRect
@@ -249,12 +249,12 @@ export default function Home() {
           dida="Test Didascalia"
         />
         <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-beige-light"
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
           text="Le connessioni geografiche e il solido si stema imprenditoriale sono due punti chiave che hanno consentito anche lo svi luppo di un sistema economico locale di rilievo all’interno del Paese e dell’Unione Europea, grazie all’andamento demografi co costante e all’alto tasso di occupazione nel settore terziario, di fondamentale im portanza. 16 Questi tratti caratterizzanti del territorio bergamasco hanno portato anche ad uno sviluppo in ambiti di più ampio respiro, come quello culturale: non a caso, Berga mo, insieme a Brescia, ha assunto il ruolo di Capitale italiana della Cultura per il 2023, grazie al suo impegno verso la valorizza zione, la promozione e la preservazione del suo patrimonio culturale ed artistico, in ra gione della presenza sul territorio di varie risorse in tal senso, come lo storico borgo di Città Alta, i molti e vari musei, le mostre d’arte, i monasteri e le chiese, i castelli e gli antichi paesi storici in cui sono stati rinve nuti resti archeologici e fossili. Il territorio della Bergamasca dispone an che di una vasta offerta in termini di turi smo con la possibilità di visitare località montane, lacustri, termali e luoghi situati nella pianura, grazie ai quali si registra una costante domanda turistica, con conse guenti ricavi e nuovi investimenti. 17"
         />
         <SpyTextGalleryLayout
           text="Il territorio Bergamasco"
-          textColor="text-mib-brown-light"
+          textColor="text-mib-beige-light"
           backgroundColor="bg-transparent"
         >
           <ImageRect
@@ -289,24 +289,24 @@ export default function Home() {
           />
         </SpyTextGalleryLayout>
       </div>
-      <div className="w-full h-fit px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-brown-light">
+      <div className="w-full h-fit px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
         <IndexPoint
-          colorClass="mib-beige-dark"
+          colorClass="mib-brown-dark"
           className="col-span-4 md:col-span-3"
         >
           La produzione tessile Bergamasca
         </IndexPoint>
         <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-beige-dark"
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
           text="Grazie al solido sistema produttivo, alla forte cultura del lavoro e alle connessioni geografiche, si sono svi luppate, fin dai tempi più lontani, numerose aziende artigiane, le quali ad oggi rappresentano il trentasei percento circa del totale delle imprese produttive che si trovano nel territorio bergamasco. 18 L’artigianato ha da sempre avuto un ruolo fondamen tale e in base alla zona, grazie alle caratteristiche ter ritoriali e culturali, si svilupparono varie produzioni, tra cui quelle della seta e della lana, con la conseguente costruzione di edifici destinati all’attività tessile. L’allevamento dei bachi da seta per la produzione dei bozzoli da cui ricavare il filo di seta portò allo svilup po dell’industria serica e di due delle principali attività, quelle di filatura e di tessitura, sviluppatesi in gran parte del territorio bergamasco. Inizialmente la seta veniva lavorata a mano, fino a quando, nel Seicento, arrivò il primo filatoio idraulico il quale aumentò la produzione e la commercializzazione, in particolare con i Venezia ni, i quali acquistavano soprattutto sete, bozzoli e vellu ti, con una conseguente crescita dell’attività serica ber gamasca; iniziò così ad esserci richiesta di lavoratori anche da Milano e da Paesi esteri. Proprio dall’estero si iniziarono ad importare nel Settecento sete grezze e lane, che venivano lavorate e trasformate nel prodotto finito da esportare, ad esempio in Inghilterra e in Fran cia. "
         />
         <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-beige-dark"
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
           text="Con il passare del tempo il lavoro e la qualità delle lane e delle sete bergamasche aumentavano e i lavo ratori cercavano di emulare le più pregiate esistenti, come quelle orientali. Si contavano centinaia di filatoi e migliaia di operai, ma intorno alla fine del Settecento si iniziò a registrare un calo dell’attività serica e della produzione di lana; questo calo fu dovuto sia alla con correnza estera sia alla diminuzione della pastorizia di pecore ed agnelli, causato dall’aumento dei prezzi del fieno e dalla nascente filatura di lino e canapa, che si sviluppò nel nord di Bergamo."
         />
         <SpyTextGalleryLayout
           text="La produzione tessile Bergamasca"
-          textColor="text-mib-brown-dark"
+          textColor="text-mib-beige-dark"
         >
           <ImageRect
             className="col-span-4 md:col-span-5"
@@ -330,7 +330,7 @@ export default function Home() {
           />
         </SpyTextGalleryLayout>
         <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-beige-dark"
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
           text="La diffusione di fabbriche in tutta la
 
           provincia continuò nonostante i periodi di declino: ad esempio intorno agli
@@ -362,7 +362,7 @@ export default function Home() {
           dida="Test Didascalia"
         />
         <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-beige-dark"
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
           text="Varie aziende, invece, sono riuscite a superare la
           crisi e a rilanciarsi ampliandosi sul mercato, offrendo nuovi servizi e mantenendo l’intera filiera
           produttiva sotto la propria gestione, così da diffondere il prodotto italiano in tutto il mondo; alcuni
@@ -565,12 +565,12 @@ export default function Home() {
           zonte, adottando specifiche misure."
         />
         <ImageRect
-          className="col-span-4 md:col-start-2 md:col-span-3 max-h-96"
+          className="col-span-4 md:col-start-2 md:col-span-4 max-h-96"
           imageUrl="assets/images/fullsize/4_3.jpg"
           dida="Test Didascalia"
         />
         <ImageRect
-          className="col-span-4 md:col-span-4 max-h-96"
+          className="col-span-4 md:col-span-3 max-h-96"
           imageUrl="assets/images/fullsize/5_3.jpg"
           dida="Test Didascalia"
         />

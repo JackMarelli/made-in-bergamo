@@ -1,5 +1,11 @@
+import BaseLayout from "../../layouts/BaseLayout/BaseLayout";
+
+
+
 export default function Interview() {
     return(
-        <>This is a brand intervew page</>
+        <BaseLayout>
+        
+        </BaseLayout>
     )
 }
