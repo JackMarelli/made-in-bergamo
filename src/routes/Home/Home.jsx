@@ -383,7 +383,7 @@ export default function Home() {
           biente."
         />
         <ImageRect
-          className="col-span-4 md:col-span-5"
+          className="col-span-4 md:col-span-5 md:mb-24"
           imageUrl="assets/images/fullsize/10_2.jpg"
           dida="Test Didascalia"
         />
@@ -397,6 +397,44 @@ export default function Home() {
           imageUrl="assets/images/fullsize/9_1.jpg"
           dida="Test Didascalia"
         />
+        <ImageRect
+          className="col-span-4 md:col-start-4 md:col-span-3 md:mt-12"
+          imageUrl="assets/images/fullsize/12_1.jpg"
+          dida="Test Didascalia"
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-3"
+          imageUrl="assets/images/fullsize/13_1.jpg"
+          dida="Test Didascalia"
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-3 md:-mt-12"
+          imageUrl="assets/images/fullsize/12_1.jpg"
+          dida="Test Didascalia"
+        />
+        <ImageRect
+          className="col-span-4 md:col-start-3 md:col-span-2 md:mt-24 max-h-80 overflow-hidden"
+          imageUrl="assets/images/fullsize/14_1.jpg"  
+          dida="Test Didascalia"
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-2 md:mt-24 max-h-80 overflow-hidden"
+          imageUrl="assets/images/fullsize/16.jpg"
+          dida="Test Didascalia"
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-2 md:mt-24 max-h-80 overflow-hidden"
+          imageUrl="assets/images/fullsize/17.jpg"
+          dida="Test Didascalia"
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-2 md:mt-24 max-h-80 overflow-hidden"
+          imageUrl="assets/images/fullsize/18.jpg"
+          dida="Test Didascalia"
+        />
+      </div>
+      <div className="w-full h-fit px-4 md:py-16 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
+      <Heading text="Produzione e Sostenibilità" />
       </div>
     </BaseLayout>
   );
