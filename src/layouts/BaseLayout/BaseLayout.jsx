@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import Navbar from "../../components/Navbar/Navbar.jsx"
 import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
+import { Transition } from '../../layouts/Transition/Transition.jsx';
+
 
 export default function BaseLayout({ children }) {
     const lenis = useLenis(({ scroll }) => {
@@ -16,10 +18,11 @@ export default function BaseLayout({ children }) {
 
     return (
         <ReactLenis root>
+
             <div className="fixed w-full h-full bg-transparent hidden"></div>
             <div className="w-full h-fit bg-mib-beige-light">
                 <Navbar />
-                {children}
+                <Transition>{children}</Transition>
             </div>
         </ReactLenis>
     )

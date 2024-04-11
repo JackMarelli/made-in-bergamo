@@ -2,29 +2,33 @@ import BaseLayout from "../../layouts/BaseLayout/BaseLayout";
 import ImageRect from "../../components/ImageRect/ImageRect";
 import InterviewQuestion from "../../components/InterviewQuestion/InterviewQuestion";
 
+import styles from "./Interview.module.scss";
+
 export default function Interview() {
+  console.log(styles);
+
   return (
     <BaseLayout>
       <div className="w-full h-fit py-16 md:py-24 px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light min-h-screen">
-        <div className="h-fit md:col-start-2 md:col-span-3 pe-4 sticky top-32">
-          <div className="my-4 text-sm font-semibold leading-[1.2em] cursor-pointer ">
+        <div className="hidden md:block h-fit md:col-start-2 md:col-span-3 pe-4 sticky top-32">
+          <div className="my-4 text-sm md:text-base lg:text-2xl font-semibold leading-[1.2em] cursor-pointer">
             Nei Miei Panni
           </div>
-          <div className="my-4 text-sm font-semibold leading-[1.2em] cursor-pointer">
+          <div className="my-4 text-sm md:text-base lg:text-2xl font-semibold leading-[1.2em] cursor-pointer">
             Sophie Stique*
           </div>
-          <div className="my-4 text-sm font-semibold leading-[1.2em] cursor-pointer">
+          <div className="my-4 text-sm md:text-base lg:text-2xl font-semibold leading-[1.2em] cursor-pointer">
             Albini Group
           </div>
-          <div className="my-4 text-sm font-semibold leading-[1.2em] cursor-pointer">
+          <div className="my-4 text-sm md:text-base lg:text-2xl font-semibold leading-[1.2em] cursor-pointer">
             Officinae
           </div>
         </div>
-        <div className="md:col-start-6 md:col-span-6 overflow-y-scroll">
-          <p className="mb-8 text-sm font-semibold leading-[1.2em] cursor-pointer">
+        <div className={`col-span-4 md:col-start-6 md:col-span-6 overflow-y-scroll ${styles.scrollbarHide}`}>
+          <p className="mb-4 text-sm font-semibold leading-[1.2em] cursor-pointer">
             Intervista a Cristina Gamberoni di
           </p>
-          <h1 className="mb-24 text-[32px] md:text-[64px] text-mib-brown-dark font-crimson-text font-semibold leading-[.95em] tracking-tight">
+          <h1 className="mb-24 text-4xl md:text-7xl text-mib-brown-dark font-crimson-text font-semibold leading-[.95em] tracking-tight">
             Nei Miei Panni
           </h1>
           <InterviewQuestion question="Quando è nato Nei Miei Panni, come lavora e quali sono i suoi valori?">
@@ -72,7 +76,7 @@ export default function Interview() {
             poliestere perché ci tengo al vestire con tessuti che fanno bene
             alla pelle di chi li indossa.
             <ImageRect
-              className="col-span-4 md:col-span-7 md:my-4 max-h-96"
+              className="col-span-4 md:col-span-7 max-h-96"
               imageUrl="assets/images/fullsize/19.jpg"
               dida="Immagine relativa all'intervista, se c'è."
             />

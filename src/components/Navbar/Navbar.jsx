@@ -9,6 +9,10 @@ export default function Navbar() {
     !window.location.href.includes("interview")
   );
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   // Add the transition effect when the component mounts
   useEffect(() => {
     if (menuRef.current) {
@@ -23,15 +27,13 @@ export default function Navbar() {
     >
       <div
         ref={menuRef}
-        className={`h-screen md:h-fit fixed top-0 left-0 bottom-0 right-0 p-4 pt-8 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 z-10 bg-mib-beige-light ${
-          menuIsOpen ? "translate-y-0" : "-translate-y-full"
-        } border-b-2 border-mib-beige-dark`}
+        className={`h-screen md:h-fit fixed top-0 left-0 bottom-0 right-0 p-4 pt-8 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 z-10 bg-mib-beige-light ${menuIsOpen ? "translate-y-0" : "-translate-y-full"
+          } border-b-2 border-mib-beige-dark`}
       >
         <div className="col-span-4 md:col-span-12 flex flex-col md:flex-row justify-center items-start gap-x-8 mt-8 md:mt-40 mb-4">
           <div
-            className={`w-fit text-5xl font-crimson-pro cursor-pointer text-mib-${
-              isHomePage ? "beige-dark" : "brown-dark"
-            }`}
+            className={`w-fit text-5xl font-crimson-pro cursor-pointer text-mib-${isHomePage ? "beige-dark" : "brown-dark"
+              }`}
             onClick={() => {
               navigate("/");
             }}
@@ -39,9 +41,8 @@ export default function Navbar() {
             Home
           </div>
           <div
-            className={`w-fit text-5xl font-crimson-pro cursor-pointer text-mib-${
-              isHomePage ? "brown-dark" : "beige-dark"
-            }`}
+            className={`w-fit text-5xl font-crimson-pro cursor-pointer text-mib-${isHomePage ? "brown-dark" : "beige-dark"
+              }`}
             onClick={() => {
               navigate("/interview");
             }}
