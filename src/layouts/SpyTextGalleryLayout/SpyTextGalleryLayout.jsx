@@ -7,22 +7,17 @@ export default function SpyTextGalleryLayout({
   backgroundColor = "bg-transparent",
 }) {
   return (
-    <div className="relative col-span-4 md:col-span-12 md:my-24">
-      <div className="sticky top-[30vh]">
-        <h2
-          className={`mb-6 text-4xl md:text-7xl lg:text-9xl font-medium font-crimson-pro text-center select-none pointer-events-none ${textColor}`}
-        >
-          {text}
-        </h2>
-      </div>
+    <div className="relative col-span-4 md:col-span-12">
       <div className="w-full grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0">
+        <div className="col-span-4 md:col-span-12 sticky top-[30vh] bottom-[30vh] md:mb-16">
+          <h2
+            className={`md:px-20 text-3xl md:text-5xl lg:text-8xl leading-8 font-crimson-pro text-center select-none pointer-events-none ${textColor}`}
+          >
+            {text}
+          </h2>
+        </div>
         {children}
       </div>
-      <h2
-        className={`mt-6 md:mt-20 text-4xl md:text-7xl lg:text-9xl font-medium font-crimson-pro text-center text-transparent select-none pointer-events-none`}
-      >
-        {text}
-      </h2>
     </div>
   );
 }

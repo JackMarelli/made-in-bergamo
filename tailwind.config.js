@@ -25,7 +25,7 @@ module.exports = {
       colors: {
         mib: {
           beige: {
-            light: "#F2F1F0",
+            light: "#F3F2F1",
             medium: "#E3E1DE",
             dark: "#DBD7D2",
           },

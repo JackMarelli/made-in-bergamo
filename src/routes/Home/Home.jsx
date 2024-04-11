@@ -12,7 +12,7 @@ import Heading from "../../components/Heading/Heading";
 export default function Home() {
   return (
     <BaseLayout>
-      <div className="h-fit m-4 mt-8 md:m-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0">
+      <div className="h-fit mx-4 mb-8 md:mx-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0">
         <div className="col-span-4 md:col-span-12 mt-24 md:mt-44">
           <img
             className="w-full"
@@ -29,10 +29,7 @@ export default function Home() {
         />
       </div>
       <div className="w-full h-fit py-16 md:py-24 px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
-        <IndexPoint
-          colorClass="mib-brown-dark"
-          className="col-span-4 md:col-span-3"
-        >
+        <IndexPoint className="col-span-4 md:col-span-3">
           Introduzione
         </IndexPoint>
         <Quote
@@ -76,10 +73,7 @@ export default function Home() {
       </div>
       <div className="w-full h-fit py-16 px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
         <Heading text="Artigianalità" />
-        <IndexPoint
-          colorClass="mib-brown-dark"
-          className="col-span-4 md:col-span-3"
-        >
+        <IndexPoint className="col-span-4 md:col-span-3">
           L’importanza dell’artigianalità e la figura dell’artigiano
         </IndexPoint>
         <Paragraph
@@ -169,10 +163,7 @@ export default function Home() {
         />
       </div>
       <div className="w-full h-fit py-16 md:py-24 px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
-        <IndexPoint
-          colorClass="mib-brown-dark"
-          className="col-span-4 md:col-span-3"
-        >
+        <IndexPoint className="col-span-4 md:col-span-3">
           L’artigianato dall’industrializzazione ad oggi
         </IndexPoint>
         <Paragraph
@@ -202,7 +193,7 @@ export default function Home() {
           dida="Test Didascalia"
         />
       </div>
-      <div className="w-full h-fit px-4 md:py-16 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
+      <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
         <Heading text="Territorialità" colorClass="text-mib-brown-dark" />
         <IndexPoint
           className="col-span-4 md:col-span-3"
@@ -289,11 +280,8 @@ export default function Home() {
           />
         </SpyTextGalleryLayout>
       </div>
-      <div className="w-full h-fit px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
-        <IndexPoint
-          colorClass="mib-brown-dark"
-          className="col-span-4 md:col-span-3"
-        >
+      <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
+        <IndexPoint className="col-span-4 md:col-span-3">
           La produzione tessile Bergamasca
         </IndexPoint>
         <Paragraph
@@ -426,12 +414,9 @@ export default function Home() {
           dida="Test Didascalia"
         />
       </div>
-      <div className="w-full h-fit px-4 md:py-16 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
+      <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
         <Heading text="Produzione e Sostenibilità" />
-        <IndexPoint
-          colorClass="mib-brown-dark"
-          className="col-span-4 md:col-span-3"
-        >
+        <IndexPoint className="col-span-4 md:col-span-3">
           La filiera produttiva: dallo sviluppo del prodotto moda al negozio
         </IndexPoint>
         <Paragraph
@@ -543,26 +528,19 @@ export default function Home() {
           particolari tecniche non vada perduta nel tempo e, anzi, si arricchisca
           sempre di più."
         />
-        <IndexPoint
-          colorClass="mib-brown-dark"
-          className="col-span-4 md:col-span-3"
-        >
+        <IndexPoint className="col-span-4 md:col-span-3">
           Le tecniche produttive sostenibili
         </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Negli ultimi anni il tema della sostenibilità si è ri- velato una questione particolarmente dibattuta,
+          text="Negli ultimi anni il tema della sostenibilità si è rivelato una questione particolarmente dibattuta,
           poiché esso rileva criticità ed individua necessità
-          sempre più urgenti, in quanto l’inquinamento am- bientale registra una crescita vertiginosa, causa- ta anche e soprattutto dalle industrie, comprese
-          quelle della moda. Per far fronte a questo proble-
-          ma, all’interno della filiera produttiva sono state
+          sempre più urgenti, in quanto l’inquinamento ambientale registra una crescita vertiginosa, causata anche e soprattutto dalle industrie, comprese
+          quelle della moda. Per far fronte a questo proble  ma, all’interno della filiera produttiva sono state
           introdotte, dalla ricerca delle materie prime fino
-          alla distribuzione del prodotto finito, numerose in-
-          novazioni volte a ridurre l’impatto sulle persone e
-          sull’ambiente 26; per esempio nel territorio di Ber-
-          gamo, uno tra i più inquinati d’Europa, varie realtà
-          aziendali hanno iniziato a perseguire questo oriz-
-          zonte, adottando specifiche misure."
+          alla distribuzione del prodotto finito, numerose in  novazioni volte a ridurre l’impatto sulle persone e
+          sull’ambiente 26; per esempio nel territorio di Ber  gamo, uno tra i più inquinati d’Europa, varie realtà
+          aziendali hanno iniziato a perseguire questo oriz  zonte, adottando specifiche misure."
         />
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-4 max-h-96"
@@ -578,6 +556,247 @@ export default function Home() {
           className="col-span-4 md:col-span-3 max-h-96"
           imageUrl="assets/images/fullsize/6_3.jpg"
           dida="Test Didascalia"
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="Per combattere lo sfruttamento delle risorse naturali utilizzate per la produzione delle materie
+        prime, lo spreco dei tessuti avanzati e dei capi dismessi, si è iniziato a lavorare mediante i principi
+        della moda circolare, basata sul riciclo, sulla rigenerazione e sulla riparazione, per donare una nuova vita ai prodotti. 
+        Vari brand Bergamaschi – e nonsolo – hanno iniziato a lavorare adottando questiprincipi, dunque prestando attenzione all’impiegodi materiali sostenibili, 
+        prediligendo quelli locali,sui quali è anche possibile effettuare un controlloed una tracciabilità della filiera, 
+        fondamentali perdare ai consumatori consapevolezza di ciò chestanno acquistando ed utilizzando. Si prediligono, 
+        ad esempio, fibre biologiche naturali, riciclate o ottenute da risorse rinnovabili, come il lino: 
+        questoprodotto tessile è anche una fibra vegetale innovativa e sostenibile, che si distingue tra le altre per le sue
+         caratteristiche ecologiche ed etiche, infatti lasua coltivazione ha un impatto ambientale molto basso, dato che non necessita 
+         di irrigazione, di pesticidi o altri prodotti per la protezione, non produce scarti; ecco perché il lino è uno dei tessuti più 
+         scelti per produrre le collezioni, comprese quelledi alcuni brand del territorio di Bergamo."
+        />
+        <ImageRect
+          className="col-span-4 md:col-start-3 md:col-span-3"
+          imageUrl="assets/images/fullsize/8_2.jpg"
+          dida="Test Didascalia"
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-3 md:mt-16 md:mb-12"
+          imageUrl="assets/images/fullsize/9_2.jpg"
+          dida="Test Didascalia"
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-3"
+          imageUrl="assets/images/fullsize/11_2.jpg"
+          dida="Test Didascalia"
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="In termini di sostenibilità ambientale, gli scarti
+        all’interno della filiera produttiva rappresentano
+        uno dei maggiori punti critici, perché, se non ven
+        gono smaltiti correttamente, possono diventare
+        un grande rischio di inquinamento per il territorio,
+        perciò alcune aziende si impegnano a riciclare i
+        tessuti avanzati o scartati, affinché vengano impie
+        gati per realizzare nuovi prodotti. Tra le principali
+        tecniche adottate in tal senso vi sono il recycling,
+        l’upcycling ed il downcycling: il recycling è una pra
+        tica sostenibile che si attua al termine dell’utilizzo
+        di un capo per evitare il suo smaltimento e donar
+        gli una nuova vita; si parla di upcycling quando il
+        materiale riciclato è superiore in termini di funzio
+        nalità e di qualità rispetto a quello originale; se, in
+        vece, il materiale riciclato risulta essere inferiore a
+        quello originale, secondo i medesimi parametri di
+        cui prima, si parla di downcycling
+        ."
+        />
+        <ImageRect
+          className="col-span-4 md:col-start-2 md:col-span-6"
+          imageUrl="assets/images/fullsize/12_2.jpg"
+          dida="Test Didascalia"
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-4 md:mt-16 md:mb-12"
+          imageUrl="assets/images/fullsize/13_2.jpg"
+          dida="Test Didascalia"
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="Sono sempre di più i brand che, durante la fase
+        di ricerca delle materie prime da utilizzare per la
+        produzione dei capi, scelgono di utilizzare i tessuti
+        deadstock, ovvero rimanenze di materiali avanzati
+        o invenduti di stock e di precedenti produzioni, i
+        quali, se non venissero riutilizzati, finirebbero nelle
+        discariche; tali brand operano, quindi, in una lo
+        gica di riduzione, riuso e recycling delle risorse.
+        Solitamente si tratta di tessuti di qualità, perché,
+        essendo delle rimanenze, sono già stati sottopo
+        sti a controlli che ne garantiscono il pregio, ma un
+        fattore importante è anche quello dell’unicità, in
+        quanto il re-stock non è sempre possibile."
+        />
+
+        <ImageRect
+          className="col-span-4 md:col-start-3 md:col-span-9"
+          imageUrl="assets/images/fullsize/12b.jpg"
+          dida="Test Didascalia"
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="Queste pratiche portano ad adottare un metodo produttivo chiamato “cradle-to-cradle”, che letteralmente
+          significa “dalla culla alla culla”: esso si basa su un’idea
+          di circolarità del prodotto, il quale, una volta dismesso,
+          non viene gettato in una discarica o incenerito, ma viene lavorato nuovamente, così gli si dà nuova vita riutilizzando i tessuti impiegati precedentemente. Chi idealizza
+          un capo che segue queste direzioni mira a produrre un
+          oggetto duraturo, riutilizzabile, riciclabile, riparabile e sicuro per la salute di chi lo indossa e per l’ambiente; egli,
+          inoltre, si pone come ulteriore obiettivo di sensibilizzare
+          gli acquirenti: fa loro comprendere la storia del capo, li
+          esorta ad impegnarsi affinché esso duri nel tempo e li
+          mette in condizioni di poterlo fare, progettando dei capi
+          che possano essere facilmente riparati o, laddove ciò
+          non fosse (più) possibile, riciclati. "
+        />
+        <SpyTextGalleryLayout
+          text="La filiera produttiva: dallo sviluppo del prodotto moda al negozio"
+          textColor="text-mib-beige-light"
+          backgroundColor="bg-transparent"
+        >
+          <ImageRect
+            className="col-span-4 md:col-start-2 md:col-span-3"
+            imageUrl="assets/images/fullsize/15.jpg"
+            dida="Test Didascalia"
+          />
+          <ImageRect
+            className="col-span-4 md:col-start-8 md:col-span-3"
+            imageUrl="assets/images/fullsize/14.png"
+            dida="Test Didascalia"
+          />
+          <ImageRect
+            className="col-span-4 md:col-start-1 md:col-span-3 md:mt-24"
+            imageUrl="assets/images/fullsize/19.jpg"
+            dida="Test Didascalia"
+          />
+          <ImageRect
+            className="col-span-4 md:col-start-6 md:col-span-3 md:mt-4"
+            imageUrl="assets/images/fullsize/17_1.jpg"
+            dida="Test Didascalia"
+          />
+          <ImageRect
+            className="col-span-4 md:col-start-10 md:col-span-3 md:mt-24"
+            imageUrl="assets/images/fullsize/22.jpg"
+            dida="Test Didascalia"
+          />
+        </SpyTextGalleryLayout>
+        <IndexPoint className="col-span-4 md:col-span-3">
+          Metodi di produzione dei brand Nei Miei Panni e Sophie Stique*
+        </IndexPoint>
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="All’interno del territorio bergamasco ci sono vari brand
+          di moda artigianale che lavorano seguendo un metodo
+          produttivo specifico, prestando attenzione anche alla
+          sostenibilità: tra questi sono stati presi in analisi Nei Miei
+          Panni e Sophie Stique*. La scelta si deve al fatto che en
+          trambi rappresentano due piccole realtà con due storie
+          differenti ma una produzione simile, utile a comprendere
+          al meglio le ragioni delle tecniche utilizzate ed il valore
+          apportato al territorio. "
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="NeiMieiPanni è un brand fondato e disegnato da Cristina
+          Gamberoni, nasce come blog e successivamente inizia a
+          produrre capi per bambino, fino ad arrivare a quelli per la
+          donna. Esso si basa su una produzione esclusivamente
+          artigianale, con principi sostenibili fin dal momento
+          in cui la sua stilista sceglie i tessuti, la cui valutazione
+          rappresenta una fase fondamentale, che caratterizza la
+          qualità dei suoi capi: presso fornitori selezionati, Cristina
+          Gamberoni tocca con mano i tessuti e ne fa un’accurata
+          selezione alla luce delle caratteristiche esaminate. I tessuti in questione sono quasi esclusivamente deadstock e
+          raramente nuovi, ciò si deve alla volontà programmatica
+          di perseguire una linea di produzione che non comprometta il benessere del pianeta, contrastando sprechi ed
+          inquinamento. La stilista bergamasca, infatti, non segue i
+          ritmi dettati da un mercato troppo spesso viziato dal frenetico consumismo, ma decide di produrre con un’idea di
+          moda lenta, dunque realizzando capi solo quando realmente ispirata. Le creazioni sono frutto della sua maestria e del savoir-faire delle sarte che si occupano della
+          produzione – le quali in passato lavoravano per Daniela Gregis, stilista del noto omonimo brand bergamasco.
+          Questa specifica competenza è un fattore determinante
+          per la qualità del prodotto, in quanto esso si fa veicolo di
+          trasmissione del know-how artigianale, il che gli conferisce un valore aggiunto."
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="Sophie Stique* è, invece, un brand a conduzione familiare che nasce 
+          dal know-how e dall’esperienza di Confezioni Iris, un laboratorio di taglio e confezione storico nato
+          nel 1980 e che opera ancora oggi per importanti case di moda."
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="Anch’esso produce capi da donna lavorando in un’ottica
+          sostenibile, etica e territoriale, ovvero basandosi sul riciclo, sull’utilizzo di materie prime naturali certificate e collaborando con fornitori locali. I suoi valori sono la qualità,
+          la ricerca, la personalizzazione e la sostenibilità, tramite i
+          quali il brand punta a creare un prodotto curato nei minimi dettagli, adatto a chi cerca un pezzo unico e ne comprende il valore. Le tecniche produttive utilizzate vengono
+          preservate, tramandate nel corso delle generazioni e perfezionate grazie alle nuove tecnologie."
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="Ambedue i brand producono i loro capi in varie taglie e li
+          personalizzano in base alla necessità e alla richiesta della
+          cliente (la quale è mediamente una donna di età adulta
+          con un’alta capacità di spesa) e anche in base alla disponibilità del tessuto, infatti, nel caso in cui quello scelto
+          non fosse disponibile, alla cliente ne vengono proposti
+          diversi altri ed il capo diventa così un pezzo realizzato in
+          modo unico, ovvero appositamente per lei. L’idea di unicità è presente in quasi ogni aspetto della progettualità e
+          produzione di questi due brand, per esempio le stampe
+          vengono create in esclusiva, spesso disegnate in collaborazione con giovani artisti per dare vita a dei veri e propri
+          capi artistici. Come Nei Miei Panni, Sophie Stique* non
+          segue le tendenze ma produce in modo lento, con ritmi
+          che non seguono i dettami del mercato ma sono decisi
+          dal brand stesso, inoltre i fornitori e i collaboratori sono
+          tutti situati poco distanti dall’atelier, così da contenere
+          le emissioni di Co2, ottimizzare i tempi di produzione ed
+          avere un maggiore controllo sulla stessa."
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="Talvolta è necessario, per ragioni varie, utilizzare dei tessuti con fibre sintetiche: in questo caso ci si assicura che
+          tali fibre siano certificate “post-consumer”, ovvero già utilizzate da un consumatore, inoltre vengono utilizzati anche tessuti d’archivio, sempre al fine di ridar loro nuova
+          vita ed evitare così sprechi."
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="Significativo è anche il fatto che entrambi i brand si impegnino per far comprendere alle loro clienti il valore e la
+          qualità che contengono i capi che vanno ad acquistare,
+          sensibilizzando anche sul tema della sostenibilità incentivando al buon mantenimento del capo e al suo corretto
+          smaltimento."
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="Uno dei principi fondamentali sul quale si basa la stilista
+          Cristina Gamberoni di Nei Miei Panni è impegnarsi anche
+          da un punto di vista etico, fissando delle corrette retribuzioni per le persone che si occupano della produzione, così
+          da valorizzare concretamente quanti operano, con maestria e competenza, nel settore artigianale e, attraverso di
+          loro, riconoscendo l’importanza del mestiere stesso, un
+          riconoscimento reso ancor più significativo dal fatto che
+          in tempi recenti esso rischi sempre più di estinguersi.
+          Questi brand decidono di produrre a Bergamo con una
+          filiera produttiva racchiusa in questo territorio per dare un
+          valore aggiunto ad esso."
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="La produzione è seguita con grande cura mediante delle
+          particolari lavorazioni artigianali, come ad esempio alcune tipologie di cuciture. Le clienti comprendono l’importanza ed il valore intrinseco del capo, assumendo una
+          maggiore consapevolezza di ciò che acquistano, dunque
+          verso di loro c’è un’attenzione che fa la differenza. In linea con questo concetto di cura verso la cliente è anche
+          la scelta dei materiali, infatti si opta per tessuti naturali, come il lino e la lana, che, oltre ad essere garanzia di
+          qualità, sono salutari per la pelle. I tessuti utilizzati da Nei
+          Miei Panni vengono selezionati dalla stilista presso i suoi
+          fornitori, i quali offrono tessuti italiani e dell’alta moda,
+          che essa sceglie con attenzione grazie alla conoscenza
+          dei materiali maturata nel corso degli anni di formazione
+          ed esperienza; da essi prendono vita le sue idee creative
+          e nascono quelli che poi diventano i capi delle collezioni.
+          Questi saranno infine venduti negli atelier e sui siti e-commerce dei brand."
         />
       </div>
     </BaseLayout>

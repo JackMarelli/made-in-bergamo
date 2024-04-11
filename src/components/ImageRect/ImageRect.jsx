@@ -13,6 +13,9 @@ export default function ImageRect({
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const containerRef = useRef(null);
   const imageRef = useRef(null);
+  const [isHomePage, setIsHomePage] = useState(
+    !window.location.href.includes("interview")
+  );
 
   useEffect(() => {
     if (imageRef.current && parallax) {
@@ -26,11 +29,12 @@ export default function ImageRect({
     const checkHoverState = () => {
       if (!containerRef.current) return;
       const containerBounds = containerRef.current.getBoundingClientRect();
-      const isInside = isActive && 
-                        mousePosition.x >= containerBounds.left &&
-                        mousePosition.x <= containerBounds.right &&
-                        mousePosition.y >= containerBounds.top &&
-                        mousePosition.y <= containerBounds.bottom;
+      const isInside =
+        isActive &&
+        mousePosition.x >= containerBounds.left &&
+        mousePosition.x <= containerBounds.right &&
+        mousePosition.y >= containerBounds.top &&
+        mousePosition.y <= containerBounds.bottom;
       setIsHovering(isInside);
     };
 
@@ -47,8 +51,8 @@ export default function ImageRect({
       if (!isActive) setIsHovering(false);
     };
 
-    window.addEventListener('scroll', handleMouseLeaveOnScroll);
-    return () => window.removeEventListener('scroll', handleMouseLeaveOnScroll);
+    window.addEventListener("scroll", handleMouseLeaveOnScroll);
+    return () => window.removeEventListener("scroll", handleMouseLeaveOnScroll);
   }, [isActive]);
 
   const handleMouseEnter = () => {
@@ -85,7 +89,7 @@ export default function ImageRect({
   return (
     <div
       ref={containerRef}
-      className={`${className} h-fit md:mb-12 relative rounded-md overflow-hidden`}
+      className={`h-fit ${isHomePage && "md:my-12"} relative rounded-md overflow-hidden ${className}`}
       onMouseEnter={handleMouseEnter}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
@@ -93,12 +97,12 @@ export default function ImageRect({
       <img
         ref={imageRef}
         src={imageUrl}
-        alt={altText}
+        alt={altText}   
         className="w-full h-auto select-none pointer-events-none"
       />
       <div
         style={followerStyle}
-        className="px-5 py-2 bg-mib-beige-light border-2 border-mib-brown-dark rounded-full font-semibold text-mib-brown-dark"
+        className="px-5 py-2 bg-mib-beige-light border-2 border-mib-brown-dark rounded-full font-semibold text-mib-brown-dark text-sm"
       >
         {dida}
       </div>
