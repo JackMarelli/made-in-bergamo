@@ -44,7 +44,7 @@ export default function Navbar() {
             className={`w-fit text-5xl font-crimson-pro cursor-pointer text-mib-${isHomePage ? "brown-dark" : "beige-dark"
               }`}
             onClick={() => {
-              navigate("/interview");
+              navigate("/interview/neimieipanni");
             }}
           >
             Interviste

@@ -1,9 +1,5 @@
 import "./App.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./routes/Home/Home.jsx";
-import Interview from "./routes/Interview/Interview.jsx";
-
-// App.jsx or where your routes are defined
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -12,14 +8,25 @@ import {
   useLocation,
 } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
+import Officinae from "./routes/Interview/Officinae/Officinae.jsx";
+import NeiMieiPanni from "./routes/Interview/NeiMieiPanni/NeiMieiPanni.jsx";
+import SophieStique from "./routes/Interview/SophieStique/SophieStique.jsx";
+import AlbiniGroup from "./routes/Interview/AlbiniGroup/AlbiniGroup.jsx";
+import ERTKingdom from "./routes/Interview/ERTKingdom/ERTKingdom.jsx";
+
 function AnimatedRoutes() {
-  const location = useLocation(); // Ensures that we're reacting to route changes
+  const location = useLocation();
 
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
-        <Route path="/interview" element={<Interview />} />
+        <Route path="/interview" element={<NeiMieiPanni />} />
+        <Route path="/interview/neimieipanni" element={<NeiMieiPanni />} />
+        <Route path="/interview/officinae" element={<Officinae />} />
+        <Route path="/interview/sophiestique" element={<SophieStique />} />
+        <Route path="/interview/albinigroup" element={<AlbiniGroup />} />
+        <Route path="/interview/ertkingdom" element={<ERTKingdom />} />
       </Routes>
     </AnimatePresence>
   );
