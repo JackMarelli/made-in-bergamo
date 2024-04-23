@@ -1,0 +1,16 @@
+.cta_container {
+  &:hover .arrow {
+    opacity: 1;
+    transform: translateX(15px);
+  }
+
+  .arrow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    transform: translateX(3px);
+  }
+}
