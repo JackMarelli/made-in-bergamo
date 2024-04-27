@@ -49,12 +49,12 @@ export default function AlbiniGroup() {
           raggiungere titoli incredibilmente fini.
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/interviews/albinigroup/materieprime/cotone.jpg"
+            imageUrl="../assets/images/webp/interviews/albinigroup/materieprime/cotone.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/interviews/albinigroup/materieprime/cotone1.jpg"
+            imageUrl="../assets/images/webp/interviews/albinigroup/materieprime/cotone1.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           Un altro cotone egiziano è il “Giza 87”, il quale ci permette di
@@ -100,7 +100,7 @@ export default function AlbiniGroup() {
           l’indaco fino ad arrivare alle morbide flanelle.
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/interviews/albinigroup/materieprime/lino.jpg"
+            imageUrl="../assets/images/webp/interviews/albinigroup/materieprime/lino.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           Inoltre produciamo anche il denim in vari stili, dal classico allo
@@ -120,7 +120,7 @@ export default function AlbiniGroup() {
           caratteristiche delle fibre e ai filati da ottenere.
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/interviews/albinigroup/materieprime/lino1.jpg"
+            imageUrl="../assets/images/webp/interviews/albinigroup/materieprime/lino1.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           L’obiettivo è creare un filato di qualità elevata, regolare,
@@ -135,17 +135,17 @@ export default function AlbiniGroup() {
           il colore, la mano e l’aspetto finale.
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/interviews/albinigroup/processoproduttivo/Albini_008.jpg"
+            imageUrl="../assets/images/webp/interviews/albinigroup/processoproduttivo/Albini_008.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/interviews/albinigroup/processoproduttivo/filatura.jpg"
+            imageUrl="../assets/images/webp/interviews/albinigroup/processoproduttivo/filatura.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/interviews/albinigroup/processoproduttivo/filatura1.jpg"
+            imageUrl="../assets/images/webp/interviews/albinigroup/processoproduttivo/filatura1.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           Al rientro dal finissaggio il tessuto viene sottoposto a test fisici e
@@ -193,12 +193,12 @@ export default function AlbiniGroup() {
           energetiche, prestando grande attenzione all’impatto ambientale.
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/interviews/albinigroup/processoproduttivo/tessitura.jpg"
+            imageUrl="../assets/images/webp/interviews/albinigroup/processoproduttivo/tessitura.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/interviews/albinigroup/processoproduttivo/tessitura1.jpg"
+            imageUrl="../assets/images/webp/interviews/albinigroup/processoproduttivo/tessitura1.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           Il controllo completo di tutte le fasi di produzione ci permette di
@@ -231,12 +231,12 @@ export default function AlbiniGroup() {
           del disegno, della struttura e dell’esperienza del personale.
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/interviews/albinigroup/processoproduttivo/tessuto.jpg"
+            imageUrl="../assets/images/webp/interviews/albinigroup/processoproduttivo/tintura.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/interviews/albinigroup/processoproduttivo/tintura.jpg"
+            imageUrl="../assets/images/webp/interviews/albinigroup/processoproduttivo/tessuto.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           Successivamente avviene il finissaggio tessile o “nobilitazione”,

@@ -24,7 +24,7 @@ export default function Home() {
       <div className="w-full h-[80vh] -mt-4 sm:-mt-5 md:-mt-12 lg:-mt-14 xl:-mt-16">
         <img
           className="w-full h-full object-cover"
-          src="assets/images/fullsize/8_1.jpg"
+          src="assets/images/webp/8_1.webp"
           alt=""
         />
       </div>
@@ -39,12 +39,12 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-2 md:col-span-6 mb-8"
-          imageUrl="assets/images/fullsize/1.jpeg"
+          imageUrl="assets/images/webp/footprint.webp"
           dida="Test Didascalia 111"
         />
         <ImageRect
           className="col-span-2 md:col-start-10 md:col-span-3 mb-8"
-          imageUrl="assets/images/fullsize/6_2.jpg"
+          imageUrl="assets/images/webp/6_2.webp"
           dida="Test Didascalia 222"
         />
         <Paragraph
@@ -85,7 +85,7 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/fullsize/1.jpg"
+          imageUrl="assets/images/webp/1.webp"
           dida="Test Didascalia 333"
           parallax={false}
         />
@@ -107,12 +107,12 @@ export default function Home() {
         >
           <ImageRect
             className="col-span-4 md:col-start-6 md:col-span-7 md:my-0 md:my-32"
-            imageUrl="assets/images/fullsize/4_2.jpg"
+            imageUrl="assets/images/webp/4_2.webp"
             dida="Test Didascalia 333"
           />
           <ImageRect
             className="col-span-4 md:col-span-7 md:my-0"
-            imageUrl="assets/images/fullsize/3_1.jpg"
+            imageUrl="assets/images/webp/3_1.webp"
             dida="Test Didascalia 333"
           />
         </SpyTextGalleryLayout>
@@ -126,7 +126,7 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-4 md:col-span-3 my-4"
-          imageUrl="assets/images/fullsize/4.png"
+          imageUrl="assets/images/webp/4.webp"
           dida="Test Didascalia 333"
           parallax={false}
         />
@@ -141,12 +141,12 @@ export default function Home() {
         >
           <ImageRect
             className="col-span-4 md:col-start-6 md:col-span-7 md:my-32"
-            imageUrl="assets/images/fullsize/4_2.jpg"
+            imageUrl="assets/images/webp/4_2.webp"
             dida="Test Didascalia 333"
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="assets/images/fullsize/3_1.jpg"
+            imageUrl="assets/images/webp/3_1.webp"
             dida="Test Didascalia 333"
           />
         </SpyTextGalleryLayout>
@@ -158,7 +158,7 @@ export default function Home() {
       <div className="w-full h-[80vh]">
         <img
           className="w-full h-full object-cover"
-          src="assets/images/fullsize/4_2.jpg"
+          src="assets/images/webp/4_2.webp"
           alt=""
         />
       </div>
@@ -176,7 +176,7 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-10"
-          imageUrl="assets/images/fullsize/10.jpg"
+          imageUrl="assets/images/webp/10.webp"
           dida="Test Didascalia"
         />
         <Paragraph
@@ -189,7 +189,7 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-10"
-          imageUrl="assets/images/fullsize/10.jpg"
+          imageUrl="assets/images/webp/10.webp"
           dida="Test Didascalia"
         />
       </div>
@@ -207,22 +207,22 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/fullsize/14.jpg"
+          imageUrl="assets/images/webp/14.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/fullsize/4_1.jpg"
+          imageUrl="assets/images/webp/4_1.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/fullsize/5_1.jpg"
+          imageUrl="assets/images/webp/5_1.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/fullsize/9.jpg"
+          imageUrl="assets/images/webp/9.webp"
           dida="Test Didascalia"
         />
         <Paragraph
@@ -231,12 +231,12 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-6"
-          imageUrl="assets/images/fullsize/10_1.jpg"
+          imageUrl="assets/images/webp/10_1.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-start-9 md:col-span-3"
-          imageUrl="assets/images/fullsize/3.jpg"
+          imageUrl="assets/images/webp/3.webp"
           dida="Test Didascalia"
         />
         <Paragraph
@@ -250,32 +250,32 @@ export default function Home() {
         >
           <ImageRect
             className="col-span-4 md:col-span-3 md:max-h-80 md:overflow-hidden"
-            imageUrl="assets/images/fullsize/3.jpg"
+            imageUrl="assets/images/webp/3.webp"
             dida="Test Didascalia"
           />
           <ImageRect
             className="col-span-4 md:col-span-3 md:max-h-80 md:overflow-hidden"
-            imageUrl="assets/images/fullsize/5_1.jpg"
+            imageUrl="assets/images/webp/5_1.webp"
             dida="Test Didascalia"
           />
           <ImageRect
             className="col-span-4 md:col-span-3 md:max-h-80 md:overflow-hidden"
-            imageUrl="assets/images/fullsize/13.jpg"
+            imageUrl="assets/images/webp/13.webp"
             dida="Test Didascalia"
           />
           <ImageRect
             className="col-span-4 md:col-start-4 md:col-span-3 md:max-h-80 md:overflow-hidden"
-            imageUrl="assets/images/fullsize/14.jpg"
+            imageUrl="assets/images/webp/14.webp"
             dida="Test Didascalia"
           />
           <ImageRect
             className="col-span-4 md:col-span-3 md:max-h-80 md:overflow-hidden"
-            imageUrl="assets/images/fullsize/16.jpg"
+            imageUrl="assets/images/webp/16.webp"
             dida="Test Didascalia"
           />
           <ImageRect
             className="col-span-4 md:col-span-3 md:max-h-80 md:overflow-hidden"
-            imageUrl="assets/images/fullsize/27.jpg"
+            imageUrl="assets/images/webp/27.webp"
             dida="Test Didascalia"
           />
         </SpyTextGalleryLayout>
@@ -298,22 +298,22 @@ export default function Home() {
         >
           <ImageRect
             className="col-span-4 md:col-span-5"
-            imageUrl="assets/images/fullsize/3_1.jpg"
+            imageUrl="assets/images/webp/3_1.webp"
             dida="Test Didascalia"
           />
           <ImageRect
             className="col-span-4 md:col-start-7 md:col-span-6 mt-48"
-            imageUrl="assets/images/fullsize/28.jpg"
+            imageUrl="assets/images/webp/28.webp"
             dida="Test Didascalia"
           />
           <ImageRect
             className="col-span-4 md:col-span-8"
-            imageUrl="assets/images/fullsize/4_2.jpg"
+            imageUrl="assets/images/webp/4_2.webp"
             dida="Test Didascalia"
           />
           <ImageRect
             className="col-span-4 md:col-start-8 md:col-span-5"
-            imageUrl="assets/images/fullsize/5_2.jpg"
+            imageUrl="assets/images/webp/5_2.webp"
             dida="Test Didascalia"
           />
         </SpyTextGalleryLayout>
@@ -341,12 +341,12 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-4 md:col-span-6 md:mt-16"
-          imageUrl="assets/images/fullsize/7_2.jpg"
+          imageUrl="assets/images/webp/7_2.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-6 md:mt-48"
-          imageUrl="assets/images/fullsize/6_2.jpg"
+          imageUrl="assets/images/webp/6_2.webp"
           dida="Test Didascalia"
         />
         <Paragraph
@@ -365,52 +365,52 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-4 md:col-span-5 md:mb-24"
-          imageUrl="assets/images/fullsize/10_2.jpg"
+          imageUrl="assets/images/webp/10_2.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/fullsize/11_1.jpg"
+          imageUrl="assets/images/webp/11_1.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/fullsize/9_1.jpg"
+          imageUrl="assets/images/webp/9_1.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-start-4 md:col-span-3 md:mt-12"
-          imageUrl="assets/images/fullsize/12_1.jpg"
+          imageUrl="assets/images/webp/12_1.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/fullsize/13_1.jpg"
+          imageUrl="assets/images/webp/13_1.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-3 md:-mt-12"
-          imageUrl="assets/images/fullsize/12_1.jpg"
+          imageUrl="assets/images/webp/12_1.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-start-3 md:col-span-2 md:mt-24 max-h-80 overflow-hidden"
-          imageUrl="assets/images/fullsize/14_1.jpg"
+          imageUrl="assets/images/webp/14_1.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-2 md:mt-24 max-h-80 overflow-hidden"
-          imageUrl="assets/images/fullsize/16.jpg"
+          imageUrl="assets/images/webp/16.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-2 md:mt-24 max-h-80 overflow-hidden"
-          imageUrl="assets/images/fullsize/17.jpg"
+          imageUrl="assets/images/webp/17.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-2 md:mt-24 max-h-80 overflow-hidden"
-          imageUrl="assets/images/fullsize/18.jpg"
+          imageUrl="assets/images/webp/18.webp"
           dida="Test Didascalia"
         />
       </div>
@@ -446,17 +446,17 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-4 md:col-start-3 md:col-span-3 md:max-h-96 overflow-hidden"
-          imageUrl="assets/images/fullsize/1_2.jpg"
+          imageUrl="assets/images/webp/1_2.webp"
           dida="Knitwear fabric"
         />
         <ImageRect
           className="col-span-4 md:col-span-3 md:max-h-96 overflow-hidden"
-          imageUrl="assets/images/fullsize/2_1.jpg"
+          imageUrl="assets/images/webp/2_1.webp"
           dida="Seta di gelso"
         />
         <ImageRect
           className="col-span-4 md:col-span-3 md:max-h-96 overflow-hidden"
-          imageUrl="assets/images/fullsize/3_2.jpg"
+          imageUrl="assets/images/webp/3_2.webp"
           dida="Lino"
         />
         <Paragraph
@@ -486,7 +486,7 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-10"
-          imageUrl="assets/images/fullsize/2b.jpg"
+          imageUrl="assets/images/webp/2b.webp"
           dida="Test Didascalia"
         />
         <Paragraph
@@ -544,17 +544,17 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-4 max-h-96"
-          imageUrl="assets/images/fullsize/4_3.jpg"
+          imageUrl="assets/images/webp/4_3.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-3 max-h-96"
-          imageUrl="assets/images/fullsize/5_3.jpg"
+          imageUrl="assets/images/webp/5_3.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-3 max-h-96"
-          imageUrl="assets/images/fullsize/6_3.jpg"
+          imageUrl="assets/images/webp/6_3.webp"
           dida="Test Didascalia"
         />
         <Paragraph
@@ -573,17 +573,17 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-4 md:col-start-3 md:col-span-3"
-          imageUrl="assets/images/fullsize/8_2.jpg"
+          imageUrl="assets/images/webp/8_2.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-3 md:mt-16 md:mb-12"
-          imageUrl="assets/images/fullsize/9_2.jpg"
+          imageUrl="assets/images/webp/9_2.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/fullsize/11_2.jpg"
+          imageUrl="assets/images/webp/11_2.webp"
           dida="Test Didascalia"
         />
         <Paragraph
@@ -610,12 +610,12 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-6"
-          imageUrl="assets/images/fullsize/12_2.jpg"
+          imageUrl="assets/images/webp/12_2.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-span-4 md:mt-16 md:mb-12"
-          imageUrl="assets/images/fullsize/13_2.jpg"
+          imageUrl="assets/images/webp/13_2.webp"
           dida="Test Didascalia"
         />
         <Paragraph
@@ -637,7 +637,7 @@ export default function Home() {
 
         <ImageRect
           className="col-span-4 md:col-start-3 md:col-span-9"
-          imageUrl="assets/images/fullsize/12b.jpg"
+          imageUrl="assets/images/webp/12b.webp"
           dida="Test Didascalia"
         />
         <Paragraph
@@ -662,27 +662,27 @@ export default function Home() {
         >
           <ImageRect
             className="col-span-4 md:col-start-2 md:col-span-3"
-            imageUrl="assets/images/fullsize/15.jpg"
+            imageUrl="assets/images/webp/15.webp"
             dida="Test Didascalia"
           />
           <ImageRect
             className="col-span-4 md:col-start-8 md:col-span-3"
-            imageUrl="assets/images/fullsize/14.png"
+            imageUrl="assets/images/webp/14.webp"
             dida="Test Didascalia"
           />
           <ImageRect
             className="col-span-4 md:col-start-1 md:col-span-3 md:mt-24"
-            imageUrl="assets/images/fullsize/19.jpg"
+            imageUrl="assets/images/webp/19.webp"
             dida="Test Didascalia"
           />
           <ImageRect
             className="col-span-4 md:col-start-6 md:col-span-3 md:mt-4"
-            imageUrl="assets/images/fullsize/17_1.jpg"
+            imageUrl="assets/images/webp/17_1.webp"
             dida="Test Didascalia"
           />
           <ImageRect
             className="col-span-4 md:col-start-10 md:col-span-3 md:mt-24"
-            imageUrl="assets/images/fullsize/22.jpg"
+            imageUrl="assets/images/webp/22.webp"
             dida="Test Didascalia"
           />
         </SpyTextGalleryLayout>

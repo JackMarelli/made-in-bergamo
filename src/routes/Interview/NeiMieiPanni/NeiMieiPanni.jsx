@@ -26,7 +26,7 @@ export default function NeiMieiPanni() {
           ora non più, questo ha un impatto per me molto importante.
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/DSC_6131-1.jpg"
+            imageUrl="../assets/images/webp/interviews/neimieipanni/DSC_6131-1.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           Il mio brand si fonda su altri due valori, la sostenibilità e la
@@ -57,7 +57,7 @@ export default function NeiMieiPanni() {
           pelle di chi li indossa.
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/DSCF0400.jpg"
+            imageUrl="../assets/images/webp/interviews/neimieipanni/DSCF0400.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           Uno dei miei fornitori è Albini, un cotonificio rinomato che ha anche
@@ -99,7 +99,7 @@ export default function NeiMieiPanni() {
           creare.
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/DSCF2319.jpg"
+            imageUrl="../assets/images/webp/interviews/neimieipanni/DSCF2319.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           Fondamentalmente alla base c’è un tessuto guida da cui si genera la
@@ -129,7 +129,7 @@ export default function NeiMieiPanni() {
           porto dopo essere passato per le mani della modellista.
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/DSCF9039.jpg"
+            imageUrl="../assets/images/webp/interviews/neimieipanni/DSCF9039.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />{" "}
           Decidiamo insieme quali sono le finiture, i centimetri di cucitura e
@@ -149,7 +149,7 @@ export default function NeiMieiPanni() {
           tessuto.
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/DSCF3457.jpg"
+            imageUrl="../assets/images/webp/interviews/neimieipanni/DSCF3457.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />{" "}
           Comunico sempre con le acquirenti e non capitano mai resi in quanto

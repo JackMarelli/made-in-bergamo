@@ -28,7 +28,7 @@ export default function InterviewLayout({ props, children }) {
             </Link>
           </div>
           <div
-            className={`col-span-4 md:col-start-6 md:col-span-6 overflow-y-scroll ${styles.scrollbarHide}`}
+            className={`col-span-4 md:col-start-5 md:col-span-6 overflow-y-scroll ${styles.scrollbarHide}`}
           >
             {children}
           </div>
