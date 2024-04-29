@@ -32,7 +32,7 @@ export default function Navbar() {
           menuIsOpen ? "translate-y-0" : "-translate-y-full"
         } border-b-2 border-mib-beige-dark`}
       >
-        <div className="col-span-4 md:col-span-12 flex flex-col md:flex-row justify-center items-start gap-x-8 mt-8 md:mt-40 mb-4">
+        <div className="col-span-4 md:col-span-12 flex flex-col justify-center items-start md:items-center gap-x-8 mt-8 md:mt-20 mb-4">
           <div
             className={`w-fit text-5xl font-crimson-pro cursor-pointer text-mib-${
               isHomePage ? "beige-dark" : "brown-dark"
@@ -78,7 +78,7 @@ export default function Navbar() {
         prodotto finito con un focus sulla produzione territoriale.
       </span>
       <span
-        className="col-span-4 md:col-start-7 md:col-span-1 cursor-pointer z-20 fixed right-4 md:relative"
+        className="w-fit h-fit px-4 py-2 cursor-pointer z-20 fixed right-4 top-8 md:left-1/2 md:-translate-x-1/2 bg-mib-brown-dark text-mib-beige-light rounded-full flex justify-center items-center"
         onClick={() => setMenuIsOpen(!menuIsOpen)}
       >
         {menuIsOpen ? "Close" : "Menu"}
