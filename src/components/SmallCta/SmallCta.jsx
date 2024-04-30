@@ -9,7 +9,7 @@ export default function SmallCta(props) {
       {props.text}
       <img
         className={`${styles.arrow} h-full w-[10px]`}
-        src="../assets/images/fullsize/svg/arrow-top-right.svg"
+        src="../assets/images/svg/arrow-top-right.svg"
         alt="arrow icon"
       />
     </div>

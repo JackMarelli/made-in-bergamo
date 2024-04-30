@@ -16,7 +16,7 @@ export default function Home() {
         <div className="col-span-4 md:col-span-12 mt-24 md:mt-44">
           <img
             className="w-full"
-            src="/assets/images/svg/madeinbergamo_fold.svg"
+            src="assets/images/svg/madeinbergamo_fold.svg"
             alt="Made In Bergamo full width logotype"
           />
         </div>
@@ -29,11 +29,9 @@ export default function Home() {
         />
       </div>
       <div className="w-full h-fit py-16 md:py-24 px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
-        <IndexPoint className="col-span-4 md:col-span-3">
-          Introduzione
-        </IndexPoint>
+        
         <Quote
-          className="col-span-4 md:col-start-7 md:col-span-6 mb-12"
+          className="col-span-4 md:col-start-4 md:col-span-6 mb-12 text-center"
           text="“L’artigianato ci fa sentire radicati, ci dà un senso di appartenenza e ci connette con la nostra storia.” "
           author="Phyllis George"
         />
@@ -47,6 +45,9 @@ export default function Home() {
           imageUrl="assets/images/webp/6_2.webp"
           dida="Test Didascalia 222"
         />
+        <IndexPoint className="col-span-4 md:col-span-3">
+          Introduzione
+        </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 "
           text="La mia tesi nasce da un interesse personale verso il mondo dell’artigianalità nel settore della moda."
