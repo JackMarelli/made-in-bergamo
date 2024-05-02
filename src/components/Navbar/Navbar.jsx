@@ -70,6 +70,12 @@ export default function Navbar() {
               <SmallCta text="E RT Kingdom" />
             </Link>
           </div>
+          <div className="col-span-4 flex flex-col md:items-center gap-1 mt-40 md:mt-16 z-0 md:z-20">
+            <SmallCta />
+            <span className="w-fit">Bergamo, Italy</span>
+            <span className="w-fit">+39 555 555 5555</span>
+            <span className="w-fit">sample@mail.com</span>
+          </div>
         </div>
       </div>
 
@@ -78,18 +84,11 @@ export default function Navbar() {
         prodotto finito con un focus sulla produzione territoriale.
       </span>
       <span
-        className="w-fit h-fit px-4 py-2 cursor-pointer z-20 fixed right-4 top-8 md:left-1/2 md:-translate-x-1/2 bg-mib-brown-dark text-mib-beige-light rounded-full flex justify-center items-center"
+        className="w-fit h-fit px-4 py-2 cursor-pointer z-20 col-start-4 md:col-start-12 col-span-1 justify-self-end bg-mib-brown-dark text-mib-beige-light rounded-full flex justify-center items-center"
         onClick={() => setMenuIsOpen(!menuIsOpen)}
       >
         {menuIsOpen ? "Close" : "Menu"}
       </span>
-      <span className="col-span-4 my-8 md:my-0 md:col-start-10 md:col-span-1 z-0 md:z-20">
-        Bergamo, Italy
-      </span>
-      <div className="col-span-4 md:col-start-11 md:col-span-2 flex flex-col md:items-end z-0 md:z-20">
-        <span className="w-fit text-end">+39 555 555 5555</span>
-        <span className="w-fit">sample@mail.com</span>
-      </div>
     </nav>
   );
 }

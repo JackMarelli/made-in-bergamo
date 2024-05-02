@@ -29,14 +29,13 @@ export default function Home() {
         />
       </div>
       <div className="w-full h-fit py-16 md:py-24 px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
-        
         <Quote
           className="col-span-4 md:col-start-4 md:col-span-6 mb-12 text-center"
           text="“L’artigianato ci fa sentire radicati, ci dà un senso di appartenenza e ci connette con la nostra storia.” "
           author="Phyllis George"
         />
         <ImageRect
-          className="col-span-2 md:col-span-6 mb-8"
+          className="col-span-2 md:col-span-6 mb-16"
           imageUrl="assets/images/webp/footprint.webp"
           dida="Test Didascalia 111"
         />
@@ -50,22 +49,36 @@ export default function Home() {
         </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 "
-          text="La mia tesi nasce da un interesse personale verso il mondo dell’artigianalità nel settore della moda."
+          text="Grazie ad un interesse personale verso il mondo dell’artigianalità nel settore della moda e
+          al legame con il mio luogo di nascita, Bergamo, per il progetto di tesi in Fashion
+          communication allo IED di Milano ho scelto di creare questo sito web dedicato
+          all’artigianalità nella moda bergamasca.
+          Il mio desiderio ed obiettivo è quello di promuovere e valorizzare le realtà bergamasche
+          che lavorano in questa direzione, ampliando anche le conoscenze dei lettori sul tema
+          preso in questione."
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
-          text="L'elaborato andrà innanzitutto ad indagare, attraverso uno sguardo tecnico, come avviene la
-                    produzione di un prodotto di moda artigianale, analizzandone ogni sua fase lungo la filiera, con
-                    l’obiettivo di approfondire un tema che ormai da sempre contraddistingue l’Italia nel mondo: il
-                    savoir-faire artigianale italiano. Oltre a voler condurre un'analisi del processo produttivo, il fine ultimo sarà quello di andare a
-                    valorizzarlo, promuoverlo e preservarlo.
-                     La ricerca si concentrerà poi in un luogo specifico dell’Italia, ovvero nel territorio bergamasco.
-                    Verrà svolto un approfondimento dei vari aspetti e ambiti che caratterizzano questa zona, insieme ad uno studio di alcuni brand di moda artigianali che si sono sviluppati nel territorio di Bergamo. Il primo focus del mio lavoro verterà sul concetto di artigianalità e sulla figura dell'artigiano, con un excursus diacronico sul peso culturale del suo lavoro e sulla sua evoluzione, dall’antichità ad oggi, fino a proporne una possibile prospettiva futura.
-                    Di pari passo con l’analisi delle fasi della filiera produttiva, delle tecniche e delle materie prime
-                    utilizzate, verrà trattata anche la questione della sostenibilità, giacché in ragione di essa sono
-                    stati realizzati nuovi metodi di produzione, basati su un’idea di riciclaggio e di recupero dei
-                    materiali.
-                    "
+          text="Gli argomenti trattati di seguito hanno un obiettivo divulgativo, essi vogliono informare su
+          quanto concerne il mondo dell’artigianalità, indagando sul suo sviluppo e sulla sua
+          evoluzione nel tempo, fino ad arrivare ad oggi.
+          Particolare attenzione è posta anche sulla figura dell’artigiano, con un excursus diacronico
+          sul peso culturale del suo lavoro dall’antichità ad oggi, fino a proporne una possibile
+          prospettiva futura.
+          Dopo un’introduzione generale all’argomento, è presente un capitolo dedicato al territorio
+          di Bergamo, il quale tratta le sue peculiarità a livello morfologico e a livello tessile, con un
+          approfondimento dei vari aspetti e ambiti che caratterizzano questa zona.
+          Infine c’è una sezione che si concentra sulla produzione e sulla sostenibilità, all’interno
+          della quale attraverso uno sguardo tecnico, viene spiegato come si produce un capo
+          artigianalmente, prendendo come esempio alcuni brand bergamaschi che lavorano in
+          questo modo. Di pari passo con l’analisi delle fasi della filiera produttiva, delle tecniche e
+          delle materie prime utilizzate, viene trattata anche la questione della sostenibilità, giacché
+          in ragione di essa sono stati realizzati nuovi metodi di produzione, basati su un’idea di
+          riciclaggio e di recupero dei materiali.
+          Oltre a ciò, nel menù del sito, potete trovare una sezione interamente dedicata alle realtà
+          presenti sul territorio bergamasco che operano e realizzano le loro collezioni mediante
+          questi principi. Qui potete scoprire tutte le loro caratteristiche, la maestria e la sapienza
+          artigiana che li differenziano, con interviste insieme alle fondatrici e designer dei brand."
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
