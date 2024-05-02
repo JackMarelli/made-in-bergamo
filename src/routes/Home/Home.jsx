@@ -45,7 +45,7 @@ export default function Home() {
           dida="Test Didascalia 222"
         />
         <IndexPoint className="col-span-4 md:col-span-3">
-          Introduzione
+          Presentazione
         </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 "
@@ -57,6 +57,9 @@ export default function Home() {
           che lavorano in questa direzione, ampliando anche le conoscenze dei lettori sul tema
           preso in questione."
         />
+        <IndexPoint className="col-span-4 md:col-span-3">
+          Introduzione
+        </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
           text="Gli argomenti trattati di seguito hanno un obiettivo divulgativo, essi vogliono informare su
@@ -79,10 +82,6 @@ export default function Home() {
           presenti sul territorio bergamasco che operano e realizzano le loro collezioni mediante
           questi principi. Qui potete scoprire tutte le loro caratteristiche, la maestria e la sapienza
           artigiana che li differenziano, con interviste insieme alle fondatrici e designer dei brand."
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6"
-          text="Infine, mediante delle interviste ai brand artigianali del territorio bergamasco, in particolare Nei Miei Panni e Sophie Stique*, si analizzerà l’argomento della tesi da un punto di vista interno, fondamentale per comprendere al meglio quelle che sono la maestria e la sapienza artigiana che differenziano questi brand."
         />
       </div>
       <div className="w-full h-fit py-16 px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
@@ -811,49 +810,6 @@ export default function Home() {
           ed esperienza; da essi prendono vita le sue idee creative
           e nascono quelli che poi diventano i capi delle collezioni.
           Questi saranno infine venduti negli atelier e sui siti e-commerce dei brand."
-        />
-      </div>
-      <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
-        <Heading text="Conclusioni" />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Gli argomenti trattati all’interno della tesi sottolineano l’importanza attribuita al mestiere dell’artigiano e all’artigianalità nel corso dei secoli fino ad arrivare ad oggi, con un focus su alcune azioni
-          necessarie a preservarli nel tempo, al fine di salvaguardare il savoir-faire, che, sempre più sottovalutato e trascurato, rischia di andare perduto."
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Per quanto concerne l’approfondimento pertinente la specificità del territorio bergamasco, da
-          esso si evince come le sue caratteristiche morfologiche abbiano consentito e favorito la nascita e
-          lo sviluppo delle fabbriche tessili, una produzione che si è evoluta tanto da contribuire significativamente a rendere il savoir-faire artigianale italiano rinomato a livello globale. Inoltre la forte
-          cultura del lavoro radicata all’interno di questa zona ha permesso negli anni un grande sviluppo
-          del settore tessile e la nascita di brand di abbigliamento contraddistinti da una produzione di tipo
-          artigianale, come Nei Miei Panni e Sophie Stique*."
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="I due brand sono stati oggetto di una particolare analisi: essi, infatti, hanno rivelato caratteristiche
-          significative riguardo l’argomento oggetto del presente elaborato, in particolare i criteri adottati
-          nella scelta delle materie prime ed il metodo produttivo utilizzato, fondamenta della linea di pensiero che permea e guida la produzione dei due brand,"
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="La conoscenza si rivela ancora una volta un valore fondamentale ed imprescindibile per tutti
-          quanti sono coinvolti nelle diverse fasi della produzione: basti pensare alla manualità delle sarte
-          che operano per mezzo di specifiche tecniche manuali, le quali sono spesso, come nel caso dei
-          due brand esaminati, tramandate di generazione in generazione; possiamo affermare che le mani
-          esperte di chi idea un capo sono preziose per selezionare un determinato tessuto piuttosto che un
-          altro, con esse si percepisce la qualità, la quale fa la vera differenza del prodotto sul mercato. Sono
-          queste competenze che permettono di produrre un capo differente dagli altri, il quale si definirà
-          “di qualità” anche in ragione della storia che racchiude e che trasmette, un vero e proprio mondo
-          di valori, di savoir-faire e di conoscenza unici. 
-          "
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="di valori, di savoir-faire e di conoscenza unici.
-          Ad oggi la percentuale di consumatori che comprende la ricchezza umana di questo articolato ed
-          affascinante mondo è ancora bassa ed è per questo motivo che gli argomenti trattati vogliono essere divulgati attraverso la creazione di un sito web che abbia lo scopo di valorizzare e promuovere
-          il territorio bergamasco e la sua produzione di moda artigianale"
         />
       </div>
     </BaseLayout>
