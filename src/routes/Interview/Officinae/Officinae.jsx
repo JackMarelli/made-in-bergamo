@@ -1,17 +1,59 @@
 import InterviewLayout from "../../../layouts/InterviewLayout/InterviewLayout";
 import InterviewQuestion from "../../../components/InterviewQuestion/InterviewQuestion";
 import ImageRect from "../../../components/ImageRect/ImageRect";
+import BrandSheet from "../../../components/BrandSheet/BrandSheet";
+import BrandSheetRow from "../../../components/BrandSheetRow/BrandSheetRow";
 
 export default function Officinae() {
   return (
     <>
       <InterviewLayout>
-        <p className="mb-4 text-sm font-semibold leading-[1.2em] cursor-pointer">
-          Intervista con Tommaso, del brand di Paola Trizzoni
-        </p>
-        <h1 className="mb-24 text-4xl md:text-7xl text-mib-brown-dark font-crimson-text font-semibold leading-[.95em] tracking-tight">
+        <h1 className="text-4xl md:text-7xl text-mib-brown-dark font-crimson-text font-semibold leading-[.95em] tracking-tight">
           Officinae
         </h1>
+        <BrandSheet>
+          <BrandSheetRow title="Anno di fondazione">2010</BrandSheetRow>
+          <BrandSheetRow title="Fondatrice e designer">
+            Paola Trinzoni
+          </BrandSheetRow>
+          <BrandSheetRow title="Collezioni">
+            Due all'anno - Primavera/Estate e Autunno/Inverno, <br />
+            Donna
+          </BrandSheetRow>
+          <BrandSheetRow title="Target">
+            Donne dai 40/45 anni in su con un forte interesse verso il fatto a
+            mano di varie parti del mondo
+          </BrandSheetRow>
+          <BrandSheetRow title="Valori">
+            Artigianalità <br />
+            Territorialità <br />
+            Sostenibilità <br />
+            Cura, attenzione e ascolto verso i clienti
+          </BrandSheetRow>
+          <BrandSheetRow title="Produzione">
+            Albano Sant'Alessandro e Seriate, Provincia di Bergamo
+          </BrandSheetRow>
+          <BrandSheetRow title="Materiali utilizzati">
+            Cotone, Lino, Lana, Seta, Taffetà.
+          </BrandSheetRow>
+          <BrandSheetRow title="Tratti distintivi">
+            Realtà famigliare <br />
+            Lavorazione di ogni capo artigianalmente <br />
+            Possibilità di modificare misure e tessuti <br />
+            La maggior parte dei tessuti vengono da deadstock e una piccola
+            parte da nuovo <br />
+            Creazioni di abiti da cerimonia interamente su misura <br />
+            Tecniche tramandate di generazione in generazione.
+          </BrandSheetRow>
+          <BrandSheetRow title="Negozio">
+            Via T.Tasso 32 - Bergamo
+          </BrandSheetRow>
+          <BrandSheetRow title="Contatti">
+            Sito web: www.officinaelab.com <br /> Instagram: @officinae_ <br />
+            Facebook Officinae <br /> Mail: info@officinaelab.com <br /> Tel.
+            +39 035 210 643 <br /> Cell. +36 338 181 5859
+          </BrandSheetRow>
+        </BrandSheet>
         <InterviewQuestion question="Quando è nato Officinae, come lavora e quali sono i suoi valori?">
           «Officinae è un brand che nasce nel 2010 per mano della titolare e
           stilista Paola Tirinzoni ed è una realtà a conduzione famigliare

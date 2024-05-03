@@ -1,17 +1,62 @@
 import InterviewLayout from "../../../layouts/InterviewLayout/InterviewLayout";
 import InterviewQuestion from "../../../components/InterviewQuestion/InterviewQuestion";
 import ImageRect from "../../../components/ImageRect/ImageRect";
+import BrandSheet from "../../../components/BrandSheet/BrandSheet";
+import BrandSheetRow from "../../../components/BrandSheetRow/BrandSheetRow";
 
 export default function NeiMieiPanni() {
   return (
     <>
       <InterviewLayout>
-        <p className="mb-4 text-sm font-semibold leading-[1.2em] cursor-pointer">
-          Intervista a Cristina Gamberoni di
-        </p>
-        <h1 className="mb-24 text-4xl md:text-7xl text-mib-brown-dark font-crimson-text font-semibold leading-[.95em] tracking-tight">
+        <h1 className="text-4xl md:text-7xl text-mib-brown-dark font-crimson-text font-semibold leading-[.95em] tracking-tight">
           Nei Miei Panni
         </h1>
+        <BrandSheet>
+          <BrandSheetRow title="Anno di fondazione">2012</BrandSheetRow>
+          <BrandSheetRow title="Fondatrice e designer">
+            Cristina Gamberoni
+          </BrandSheetRow>
+          <BrandSheetRow title="Collezioni">
+            Due l'anno - Primavera/Estate, Autunno/Inverno <br />
+            Bambino e principalmente donna
+          </BrandSheetRow>
+          <BrandSheetRow title="Target">
+            Donne tra i 40 e i 60 anni
+          </BrandSheetRow>
+          <BrandSheetRow title="Valori">
+            Artigianalità <br />
+            Territorialità <br />
+            Sostenibilità <br />
+            Etica verso i collaboratori <br />
+            Cura verso i clienti
+          </BrandSheetRow>
+          <BrandSheetRow title="Produzione">Provincia di Bergamo</BrandSheetRow>
+          <BrandSheetRow title="Materiali utilizzati">
+            Cotone, Lino, Lana.
+          </BrandSheetRow>
+          <BrandSheetRow title="Tratti distintivi">
+            Tessuti naturali provenienti da deadstock <br />
+            Lavorazione di ogni capo artigianalmente <br />
+            Capi non su misura ma modificabili su richiesta, sia per le misure
+            che per i tessuti.
+          </BrandSheetRow>
+          <BrandSheetRow title="Showroom">
+            Via Pizzo Coca 3/A - Bergamo
+          </BrandSheetRow>
+          <BrandSheetRow title="Contatti">
+            Sito web: www.neimieipanni.it <br />
+            Instagram: @neimieipanni
+            <br />
+            Facebook: Nei Miei Panni
+            <br />
+            Email: cristina@neimieipanni.it
+          </BrandSheetRow>
+        </BrandSheet>
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/materieprime/cotone.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
         <InterviewQuestion question="Quando è nato Nei Miei Panni, come lavora e quali sono i suoi valori?">
           «Nei Miei Panni è nato nel 2012 come blog e poco dopo è diventato un
           brand di moda artigianale, inizialmente per bambino e dal 2018 è stato

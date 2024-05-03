@@ -9,7 +9,7 @@ export default function SophieStique() {
     <>
       <InterviewLayout>
         <h1 className="text-4xl md:text-7xl text-mib-brown-dark font-crimson-text font-semibold leading-[.95em] tracking-tight">
-          Albini Group
+          Sophie Stique*
         </h1>
         <BrandSheet>
           <BrandSheetRow title="Anno di fondazione">2021</BrandSheetRow>
