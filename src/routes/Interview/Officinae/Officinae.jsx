@@ -69,7 +69,7 @@ export default function Officinae() {
           guadagno per il brand e per i suoi lavoratori».
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="assets/images/fullsize/6.jpg"
+            imageUrl="assets/images/webp/inteviews/offcinae/1.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
         </InterviewQuestion>

@@ -85,7 +85,7 @@ export default function Home() {
         />
       </div>
       <div className="w-full h-fit py-16 px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
-        <Heading text="Artigianalità" />
+        <Heading text="L'artigianalità" />
         <IndexPoint className="col-span-4 md:col-span-3">
           L’importanza dell’artigianalità e la figura dell’artigiano
         </IndexPoint>
@@ -207,7 +207,7 @@ export default function Home() {
         />
       </div>
       <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
-        <Heading text="Territorialità" colorClass="text-mib-brown-dark" />
+        <Heading text="La territorialità" colorClass="text-mib-brown-dark" />
         <IndexPoint
           className="col-span-4 md:col-span-3"
           colorClass="mib-brown-dark"
@@ -428,7 +428,7 @@ export default function Home() {
         />
       </div>
       <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
-        <Heading text="Produzione e Sostenibilità" />
+        <Heading text="La produzione e la sostenibilità" />
         <IndexPoint className="col-span-4 md:col-span-3">
           La filiera produttiva: dallo sviluppo del prodotto moda al negozio
         </IndexPoint>
