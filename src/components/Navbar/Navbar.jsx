@@ -51,7 +51,7 @@ export default function Navbar() {
               navigate("/interview/neimieipanni");
             }}
           >
-            Interviste
+            Le realtà bergamasche
           </div>
           <div className="h-fit flex md:hidden flex-col justify-start align-start mt-4">
             <Link to="/interview/neimieipanni">

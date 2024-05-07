@@ -148,7 +148,7 @@ export default function AlbiniGroup() {
         con la seta e con l’indaco fino ad arrivare alle morbide flanelle.
         <ImageRect
           className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/materieprime/lino.webp"
+          imageUrl="assets/images/webp/interviews/albinigroup/materieprime/lino.webp"
           dida="Immagine relativa all'intervista, se c'è."
         />
         Inoltre produciamo anche il denim in vari stili, dal classico allo
