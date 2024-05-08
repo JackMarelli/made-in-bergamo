@@ -52,11 +52,6 @@ export default function NeiMieiPanni() {
             Email: cristina@neimieipanni.it
           </BrandSheetRow>
         </BrandSheet>
-        <ImageRect
-          className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/materieprime/cotone.webp"
-          dida="Immagine relativa all'intervista, se c'è."
-        />
         <InterviewQuestion question="Quando è nato Nei Miei Panni, come lavora e quali sono i suoi valori?">
           «Nei Miei Panni è nato nel 2012 come blog e poco dopo è diventato un
           brand di moda artigianale, inizialmente per bambino e dal 2018 è stato
@@ -68,13 +63,8 @@ export default function NeiMieiPanni() {
           retribuzione corretto. Quando ho iniziato pensavo che per me il vero
           valore sarebbe arrivato quando il mio lavoro avrebbe cominciato a
           darlo anche ad altre persone, inizialmente i capi li facevo io mentre
-          ora non più, questo ha un impatto per me molto importante.
-          <ImageRect
-            className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/neimieipanni/DSC_6131-1.webp"
-            dida="Immagine relativa all'intervista, se c'è."
-          />
-          Il mio brand si fonda su altri due valori, la sostenibilità e la
+          ora non più, questo ha un impatto per me molto importante. Il mio
+          brand si fonda su altri due valori, la sostenibilità e la
           territorialità, tutto viene prodotto all’interno del territorio di
           Bergamo, all’inizio della Val Seriana, in modo tale da dare un valore
           aggiunto con una produzione di qualità eseguita in modo curato. Le mie
@@ -82,8 +72,7 @@ export default function NeiMieiPanni() {
           vedere al suo interno una cucitura all’inglese, questo vuol dire che
           se ti rimbocchi le maniche non hai la taglia cuci tranne dove è
           indispensabile ed ora esse sanno il significato di ciò. È un’educare
-          ad un acquisto più consapevole che crea il valore intrinseco del capo.{" "}
-          <br />
+          ad un acquisto più consapevole che crea il valore intrinseco del capo.
           Voglio creare una clientela che capisca ciò, la differenza tra
           acquistare un prodotto creato in questo modo rispetto ad un capo fast
           fashion, è molto importante. Inoltre lavoro dando una particolare
@@ -92,6 +81,11 @@ export default function NeiMieiPanni() {
           capi come prova per capire eventuali modifiche da apportare in modo da
           far calzare il capo in modo perfetto, questo perché non produco su
           misura, ho i miei modelli».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/neimieipanni/1.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Quali materiali vengono utilizzati per la produzione dei capi e da dove provengono?">
           «Siccome ho iniziato producendo capi per bambini tutti i materiali
@@ -99,25 +93,29 @@ export default function NeiMieiPanni() {
           di elastan, il resto sono il cotone, il lino che è il mio tessuto
           preferito e la lana. Non sperimento molto con materiali come il
           poliestere perché ci tengo al vestire con tessuti che fanno bene alla
-          pelle di chi li indossa.
+          pelle di chi li indossa. Uno dei miei fornitori è Albini, un
+          cotonificio rinomato che ha anche delle linee certificate e da lì
+          prendo i tessuti deadstock in quanto sono all’interno dei loro clienti
+          che hanno accesso a ciò. Posso acquistare per esempio trenta metri di
+          tessuto, non di più perché ad oggi non acquisto ancora grandissime
+          quantità per fare una grossa produzione, però quando ce n’è uno che mi
+          piace o è uno tra i miei basici ne acquisto anche parecchio. Acquisto
+          anche da un altro fornitore stocckista il quale tiene tessuti
+          dell’alta moda ed italiani che seleziono attentamente. Solitamente
+          trovo dei tessuti che non sempre posso ritrovare dopo mesi perché a
+          volte sono finali di pezza. Una cosa fondamentale è il saper scegliere
+          e negli anni ho imparato a farmi le mani e a capire la qualità dei
+          tessuti, creando rapporti con i venditori».
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/neimieipanni/DSCF0400.webp"
+            imageUrl="../assets/images/webp/interviews/neimieipanni/2.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
-          Uno dei miei fornitori è Albini, un cotonificio rinomato che ha anche
-          delle linee certificate e da lì prendo i tessuti deadstock in quanto
-          sono all’interno dei loro clienti che hanno accesso a ciò. Posso
-          acquistare per esempio trenta metri di tessuto, non di più perché ad
-          oggi non acquisto ancora grandissime quantità per fare una grossa
-          produzione, però quando ce n’è uno che mi piace o è uno tra i miei
-          basici ne acquisto anche parecchio. Acquisto anche da un altro
-          fornitore stocckista il quale tiene tessuti dell’alta moda ed italiani
-          che seleziono attentamente. Solitamente trovo dei tessuti che non
-          sempre posso ritrovare dopo mesi perché a volte sono finali di pezza.
-          Una cosa fondamentale è il saper scegliere e negli anni ho imparato a
-          farmi le mani e a capire la qualità dei tessuti, creando rapporti con
-          i venditori».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/neimieipanni/3.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Quindi utilizza per la maggior parte materiali provenienti da deadstock, non totalmente nuovi?">
           «Sì, la maggior parte dei tessuti che utilizzo per creare le mie
@@ -128,6 +126,11 @@ export default function NeiMieiPanni() {
           modelli, non tutti nuovi, tra questi ce ne sono in ogni collezione
           circa quattro. Alcuni modelli vengono abbandonati, altri entrano,
           magari anche solo con piccole variazioni di colore»
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/neimieipanni/4.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Com’è organizzata la filiera produttiva e quali sono i suoi step?">
           «Alla nascita del brand mi occupavo di tutte le fasi della filiera
@@ -141,71 +144,65 @@ export default function NeiMieiPanni() {
           Per creare una collezione parto dalla scelta dei materiali, prendo dei
           tessuti e li metto insieme dal punto di vista della texture e dei
           colori. Per i colori ho delle cartelle di partenza e da qui inizio a
-          creare.
+          creare. Fondamentalmente alla base c’è un tessuto guida da cui si
+          genera la scelta di tutto il resto. Ho tre/quattro linee di colore,
+          tengo sempre il blu, il grigio, il bianco e il nero, colori base
+          sempre presenti e massimo altri due nuovi.
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/neimieipanni/DSCF2319.webp"
+            imageUrl="../assets/images/webp/interviews/neimieipanni/5.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
-          Fondamentalmente alla base c’è un tessuto guida da cui si genera la
-          scelta di tutto il resto. Ho tre/quattro linee di colore, tengo sempre
-          il blu, il grigio, il bianco e il nero, colori base sempre presenti e
-          massimo altri due nuovi. Dopodiché inizio ad abbinare i miei modelli
-          base ai tessuti che ho scelto o li seleziono anche sapendo già quello
-          che voglio fare. Ci sono alcuni tessuti che mi parlano e con quelli
-          faccio dei capi nuovi lasciandomi ispirare. Poi faccio il piano di
-          collezione, questo significa il piano di campionario, con i dati dei
-          tessuti e i dati dei vari modelli, abbino e faccio in modo di avere
-          sempre taglie miste, una XS, una S e così via. Quando la cliente viene
-          ad acquistare in atelier può scegliere il tessuto con il quale
-          realizzare il modello che vuole e si fanno poi i vari aggiustamenti.
-          Devo quindi avere un campionario fatto in modo intelligente con un
-          misto di taglie perché l’obbiettivo è la vendita. Faccio questo piano
-          di collezione nel tempo in cui la sartoria realizza tutto il
-          campionario, ci vuole circa un mese / un mese e mezzo. Nel frattempo
-          in questo tempo creo modelli nuovi, in genere parto dall’immaginazione
-          e disegno. Con la modellista precedente realizzavo un modello fatto di
-          carta e poi in tessuto cucito, non troppo preciso, successivamente lei
-          mi diceva cosa fare per sistemarlo e arrivati ad un modello che andava
-          bene facevo fare un prototipo dalla sartoria. Dopodiché lo prendeva la
-          modellista e con una specie di scanner lo rilevava e lo sdifettava a
-          computer per poi fare lo sviluppo delle taglie a seconda del capo. Ora
-          ho un laboratorio di sartoria con delle sarte che producono quello che
-          porto dopo essere passato per le mani della modellista.
+          Dopodiché inizio ad abbinare i miei modelli base ai tessuti che ho
+          scelto o li seleziono anche sapendo già quello che voglio fare. Ci
+          sono alcuni tessuti che mi parlano e con quelli faccio dei capi nuovi
+          lasciandomi ispirare. Poi faccio il piano di collezione, questo
+          significa il piano di campionario, con i dati dei tessuti e i dati dei
+          vari modelli, abbino e faccio in modo di avere sempre taglie miste,
+          una XS, una S e così via. Quando la cliente viene ad acquistare in
+          atelier può scegliere il tessuto con il quale realizzare il modello
+          che vuole e si fanno poi i vari aggiustamenti. Devo quindi avere un
+          campionario fatto in modo intelligente con un misto di taglie perché
+          l’obbiettivo è la vendita. Faccio questo piano di collezione nel tempo
+          in cui la sartoria realizza tutto il campionario, ci vuole circa un
+          mese / un mese e mezzo. Nel frattempo in questo tempo creo modelli
+          nuovi, in genere parto dall’immaginazione e disegno. Con la modellista
+          precedente realizzavo un modello fatto di carta e poi in tessuto
+          cucito, non troppo preciso, successivamente lei mi diceva cosa fare
+          per sistemarlo e arrivati ad un modello che andava bene facevo fare un
+          prototipo dalla sartoria. Dopodiché lo prendeva la modellista e con
+          una specie di scanner lo rilevava e lo sdifettava a computer per poi
+          fare lo sviluppo delle taglie a seconda del capo. Ora ho un
+          laboratorio di sartoria con delle sarte che producono quello che porto
+          dopo essere passato per le mani della modellista. Decidiamo insieme
+          quali sono le finiture, i centimetri di cucitura e tutti gli altri
+          dettagli. Loro mi danno dei consigli e creano il capo prototipo. Una
+          volta provato sulla modella, se va bene si fa lo sviluppo delle taglie
+          e si crea il campionario. Successivamente tengo una presentazione
+          della collezione durante i giorni di apertura dell’atelier e anche in
+          altri luoghi, come nel negozio "Oggetti" in Santa Caterina a Bergamo,
+          in cui faccio degli eventi e prendo gli ordini in base alle richieste
+          delle clienti. Parallelamente vendo anche in un negozio a San Candido
+          dal 2016 circa. I miei capi oltre ad essere venduti in questo negozio
+          vengono venduti in atelier ed online. Quando esce la collezione ho una
+          mia collaboratrice che si occupa del sito web, mentre io mi occupo
+          personalmente della parte di fotografia in quanto ho esperienza fin da
+          piccola. Poi viene aggiornato il sito, qui le clienti acquistano,
+          selezionano il modello, la taglia ed il tessuto. Comunico sempre con
+          le acquirenti e non capitano mai resi in quanto richiedo le misure e
+          do indicazioni precise. L’online funziona bene anche se non ha dei
+          grossi volumi, in linea con quella che è la clientela. I volumi
+          maggiori ora sono quelli diretti, meno dal sito anche se l’online è in
+          crescita. Nel caso il capo dovesse tornare indietro si tiene nel
+          campionario e si crea nuovamente. Faccio delle svendite ogni due/tre
+          anni di cinque/sei giorni, raramente perché non voglio abituare la mia
+          clientela a ciò, vendo l’invenduto per fare cassa, sono guadagni
+          immobilizzati».
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/neimieipanni/DSCF9039.webp"
+            imageUrl="../assets/images/webp/interviews/neimieipanni/6.webp"
             dida="Immagine relativa all'intervista, se c'è."
-          />{" "}
-          Decidiamo insieme quali sono le finiture, i centimetri di cucitura e
-          tutti gli altri dettagli. Loro mi danno dei consigli e creano il capo
-          prototipo. Una volta provato sulla modella, se va bene si fa lo
-          sviluppo delle taglie e si crea il campionario. Successivamente tengo
-          una presentazione della collezione durante i giorni di apertura
-          dell’atelier e anche in altri luoghi, come nel negozio "Oggetti" in
-          Santa Caterina a Bergamo, in cui faccio degli eventi e prendo gli
-          ordini in base alle richieste delle clienti. Parallelamente vendo
-          anche in un negozio a San Candido dal 2016 circa. I miei capi oltre ad
-          essere venduti in questo negozio vengono venduti in atelier ed online.
-          Quando esce la collezione ho una mia collaboratrice che si occupa del
-          sito web, mentre io mi occupo personalmente della parte di fotografia
-          in quanto ho esperienza fin da piccola. Poi viene aggiornato il sito,
-          qui le clienti acquistano, selezionano il modello, la taglia ed il
-          tessuto.
-          <ImageRect
-            className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/neimieipanni/DSCF3457.webp"
-            dida="Immagine relativa all'intervista, se c'è."
-          />{" "}
-          Comunico sempre con le acquirenti e non capitano mai resi in quanto
-          richiedo le misure e do indicazioni precise. L’online funziona bene
-          anche se non ha dei grossi volumi, in linea con quella che è la
-          clientela. I volumi maggiori ora sono quelli diretti, meno dal sito
-          anche se l’online è in crescita. Nel caso il capo dovesse tornare
-          indietro si tiene nel campionario e si crea nuovamente. Faccio delle
-          svendite ogni due/tre anni di cinque/sei giorni, raramente perché non
-          voglio abituare la mia clientela a ciò, vendo l’invenduto per fare
-          cassa, sono guadagni immobilizzati».
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Dove ha imparato queste tecniche artigianali di produzione?">
           «Le tecniche per produrre un capo le ho imparate nel tempo, da

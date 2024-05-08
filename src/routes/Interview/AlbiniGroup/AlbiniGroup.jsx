@@ -62,11 +62,6 @@ export default function AlbiniGroup() {
           Tel: +39 03777111
         </BrandSheetRow>
       </BrandSheet>
-      <ImageRect
-        className="col-span-4 md:col-span-7"
-        imageUrl="../assets/images/webp/interviews/albinigroup/materieprime/cotone.webp"
-        dida="Immagine relativa all'intervista, se c'è."
-      />
       <InterviewQuestion question="Quando è nato Albini Group, come lavora e quali sono i suoi valori?">
         «Albini Group nasce nel 1876 ad Albino in provincia di Bergamo e ad oggi
         rimane ancora una realtà familiare guidata dalla quinta generazione
@@ -100,33 +95,48 @@ export default function AlbiniGroup() {
         importanti partnership. Utilizziamo varie tipologie di cotone come ad
         esempio il “Giza 45”, una specie di cotone egiziano eccezionale per la
         finezza e la resistenza delle sue fibre, indispensabile per raggiungere
-        titoli incredibilmente fini.
+        titoli incredibilmente fini. Un altro cotone egiziano è il “Giza 87”, il
+        quale ci permette di creare tessuti luminosi che migliorano ad ogni
+        lavaggio e non degradano nel tempo, mantenendo la morbidezza e la
+        brillantezza originale. Utilizziamo anche un cotone chiamato
+        “Supima®(Superior Pima)”, coltivato principalmente in California con
+        caratteristiche che lo rendono ideale per la produzione di tessuti
+        bianchi. Sempre dall’America, nello specifico dalle Barbados e dalla
+        Giamaica, ne importiamo un altro tipo tra i più antichi e preziosi al
+        mondo, il “Sea Island Cotton”, il quale ci permette di produrre tessuti
+        setosi al tatto. Infine citiamo “BIOFUSION®”, un cotone organico
+        tracciabile coltivato da noi, il quale rappresenta un progetto unico ed
+        esclusivo che unisce il know-how dell’azienda alla passione dei
+        coltivatori di cotone. Questo cotone viene coltivato con sistemi di
+        produzione biologica e con prodotti che hanno un basso impatto
+        sull’ambiente. Esso si basa su qualità, tracciabilità e sulla garanzia
+        di una produzione etica e sostenibile, infatti gestiamo e controlliamo
+        direttamente la coltivazione di questo cotone.
         <ImageRect
           className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/materieprime/cotone1.webp"
+          imageUrl="../assets/images/webp/interviews/albinigroup/1.webp"
           dida="Immagine relativa all'intervista, se c'è."
         />
-        Un altro cotone egiziano è il “Giza 87”, il quale ci permette di creare
-        tessuti luminosi che migliorano ad ogni lavaggio e non degradano nel
-        tempo, mantenendo la morbidezza e la brillantezza originale. Utilizziamo
-        anche un cotone chiamato “Supima®(Superior Pima)”, coltivato
-        principalmente in California con caratteristiche che lo rendono ideale
-        per la produzione di tessuti bianchi. Sempre dall’America, nello
-        specifico dalle Barbados e dalla Giamaica, ne importiamo un altro tipo
-        tra i più antichi e preziosi al mondo, il “Sea Island Cotton”, il quale
-        ci permette di produrre tessuti setosi al tatto. Infine citiamo
-        “BIOFUSION®”, un cotone organico tracciabile coltivato da noi, il quale
-        rappresenta un progetto unico ed esclusivo che unisce il know-how
-        dell’azienda alla passione dei coltivatori di cotone. Questo cotone
-        viene coltivato con sistemi di produzione biologica e con prodotti che
-        hanno un basso impatto sull’ambiente. Esso si basa su qualità,
-        tracciabilità e sulla garanzia di una produzione etica e sostenibile,
-        infatti gestiamo e controlliamo direttamente la coltivazione di questo
-        cotone. Per quanto riguarda il lino, esso proviene principalmente dalla
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/2.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
+        Per quanto riguarda il lino, esso proviene principalmente dalla
         Normandia ed è noto per essere il migliore al mondo ed è anche
         sostenibile. Il lino è infatti una materia prima ecologica, non produce
         scarti, tutte le sue parti vengono utilizzate e non ha bisogno di
         irrigazione».
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/3.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/4.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
       </InterviewQuestion>
       <InterviewQuestion question="Quali tessuti create e in che quantità?">
         «13.000 nuove varianti di tessuto ogni anno arricchiscono la nostra
@@ -146,64 +156,125 @@ export default function AlbiniGroup() {
         leggerissimi e fluidi realizzati con filati finissimi; I tessuti in
         lino, molto versatili, i quali vengono anche mischiati con il cotone,
         con la seta e con l’indaco fino ad arrivare alle morbide flanelle.
+        Inoltre produciamo anche il denim in vari stili, dal classico allo
+        sportivo, e il jacquard con disegnature eccentriche e raffinate.
         <ImageRect
           className="col-span-4 md:col-span-7"
-          imageUrl="assets/images/webp/interviews/albinigroup/materieprime/lino.webp"
+          imageUrl="../assets/images/webp/interviews/albinigroup/5.webp"
           dida="Immagine relativa all'intervista, se c'è."
         />
-        Inoltre produciamo anche il denim in vari stili, dal classico allo
-        sportivo, e il jacquard con disegnature eccentriche e raffinate. Grazie
-        ai nostri 145 anni di esperienza tessile, riusciamo a creare tessuti con
-        filati estremamente fini, coniugando sapientemente manualità artigianale
-        e la massima tecnologia. Inoltre questo ci permette anche di
+        Grazie ai nostri 145 anni di esperienza tessile, riusciamo a creare
+        tessuti con filati estremamente fini, coniugando sapientemente manualità
+        artigianale e la massima tecnologia. Inoltre questo ci permette anche di
         sperimentare colori e disegnature spesso ispirate al nostro archivio
         storico composto da oltre settecento volumi risalenti al XIX secolo,
         fonte d’ispirazione inesauribile».
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/6.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
       </InterviewQuestion>
       <InterviewQuestion question="Qual’è il procedimento che avviene per creare un tessuto? Dove avviene la produzione?">
         «Dopo aver eseguito la ricerca delle materie prime si inizia a creare il
         tessuto mediante la filatura, la quale permette di trasformare una massa
         di fibre tessili in un’unità di grande lunghezza, ovvero il filato. I
         processi di filatura sono molteplici e variano in base alle
-        caratteristiche delle fibre e ai filati da ottenere.
+        caratteristiche delle fibre e ai filati da ottenere. L’obiettivo è
+        creare un filato di qualità elevata, regolare, resistente e dalla
+        pelosità minima.
         <ImageRect
           className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/materieprime/lino1.webp"
+          imageUrl="../assets/images/webp/interviews/albinigroup/7.webp"
           dida="Immagine relativa all'intervista, se c'è."
         />
-        L’obiettivo è creare un filato di qualità elevata, regolare, resistente
-        e dalla pelosità minima. Dopodiché avviene la tintura mediante
-        l’utilizzo di sostanze coloranti. In seguito alla filatura e alla
-        tintura, il processo di tessitura porta i filati a intrecciarsi per
-        divenire tessuti, sintesi tra la qualità della materia prima, della
-        creatività del disegno, della struttura e dell’esperienza del personale.
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/8.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/9.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
+        Dopodiché avviene la tintura mediante l’utilizzo di sostanze coloranti.
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/10.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/11.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/12.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
+        In seguito alla filatura e alla tintura, il processo di tessitura porta
+        i filati a intrecciarsi per divenire tessuti, sintesi tra la qualità
+        della materia prima, della creatività del disegno, della struttura e
+        dell’esperienza del personale.
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/13.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/14.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
         Successivamente avviene il finissaggio tessile o “nobilitazione”,
         l’insieme di trattamenti a cui si sottopone il tessuto per migliorarne
         la tingibilità, la stampabilità, l’idrofilia, il colore, la mano e
         l’aspetto finale.
         <ImageRect
           className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/processoproduttivo/Albini_008.webp"
+          imageUrl="../assets/images/webp/interviews/albinigroup/15.webp"
           dida="Immagine relativa all'intervista, se c'è."
         />
         <ImageRect
           className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/processoproduttivo/filatura.webp"
-          dida="Immagine relativa all'intervista, se c'è."
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/processoproduttivo/filatura1.webp"
+          imageUrl="../assets/images/webp/interviews/albinigroup/16.webp"
           dida="Immagine relativa all'intervista, se c'è."
         />
         Al rientro dal finissaggio il tessuto viene sottoposto a test fisici e
         chimici in laboratorio, dove l’ispettrice ricerca eventuali difettosità.
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/17.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/18.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/19.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
         Una volta controllato al 100%, il tessuto viene tagliato e confezionato
         secondo le esigenze del cliente. La maggior parte delle fasi produttive
         avviene nelle nostre sedi dislocate sul territorio bergamasco: tintura e
         tessitura avvengono ad Albino, mentre i controlli finali avvengono nelle
         sedi di Gandino. Per quanto riguarda il finissaggio, invece, i tessuti
         vengono inviati alla nostra sede di Brebbia».
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/20.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/21.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
       </InterviewQuestion>
       <InterviewQuestion question="Quante collezioni proponete durante l’anno e dove vengono presentate?">
         «Ogni stagione vengono create due collezioni, autunno/inverno e
@@ -225,6 +296,11 @@ export default function AlbiniGroup() {
         in quello di Parigi e di New York. Per i clienti più importanti che
         desiderano dei tessuti esclusivi, riserviamo dei momenti ad hoc per
         soddisfare i loro desideri».
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/22.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
       </InterviewQuestion>
       <InterviewQuestion question="Prestate attenzione all’aspetto della sostenibilità? Quali tecniche avete adottato?">
         «Da anni è un aspetto fondamentale sul quale ci impegniamo adottando
@@ -237,32 +313,21 @@ export default function AlbiniGroup() {
         attenzione anche durante la tintura, la tessitura e il finissaggio dei
         tessuti, grazie ai nostri macchinari all’avanguardia che ci consentono
         un notevole risparmio di risorse energetiche, prestando grande
-        attenzione all’impatto ambientale.
-        <ImageRect
-          className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/processoproduttivo/tessitura.webp"
-          dida="Immagine relativa all'intervista, se c'è."
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/processoproduttivo/tessitura1.webp"
-          dida="Immagine relativa all'intervista, se c'è."
-        />
-        Il controllo completo di tutte le fasi di produzione ci permette di
-        garantire la tracciabilità di ogni metro di tessuto, identificando le
-        materie prime con cui è stato realizzato, dove è stato prodotto e
-        controllato. La massima attenzione è rivolta al risparmio di acqua,
-        energia e prodotti chimici, al fine di ridurre l’impatto ambientale dei
-        processi industriali e classificare i materiali secondo gli standard
-        richiesti. La vicinanza territoriale ai siti industriali consente una
-        riduzione dei trasporti e del carburante e inoltre incentiva
-        l’occupazione delle comunità locali. Per implementare tutto ciò nel 2019
-        è nato “ALBINI_next”, il nostro think tank dedicato all’accelerazione di
-        idee e al trasferimento tecnologico fra scienza e industria. Nel 2022
-        esso ha proseguito nella ricerca di soluzioni creative, funzionali e
-        sostenibili insieme ad un numero crescente di partner accademici ed
-        industriali, a conferma del successo del modello di innovazione basato
-        sull’Open Innovation».
+        attenzione all’impatto ambientale. Il controllo completo di tutte le
+        fasi di produzione ci permette di garantire la tracciabilità di ogni
+        metro di tessuto, identificando le materie prime con cui è stato
+        realizzato, dove è stato prodotto e controllato. La massima attenzione è
+        rivolta al risparmio di acqua, energia e prodotti chimici, al fine di
+        ridurre l’impatto ambientale dei processi industriali e classificare i
+        materiali secondo gli standard richiesti. La vicinanza territoriale ai
+        siti industriali consente una riduzione dei trasporti e del carburante e
+        inoltre incentiva l’occupazione delle comunità locali. Per implementare
+        tutto ciò nel 2019 è nato “ALBINI_next”, il nostro think tank dedicato
+        all’accelerazione di idee e al trasferimento tecnologico fra scienza e
+        industria. Nel 2022 esso ha proseguito nella ricerca di soluzioni
+        creative, funzionali e sostenibili insieme ad un numero crescente di
+        partner accademici ed industriali, a conferma del successo del modello
+        di innovazione basato sull’Open Innovation».
       </InterviewQuestion>
       <InterviewQuestion question="Qual’è il procedimento che avviene per creare un tessuto? Dove avviene la produzione?">
         «Dopo aver eseguito la ricerca delle materie prime si inizia a creare il
@@ -275,29 +340,18 @@ export default function AlbiniGroup() {
         sostanze coloranti. In seguito alla filatura e alla tintura, il processo
         di tessitura porta i filati a intrecciarsi per divenire tessuti, sintesi
         tra la qualità della materia prima, della creatività del disegno, della
-        struttura e dell’esperienza del personale.
-        <ImageRect
-          className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/processoproduttivo/tintura.webp"
-          dida="Immagine relativa all'intervista, se c'è."
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/processoproduttivo/tessuto.webp"
-          dida="Immagine relativa all'intervista, se c'è."
-        />
-        Successivamente avviene il finissaggio tessile o “nobilitazione”,
-        l’insieme di trattamenti a cui si sottopone il tessuto per migliorarne
-        la tingibilità, la stampabilità, l’idrofilia, il colore, la mano e
-        l’aspetto finale. Al rientro dal finissaggio il tessuto viene sottoposto
-        a test fisici e chimici in laboratorio, dove l’ispettrice ricerca
-        eventuali difettosità. Una volta controllato al 100%, il tessuto viene
-        tagliato e confezionato secondo le esigenze del cliente. La maggior
-        parte delle fasi produttive avviene nelle nostre sedi dislocate sul
-        territorio bergamasco: tintura e tessitura avvengono ad Albino, mentre i
-        controlli finali avvengono nelle sedi di Gandino. Per quanto riguarda il
-        finissaggio, invece, i tessuti vengono inviati alla nostra sede di
-        Brebbia».
+        struttura e dell’esperienza del personale. Successivamente avviene il
+        finissaggio tessile o “nobilitazione”, l’insieme di trattamenti a cui si
+        sottopone il tessuto per migliorarne la tingibilità, la stampabilità,
+        l’idrofilia, il colore, la mano e l’aspetto finale. Al rientro dal
+        finissaggio il tessuto viene sottoposto a test fisici e chimici in
+        laboratorio, dove l’ispettrice ricerca eventuali difettosità. Una volta
+        controllato al 100%, il tessuto viene tagliato e confezionato secondo le
+        esigenze del cliente. La maggior parte delle fasi produttive avviene
+        nelle nostre sedi dislocate sul territorio bergamasco: tintura e
+        tessitura avvengono ad Albino, mentre i controlli finali avvengono nelle
+        sedi di Gandino. Per quanto riguarda il finissaggio, invece, i tessuti
+        vengono inviati alla nostra sede di Brebbia».
       </InterviewQuestion>
       <InterviewQuestion question="Quante collezioni proponete durante l’anno e dove vengono presentate?">
         «Ogni stagione vengono create due collezioni, autunno/inverno e
@@ -339,6 +393,11 @@ export default function AlbiniGroup() {
         mantenere le aree produttive aggiornate e moderne, e sosteniamo eventi
         culturali, artistici, manifestazioni scientifiche, convegni e progetti
         con le università».
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/albinigroup/23.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
       </InterviewQuestion>
       <InterviewQuestion question="Dove vendete i vostri tessuti?">
         «Albini Group è un’azienda B2B (Business-to-business), il che significa

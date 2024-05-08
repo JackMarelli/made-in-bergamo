@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import SmallCta from "../SmallCta/SmallCta";
+import InterviewsNavigator from "../../components/InterviewsNavigator/InterviewsNavigator";
 
 export default function Navbar() {
   const menuRef = useRef();
@@ -54,21 +55,7 @@ export default function Navbar() {
             Le realtà bergamasche
           </div>
           <div className="h-fit flex md:hidden flex-col justify-start align-start mt-4">
-            <Link to="/interview/neimieipanni">
-              <SmallCta text="Nei Miei Panni" />
-            </Link>
-            <Link to="/interview/albinigroup">
-              <SmallCta text="Albini Group" />
-            </Link>
-            <Link to="/interview/officinae">
-              <SmallCta text="Officinae" />
-            </Link>
-            <Link to="/interview/sophiestique">
-              <SmallCta text="Sophie Stique*" />
-            </Link>
-            <Link to="/interview/ertkingdom">
-              <SmallCta text="E RT Kingdom" />
-            </Link>
+            <InterviewsNavigator />
           </div>
           <div className="col-span-4 flex flex-col md:items-center gap-1 mt-40 md:mt-16 z-0 md:z-20">
             <SmallCta />
