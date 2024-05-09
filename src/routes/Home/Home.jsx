@@ -91,10 +91,19 @@ export default function Home() {
         </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
-          text="L’artigianalità è un metodo produttivo che caratterizza una
-                creazione basata sul lavoro manuale, ovvero sulle abilità tecniche dell’artigiano, colui che fin dall’antichità si occupa di creare prodotti dal valore inestimabile, ove per “valore” si intende non solo – e non principalmente – quello economico,
-                ma piuttosto quello culturale, in quanto ciascun prodotto conserva uno specifico savoir-faire tramandato di generazione in generazione, con la sua bellezza ed unicità, ma anche con i suoi errori e le sue imperfezioni. Proprio a sottolineare questo carico culturale, si dice che quando si acquista un prodotto artigianale è come se nello stesso tempo ci si appropriasse di
-                una fetta di storia; dunque si può affermare che è proprio grazie agli artigiani se tuttora l’artigianalità rappresenta un tratto distintivo di vari Paesi, come quello italiano. (1)"
+          text="L’artigianalità è un metodo produttivo che caratterizza una 
+          creazione basata sul lavoro manuale, ovvero sulle abilità tecniche
+          dell’artigiano, colui che fin dall’antichità si occupa di creare 
+          prodotti dal valore inestimabile, ove per “valore” si intende non 
+          solo – e non principalmente – quello economico, ma piuttosto quello
+          culturale, in quanto ciascun prodotto conserva uno specifico savoir-faire
+          tramandato di generazione in generazione, con la sua bellezza 
+          ed unicità, ma anche con i suoi errori e le sue imperfezioni.
+          Proprio a sottolineare questo carico culturale, si dice che 
+          quando si acquista un prodotto artigianale è come se nello stesso 
+          tempo ci si appropriasse di una fetta di storia; dunque si può 
+          affermare che è proprio grazie agli artigiani se tuttora l’artigianalità
+          rappresenta un tratto distintivo di vari Paesi, come quello italiano."
         />
         <ImageRect
           className="col-span-4 md:col-span-3"
@@ -105,13 +114,8 @@ export default function Home() {
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
           text="L’immaginario immediatamente evocato dal termine “artigiano” trova il suo perno nella figura dell’uomo che lavora con i suoi vecchi arnesi all’interno della sua bottega, la quale permette essa stessa di percepire l’elevato grado di conoscenze e abilità manuali dell’uomo che la vive e le dona vita.
-                Una prima celebrazione di questa particolare figura di lavoratore era già comparsa all’interno dell’inno omerico al dio protettore degli artigiani, Efesto, il quale concepiva questa professione come portatrice di pace all’interno della civiltà,
-                arrivando ad attribuirle il suo stesso inizio. La verità storica è,
-                ovviamente, un’altra: gli uomini fabbricavano già da tempo gli
-                attrezzi necessari alla produzione, ma l’artigiano celebrato da
-                Efesto lavorava per il bene collettivo della società, rendendola
-                sedentaria, ed è per questo motivo che i Greci consideravano
-                l’artigianato e la comunità due elementi indissolubili. (2)"
+          Una prima celebrazione di questa particolare figura di lavoratore era già comparsa all’interno dell’inno omerico al dio protettore degli artigiani, Efesto, il quale concepiva questa professione come portatrice di pace all’interno della civiltà, arrivando ad attribuirle il suo stesso inizio. La verità storica è, ovviamente, un’altra: gli uomini fabbricavano già da tempo gli attrezzi necessari alla produzione, ma l’artigiano celebrato da Efesto lavorava per il bene collettivo della società, rendendola sedentaria, ed è per questo motivo che i Greci consideravano l’artigianato e la comunità due elementi indissolubili. 2
+          "
         />
         <SpyTextGalleryLayout
           text='L’importanza dell’artigianalità e la figura dell’artigiano"'
@@ -131,11 +135,9 @@ export default function Home() {
         </SpyTextGalleryLayout>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
-          text="La parola utilizzata dai greci arcaici per identificare l’artigiano era demiourgos, composta da demios, ovvero “appartenente al popolo”, ed ergon, “opera, lavoro”, e durante l’età arcaica, all’interno della società, i demiourgoi rappresentavano l’odierna classe media, posizionandosi tra gli aristocratici e gli schiavi. "
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6"
-          text="Ma anche la cultura giudaica e la successiva cristiana valorizzava la figura dell’artigiano: basti pensare che Gesù Cristo era figlio di Giuseppe, un falegname di umili origini, ed anche questo elemento, assieme al corredo di simboli ed allegorie che lo caratterizza, concorre a definire la sacralità già del Gesù Bambino. Durante il Medioevo, nonostante la mancanza di un’espressione univoca per identificare il mestiere dell’artigiano, nondimeno esso ricopriva un ruolo di grande importanza all’interno della società, giacché creava oggetti per il popolo, dunque la sua era una figura di tutto rispetto. (3)"
+          text="Ma anche la cultura giudaica e la successiva cristiana valorizzava la figura dell’artigiano: basti pensare che Gesù Cristo era figlio di Giuseppe, un falegname di umili origini, ed anche questo elemento, assieme al corredo di simboli ed allegorie che lo caratterizza, concorre a definire la sacralità già del Gesù Bambino.	
+          Durante il Medioevo, nonostante la mancanza di un’espressione univoca per identificare il mestiere dell’artigiano, nondimeno esso ricopriva un ruolo di grande importanza all’interno della società, giacché creava oggetti per il popolo, dunque la sua era una figura di tutto rispetto.
+          "
         />
         <ImageRect
           className="col-span-4 md:col-span-3 my-4"
@@ -145,7 +147,7 @@ export default function Home() {
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
-          text="L’aspirante artigiano, fin dalla tenera età, si doveva iscrivere all’interno di un’associazione, detta Corporazione, volta a tutelare questo mestiere e tutto ciò che lo caratterizzava, e, dopo aver scelto il percorso “specialistico” che più faceva al caso suo, iniziava l’iter di apprendistato, che aveva una durata minima di sette anni, per diventare un artigiano a tutti gli effetti. Per prima cosa il giovane allievo veniva affidato all’insegnamento di un maestro artigiano, il quale gli avrebbe trasmesso i trucchi del mestiere. Ad essere trasmessa e tramandata era la maestria, termine che evoca una cultura dell’operare e del vivere strettamente legata all’aspirazione alla qualità, desiderio e motivazione del lavoro degli artigiani, i quali miravano a creare un prodotto che eccellesse da ogni punto di vista. È questo un aspetto fondamentale, poiché fa sì che l’artigianalità sia, ancora, una disciplina di rilievo e di tradizione. La maestria tecnica, però, non si riferisce solamente all’abilità manuale, poiché si fonda su qualcosa di più profondo, che comprende il pensiero creativo e il sentimento speso e profuso durante il procedimento produttivo, eseguito – si badi bene – con lentezza, ritenuta un valore, poiché permette di dare spazio all’immaginazione e alla riflessione dell’artigiano. (4)"
+          text="L’aspirante artigiano, fin dalla tenera età, si doveva iscrivere all’interno di un’associazione, detta Corporazione, volta a tutelare questo mestiere e tutto ciò che lo caratterizzava, e, dopo aver scelto il percorso “specialistico” che più faceva al caso suo, iniziava l’iter di apprendistato, che aveva una durata minima di sette anni, per diventare un artigiano a tutti gli effetti. Per prima cosa il giovane allievo veniva affidato all’insegnamento di un maestro artigiano, il quale gli avrebbe trasmesso i trucchi del mestiere e la maestria. La maestria tecnica, però, non si riferisce solamente all’abilità manuale, poiché si fonda su qualcosa di più profondo, che comprende il pensiero creativo e il sentimento speso e profuso durante il procedimento produttivo, eseguito – si badi bene – con lentezza, ritenuta un valore, poiché permette di dare spazio all’immaginazione e alla riflessione dell’artigiano."
         />
         <SpyTextGalleryLayout
           text='L’importanza dell’artigianalità e la figura dell’artigiano"'
@@ -165,7 +167,11 @@ export default function Home() {
         </SpyTextGalleryLayout>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
-          text="Le idee creative dell’artigiano prendevano vita all’interno della bottega, la sua casa a tutti gli effetti, un piccolo spazio in cui egli viveva con la propria famiglia e svolgeva il proprio mestiere. All’interno del laboratorio erano le competenze tecniche dell’individuo a definirne la collocazione gerarchica, per questo il maestro artigiano aveva il compito di comandare, dettare i parametri di qualità, stabilire i criteri per la promozione dei suoi dipendenti e i ruoli dei lavoratori. (5) Il suo lavoro era considerato prezio so dalla comunità e questo faceva sì che avesse una certa rilevanza, ma dal Quattrocento, con i trattati di Leon Battista Alberti, artista rinascimentale, quest’idea iniziò a scomparire e l’artigiano cominciò a perdere l’importanza che aveva all’inizio, in quanto si cominciò a darne di più all’intelletto rispetto che alla manualità; questo cambiamento proseguì anche in seguito alla nascita delle Accademie, le quali misero in risalto il sapere acca demico, evidenziandone le differenze con il mestiere manuale dell’artigiano, fino ad arrivare alle macchine della Rivoluzione Industriale. (6)"
+          text="Le idee creative dell’artigiano prendevano vita all’interno della bottega, la sua casa a tutti gli effetti, un piccolo spazio in cui egli viveva con la propria famiglia e svolgeva il proprio mestiere. All’interno del laboratorio erano le competenze tecniche dell’individuo a definirne la collocazione gerarchica, per questo il maestro artigiano aveva il compito di comandare, dettare i parametri di qualità, stabilire i criteri per la promozione dei suoi dipendenti e i ruoli dei lavoratori."
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6"
+          text="Il suo lavoro era considerato prezioso dalla comunità e questo faceva sì che avesse una certa rilevanza, ma dal Quattrocento, con i trattati di Leon Battista Alberti, artista rinascimentale, quest’idea iniziò a scomparire e l’artigiano cominciò a perdere l’importanza che aveva all’inizio, in quanto si cominciò a darne di più all’intelletto rispetto che alla manualità; questo cambiamento proseguì anche in seguito alla nascita delle Accademie, le quali misero in risalto il sapere accademico, evidenziandone le differenze con il mestiere manuale dell’artigiano, fino ad arrivare alle macchine della Rivoluzione Industriale. 6 "
         />
       </div>
       <div className="w-full h-[80vh]">
@@ -181,11 +187,13 @@ export default function Home() {
         </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
-          text="Durante il periodo della Rivoluzione Industriale, con la nascita delle prime industrie e con l’arrivo delle macchine, l’artigianalità perse in parte il suo valore e prestigio, entrando in una crisi. Queste innovazioni crearono un certo timore negli artigiani, in quanto resero il lavoro più meccanico, con un conseguente depauperamento delle loro abilità tecniche, del loro estro creativo e della qualità alla percezione del proprio lavoro. Nel settore moda, da un’idea di produzione esclusivamente haute couture, in cui i sarti couturier creavano interamente a mano e su misura i vari capi d’abbigliamento, intorno agli anni Sessanta si passò al prêt-à-porter o “moda pronta”, in cui i capi venivano prodotti industrialmente in serie, mantenendo comunque un’idea di qualità, e venduti nei sempre più numerosi negozi e grandi magazzini delle città. Ci fu così una rapida crescita dell’industria di questo settore, con un conseguente aumento delle vendite dei prodotti moda e un cambiamento della percezione di essi, dato anche dalla nascente società dei consumi, in cui i prodotti avevano un ciclo di vita breve e c’era la necessità di fare continui acquisti. La nuova produzione di massa, con la conseguente crescita del numero di macchine all’interno del settore produttivo e la diminuzione dei prezzi dei prodotti, portò varie criticità: da allora si è continuato sempre di più a perdere il valore della produzione artigianale e dell’alta manodopera qualificata, in favore di una sempre crescente produzione seriale. (7)"
+          text="Durante il periodo della Rivoluzione Industriale, con la nascita delle prime industrie e con l’arrivo delle macchine, l’artigianalità perse in parte il suo valore e prestigio, entrando in una crisi. Queste innovazioni crearono un certo timore negli artigiani, in quanto resero il lavoro più meccanico, con un conseguente depauperamento delle loro abilità tecniche, del loro estro creativo e della qualità alla percezione del proprio lavoro. 
+          Nel settore moda, da un’idea di produzione esclusivamente haute couture, in cui i sarti couturier creavano interamente a mano e su misura i vari capi d’abbigliamento, intorno agli anni Sessanta si passò al prêt-à-porter o “moda pronta”, in cui i capi venivano prodotti industrialmente in serie, mantenendo comunque un’idea di qualità, e venduti nei sempre più numerosi negozi e grandi magazzini delle città. Ci fu così una rapida crescita dell’industria di questo settore, con un conseguente aumento delle vendite dei prodotti moda e un cambiamento della percezione di essi, dato anche dalla nascente società dei consumi, in cui i prodotti avevano un ciclo di vita breve e c’era la necessità di fare continui acquisti.
+          La nuova produzione di massa, con la conseguente crescita del numero di macchine all’interno del settore produttivo e la diminuzione dei prezzi dei prodotti, portò varie criticità: da allora si è continuato sempre di più a perdere il valore della produzione artigianale e dell’alta manodopera qualificata, in favore di una sempre crescente produzione seriale."
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
-          text="Il valore che l’artigiano conferiva ai prodotti non era però raggiungibile attraverso questo metodo produttivo, perciò, nonostante l’ingresso di nuovi strumenti e tecnologie, la figura dell’artigiano non scomparve mai ed iniziò a coesistere con essi; ciò anche grazie alle iniziative di alcune case di moda italiane, che hanno deciso di istituire delle scuole in cui si insegnano le tecniche produttive artigianali, al fine di introdurre nuove figure all’interno delle sedi produttive e di preservare così il mestiere dell’artigiano. Ad esempio nel 2013 Brunello Cucinelli ha aperto la “Scuola di Alto Artigianato Contemporaneo per le Arti e i Mestieri” nel borgo di Solomeo, con l’obiettivo di istruire i giovani tramandando loro le tecniche artigianali, per valorizzarle e salvaguardarle, proponendo diverse discipline che vanno dalla modelleria e sartoria femminile e maschile fino alle arti murarie. 8"
+          text="Il valore che l’artigiano conferiva ai prodotti non era però raggiungibile attraverso questo metodo produttivo, perciò, nonostante l’ingresso di nuovi strumenti e tecnologie, la figura dell’artigiano non scomparve mai ed iniziò a coesistere con essi; ciò anche grazie alle iniziative di alcune case di moda italiane, come Brunello Cucinelli, che hanno deciso di istituire delle scuole in cui si insegnano le tecniche produttive artigianali, al fine di introdurre nuove figure all’interno delle sedi produttive e di preservare così il mestiere dell’artigiano."
         />
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-10"
@@ -194,11 +202,11 @@ export default function Home() {
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
-          text="Anche un’altra casa di moda italiana, Bottega Veneta, ha annunciato che aprirà, a marzo 2024, a Povolaro Dueville, in provincia di Vicenza, “l’Accademia Labor et Ingenium”, con l’obiettivo di formare cinquanta studenti all’anno da inserire al termine del corso all’interno dei laboratori di produzione del brand: gli allievi verranno istruiti dai maestri artigiani mediante attività di formazione pratiche e teoriche in laboratorio, mentre i dipendenti potranno seguire corsi di aggiornamento per approfondire e sviluppare le loro competenze. 9 Non è solo il settore della moda a preoccuparsi di salvaguardare il mondo dell’artigianato, ma numerose sono le iniziative in ogni suo ambito: per esempio a Venezia si tiene “Homo Faber”, una manifestazione culturale organizzata dalla Michelangelo Foundation for Creativity and Craftsmanship 10, con mostre, manufatti e artigiani provenienti da ogni parte del mondo, per celebrare la creatività dell’uomo e le eccellenze dei mestieri d’arte contemporanei. "
+          text="Oggi si sta tornando pian piano a dare valore al prodotto artigianale fatto a mano e non in serie, abbracciando l’idea di unicità, originalità e personalizzazione. Anche la figura dell’artigiano odierno si è andata a modificare: oggi è un imprenditore che ha saputo integrare al meglio il sapere manuale con le nuove tecnologie digitali e con i nuovi mezzi per curare la parte di comunicazione e di marketing."
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
-          text='L’edizione inaugurale si è tenuta nel 2018 e la prossima è attesa per il 2024. 11 Grazie anche a queste iniziative oggi si sta tornando 9 Cardo G., "Bottega Veneta lancia l’Accademia Labor et ingenium per il futuro dell’artigianato", Milano Finanza, 16/10/2023 10 La Michelangelo Foundation for Creativity and Craftsmanship è un ente privato, internazionale e senza fini di lucro con sede a Ginevra, in Svizzera. Creato da Johann Rupert e Franco Cologni, si pone la missione di preservare, incoraggiare e valorizzare i mestieri d’arte d’eccellenza. 11 Menetto S., "A Venezia torna Homo Faber per celebrare la creatività", Il Sole 24 Ore, 14/04/2022 12 Innocenzi L., “La storia dell’artigianato, un’arte senza tempo” pian piano a dare valore al prodotto artigianale fatto a mano e non in serie, abbracciando l’idea di unicità, originalità e personalizzazione. Anche la figura dell’artigiano odierno si è andata a modificare: oggi è un imprenditore che ha saputo integrare al meglio il sapere manuale con le nuove tecnologie digitali e con i nuovi mezzi per curare la parte di comunicazione e di marketing. 12 I progetti citati, oltre a dare attenzione al mondo dell’artigianato, puntano anche alla valorizzazione del territorio italiano, il quale, grazie alle sue caratteristiche e alla sua storia, ricopre un ruolo fondamentale nel panorama internazionale dell’artigianato.'
+          text="Nel mondo dell’artigianato, alcune zone del territorio italiano, come quella bergamasca, giocano da sempre un ruolo importante grazie alle loro caratteristiche  e ciò ha permesso nel tempo di mettere in risalto questo settore all’interno del panorama internazionale."
         />
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-10"

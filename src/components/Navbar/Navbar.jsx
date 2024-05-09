@@ -15,7 +15,6 @@ export default function Navbar() {
     window.scrollTo(0, 0);
   }, []);
 
-  // Add the transition effect when the component mounts
   useEffect(() => {
     if (menuRef.current) {
       menuRef.current.style.transition = "transform 0.5s ease-in-out";
@@ -35,7 +34,7 @@ export default function Navbar() {
       >
         <div className="col-span-4 md:col-span-12 flex flex-col justify-center items-start md:items-center gap-x-8 mt-8 md:mt-20 mb-4">
           <div
-            className={`w-fit text-5xl font-crimson-pro cursor-pointer text-mib-${
+            className={`w-fit text-3xl md:text-5xl font-crimson-pro tracking-[-0.5px] md:tracking-[0] cursor-pointer text-mib-${
               isHomePage ? "beige-dark" : "brown-dark"
             }`}
             onClick={() => {
@@ -45,7 +44,7 @@ export default function Navbar() {
             Home
           </div>
           <div
-            className={`w-fit text-5xl font-crimson-pro cursor-pointer text-mib-${
+            className={`w-fit text-3xl md:text-5xl font-crimson-pro tracking-[-0.5px] md:tracking-[0] cursor-pointer text-mib-${
               isHomePage ? "brown-dark" : "beige-dark"
             }`}
             onClick={() => {
@@ -58,20 +57,18 @@ export default function Navbar() {
             <InterviewsNavigator />
           </div>
           <div className="col-span-4 flex flex-col md:items-center gap-1 mt-40 md:mt-16 z-0 md:z-20">
-            <SmallCta />
             <span className="w-fit">Bergamo, Italy</span>
             <span className="w-fit">+39 555 555 5555</span>
             <span className="w-fit">sample@mail.com</span>
           </div>
         </div>
       </div>
-
       <span className="col-span-3 z-0 md:z-20">
         Il prodotto moda artigianale sostenibile: dalle materie prime al
         prodotto finito con un focus sulla produzione territoriale.
       </span>
       <span
-        className="w-fit h-fit px-4 py-2 cursor-pointer z-20 col-start-4 md:col-start-12 col-span-1 justify-self-end bg-mib-brown-dark text-mib-beige-light rounded-full flex justify-center items-center"
+        className="w-fit h-fit fixed top-8 right-4 md:right-8 px-3 md:px-4 py-1 md:py-2 cursor-pointer z-20 bg-mib-brown-dark text-mib-beige-light rounded-full flex justify-center items-center"
         onClick={() => setMenuIsOpen(!menuIsOpen)}
       >
         {menuIsOpen ? "Close" : "Menu"}
