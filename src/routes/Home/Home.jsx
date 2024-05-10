@@ -28,7 +28,7 @@ export default function Home() {
           alt=""
         />
       </div>
-      <div className="w-full h-fit py-16 md:py-24 px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
+      <div className="w-full h-fit py-16 md:py-24 px-4 md:py-32 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
         <Quote
           className="col-span-4 md:col-start-4 md:col-span-6 mb-12 text-center"
           text="“L’artigianato ci fa sentire radicati, ci dà un senso di appartenenza e ci connette con la nostra storia.” "
@@ -84,10 +84,10 @@ export default function Home() {
           artigiana che li differenziano, con interviste insieme alle fondatrici e designer dei brand."
         />
       </div>
-      <div className="w-full h-fit py-16 px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
+      <div className="w-full h-fit py-16 px-4 md:py-32 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
         <Heading text="L'artigianalità" />
-        <IndexPoint className="col-span-4 md:col-span-3">
-          L’importanza dell’artigianalità e la figura dell’artigiano
+        <IndexPoint className="col-span-4 md:col-span-2">
+          L’importanza della artigianalità e la figura dell’artigiano
         </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
@@ -106,8 +106,8 @@ export default function Home() {
           rappresenta un tratto distintivo di vari Paesi, come quello italiano."
         />
         <ImageRect
-          className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/webp/1.webp"
+          className="col-span-4 md:col-span-3 md:-mb-[24rem] md:-mt-[12rem]"
+          imageUrl="assets/images/webp/home/cap1/1.webp"
           dida="Test Didascalia 333"
           parallax={false}
         />
@@ -117,73 +117,44 @@ export default function Home() {
           Una prima celebrazione di questa particolare figura di lavoratore era già comparsa all’interno dell’inno omerico al dio protettore degli artigiani, Efesto, il quale concepiva questa professione come portatrice di pace all’interno della civiltà, arrivando ad attribuirle il suo stesso inizio. La verità storica è, ovviamente, un’altra: gli uomini fabbricavano già da tempo gli attrezzi necessari alla produzione, ma l’artigiano celebrato da Efesto lavorava per il bene collettivo della società, rendendola sedentaria, ed è per questo motivo che i Greci consideravano l’artigianato e la comunità due elementi indissolubili. 2
           "
         />
-        <SpyTextGalleryLayout
-          text='L’importanza dell’artigianalità e la figura dell’artigiano"'
-          textColor="text-mib-beige-dark"
-          backgroundColor="bg-transparent"
-        >
-          <ImageRect
-            className="col-span-4 md:col-start-6 md:col-span-7 md:my-0 md:my-32"
-            imageUrl="assets/images/webp/4_2.webp"
-            dida="Test Didascalia 333"
-          />
-          <ImageRect
-            className="col-span-4 md:col-span-7 md:my-0"
-            imageUrl="assets/images/webp/3_1.webp"
-            dida="Test Didascalia 333"
-          />
-        </SpyTextGalleryLayout>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
           text="Ma anche la cultura giudaica e la successiva cristiana valorizzava la figura dell’artigiano: basti pensare che Gesù Cristo era figlio di Giuseppe, un falegname di umili origini, ed anche questo elemento, assieme al corredo di simboli ed allegorie che lo caratterizza, concorre a definire la sacralità già del Gesù Bambino.	
-          Durante il Medioevo, nonostante la mancanza di un’espressione univoca per identificare il mestiere dell’artigiano, nondimeno esso ricopriva un ruolo di grande importanza all’interno della società, giacché creava oggetti per il popolo, dunque la sua era una figura di tutto rispetto.
-          "
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-3 my-4"
-          imageUrl="assets/images/webp/4.webp"
-          dida="Test Didascalia 333"
-          parallax={false}
+        Durante il Medioevo, nonostante la mancanza di un’espressione univoca per identificare il mestiere dell’artigiano, nondimeno esso ricopriva un ruolo di grande importanza all’interno della società, giacché creava oggetti per il popolo, dunque la sua era una figura di tutto rispetto.
+        "
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
           text="L’aspirante artigiano, fin dalla tenera età, si doveva iscrivere all’interno di un’associazione, detta Corporazione, volta a tutelare questo mestiere e tutto ciò che lo caratterizzava, e, dopo aver scelto il percorso “specialistico” che più faceva al caso suo, iniziava l’iter di apprendistato, che aveva una durata minima di sette anni, per diventare un artigiano a tutti gli effetti. Per prima cosa il giovane allievo veniva affidato all’insegnamento di un maestro artigiano, il quale gli avrebbe trasmesso i trucchi del mestiere e la maestria. La maestria tecnica, però, non si riferisce solamente all’abilità manuale, poiché si fonda su qualcosa di più profondo, che comprende il pensiero creativo e il sentimento speso e profuso durante il procedimento produttivo, eseguito – si badi bene – con lentezza, ritenuta un valore, poiché permette di dare spazio all’immaginazione e alla riflessione dell’artigiano."
         />
-        <SpyTextGalleryLayout
-          text='L’importanza dell’artigianalità e la figura dell’artigiano"'
-          textColor="text-mib-beige-dark"
-          backgroundColor="bg-transparent"
-        >
-          <ImageRect
-            className="col-span-4 md:col-start-6 md:col-span-7 md:my-32"
-            imageUrl="assets/images/webp/4_2.webp"
-            dida="Test Didascalia 333"
-          />
-          <ImageRect
-            className="col-span-4 md:col-span-7"
-            imageUrl="assets/images/webp/3_1.webp"
-            dida="Test Didascalia 333"
-          />
-        </SpyTextGalleryLayout>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
           text="Le idee creative dell’artigiano prendevano vita all’interno della bottega, la sua casa a tutti gli effetti, un piccolo spazio in cui egli viveva con la propria famiglia e svolgeva il proprio mestiere. All’interno del laboratorio erano le competenze tecniche dell’individuo a definirne la collocazione gerarchica, per questo il maestro artigiano aveva il compito di comandare, dettare i parametri di qualità, stabilire i criteri per la promozione dei suoi dipendenti e i ruoli dei lavoratori."
+        />
+        <ImageRect
+          className="col-span-4 md:col-start-2 md:col-span-2 my-4 md:-mt-[12rem]"
+          imageUrl="assets/images/webp/home/cap1/2.webp"
+          dida="Test Didascalia 333"
+          parallax={false}
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
           text="Il suo lavoro era considerato prezioso dalla comunità e questo faceva sì che avesse una certa rilevanza, ma dal Quattrocento, con i trattati di Leon Battista Alberti, artista rinascimentale, quest’idea iniziò a scomparire e l’artigiano cominciò a perdere l’importanza che aveva all’inizio, in quanto si cominciò a darne di più all’intelletto rispetto che alla manualità; questo cambiamento proseguì anche in seguito alla nascita delle Accademie, le quali misero in risalto il sapere accademico, evidenziandone le differenze con il mestiere manuale dell’artigiano, fino ad arrivare alle macchine della Rivoluzione Industriale. 6 "
         />
-      </div>
-      <div className="w-full h-[80vh]">
-        <img
-          className="w-full h-full object-cover"
-          src="assets/images/webp/4_2.webp"
-          alt=""
+        <ImageRect
+          className="col-span-4 md:col-start-2 md:col-span-5 md:mt-40"
+          imageUrl="assets/images/webp/home/cap1/3.webp"
+          dida="Test Didascalia 333"
+          parallax={true}
         />
-      </div>
-      <div className="w-full h-fit py-16 md:py-24 px-4 md:py-32 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
-        <IndexPoint className="col-span-4 md:col-span-3">
-          L’artigianato dall’industrializzazione ad oggi
+        <ImageRect
+          className="col-span-4 md:col-start-7 md:col-span-5 md:mt-16 md:mb-24"
+          imageUrl="assets/images/webp/home/cap1/4.webp"
+          dida="Test Didascalia 333"
+          parallax={true}
+        />
+        <IndexPoint className="col-span-4 md:col-span-2">
+          L’artigianato dalla industrializzazione ad oggi
         </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
@@ -196,8 +167,8 @@ export default function Home() {
           text="Il valore che l’artigiano conferiva ai prodotti non era però raggiungibile attraverso questo metodo produttivo, perciò, nonostante l’ingresso di nuovi strumenti e tecnologie, la figura dell’artigiano non scomparve mai ed iniziò a coesistere con essi; ciò anche grazie alle iniziative di alcune case di moda italiane, come Brunello Cucinelli, che hanno deciso di istituire delle scuole in cui si insegnano le tecniche produttive artigianali, al fine di introdurre nuove figure all’interno delle sedi produttive e di preservare così il mestiere dell’artigiano."
         />
         <ImageRect
-          className="col-span-4 md:col-start-2 md:col-span-10"
-          imageUrl="assets/images/webp/10.webp"
+          className="col-span-4 md:col-start-1 md:col-span-3 md:-mt-[32rem]"
+          imageUrl="assets/images/webp/home/cap1/5.webp"
           dida="Test Didascalia"
         />
         <Paragraph
@@ -209,12 +180,12 @@ export default function Home() {
           text="Nel mondo dell’artigianato, alcune zone del territorio italiano, come quella bergamasca, giocano da sempre un ruolo importante grazie alle loro caratteristiche  e ciò ha permesso nel tempo di mettere in risalto questo settore all’interno del panorama internazionale."
         />
         <ImageRect
-          className="col-span-4 md:col-start-2 md:col-span-10"
-          imageUrl="assets/images/webp/10.webp"
+          className="col-span-4 md:col-start-1 md:col-span-12 md:mt-24"
+          imageUrl="assets/images/webp/home/cap1/6.webp"
           dida="Test Didascalia"
         />
       </div>
-      <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
+      <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
         <Heading text="La territorialità" colorClass="text-mib-brown-dark" />
         <IndexPoint
           className="col-span-4 md:col-span-3"
@@ -301,7 +272,7 @@ export default function Home() {
           />
         </SpyTextGalleryLayout>
       </div>
-      <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
+      <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
         <IndexPoint className="col-span-4 md:col-span-3">
           La produzione tessile Bergamasca
         </IndexPoint>
@@ -435,7 +406,7 @@ export default function Home() {
           dida="Test Didascalia"
         />
       </div>
-      <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
+      <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
         <Heading text="La produzione e la sostenibilità" />
         <IndexPoint className="col-span-4 md:col-span-3">
           La filiera produttiva: dallo sviluppo del prodotto moda al negozio

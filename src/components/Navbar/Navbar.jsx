@@ -24,11 +24,11 @@ export default function Navbar() {
   return (
     <nav
       className="h-fit p-4 
-    pt-8 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 text-xs font-semibold z-[99999] text-mib-brown-dark md:fixed md:top-0"
+    pt-8 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 text-xs font-semibold z-[99999] text-mib-brown-dark md:fixed md:top-0"
     >
       <div
         ref={menuRef}
-        className={`h-screen md:h-fit fixed top-0 left-0 bottom-0 right-0 p-4 pt-8 md:px-8 xl:px-12 grid grid-cols-4 md:grid-cols-12 gap-4 z-10 bg-mib-beige-light ${
+        className={`h-screen md:h-fit fixed top-0 left-0 bottom-0 right-0 p-4 pt-8 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 z-10 bg-mib-beige-light ${
           menuIsOpen ? "translate-y-0" : "-translate-y-full"
         } border-b-2 border-mib-beige-dark`}
       >
