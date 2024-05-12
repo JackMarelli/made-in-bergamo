@@ -35,14 +35,14 @@ export default function Home() {
           author="Phyllis George"
         />
         <ImageRect
-          className="col-span-2 md:col-span-6 mb-16"
-          imageUrl="assets/images/webp/footprint.webp"
-          dida="Test Didascalia 111"
+          className="col-span-2 md:col-start-2 md:col-span-5 md:mb-24 md:mt-24 max-h-[27rem]"
+          imageUrl="assets/images/webp/home/intro/1.webp"
+          dida="Strumenti di sartoria"
         />
         <ImageRect
-          className="col-span-2 md:col-start-10 md:col-span-3 mb-8"
-          imageUrl="assets/images/webp/6_2.webp"
-          dida="Test Didascalia 222"
+          className="col-span-2 md:col-span-5 md:mb-32 max-h-[27rem]"
+          imageUrl="assets/images/webp/home/intro/2.webp"
+          dida="Bergamo alta"
         />
         <IndexPoint className="col-span-4 md:col-span-3">
           Presentazione
@@ -185,7 +185,7 @@ export default function Home() {
           dida="Test Didascalia"
         />
       </div>
-      <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
+      <div className="w-full h-fit px-4 py-16 md:py-32 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
         <Heading text="La territorialità" colorClass="text-mib-brown-dark" />
         <IndexPoint
           className="col-span-4 md:col-span-3"
@@ -195,45 +195,55 @@ export default function Home() {
         </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Il territorio bergamasco è una delle zone geografiche maggiormente sviluppate in Europa grazie alla sua posizione strategica vicina a Milano, capoluogo della regione lombarda, e ad altre città come Sondrio, Como, Brescia e Cremona. Inoltre esso si trova sull’asse di comunicazione che collega la Lombardia con il Veneto, diventando così un importante snodo in grado di consentire, ormai da diverso tempo, un ampliamento dei rapporti con vari mercati e Paesi europei. 13 Questo territorio si può dire essere morfologicamente diversificato, in quanto è composto da zone alpine, lacustri, collinari e pianeggianti. Si alternano paesaggi naturali ed antropizzati, a causa della presenza di distretti produttivi e luoghi infrastrutturati, i quali rendono la zona una delle più rilevanti all’interno del Paese e al di fuori di esso. 14"
+          text="Il territorio bergamasco è una delle zone geografiche maggiormente sviluppate in Europa grazie alla sua posizione strategica vicina a Milano, capoluogo della regione lombarda, e ad altre città come Sondrio, Como, Brescia e Cremona. Inoltre esso si trova sull’asse di comunicazione che collega la Lombardia con il Veneto, diventando così un importante snodo in grado di consentire, ormai da diverso tempo, un ampliamento dei rapporti con vari mercati e Paesi europei."
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="Questo territorio si può dire essere morfologicamente diversificato, in quanto è composto da zone alpine, lacustri, collinari e pianeggianti. Si alternano paesaggi naturali ed antropizzati, a causa della presenza di distretti produttivi e luoghi infrastrutturati, i quali rendono la zona una delle più rilevanti all’interno del Paese e al di fuori di esso."
         />
         <ImageRect
-          className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/webp/14.webp"
+          className="col-span-4 md:col-start-2 md:col-span-3 md:mt-48"
+          imageUrl="assets/images/webp/home/cap2/1.webp"
           dida="Test Didascalia"
         />
         <ImageRect
-          className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/webp/4_1.webp"
+          className="col-span-4 md:col-span-4 md:mb-16"
+          imageUrl="assets/images/webp/home/cap2/2.webp"
           dida="Test Didascalia"
         />
         <ImageRect
-          className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/webp/5_1.webp"
-          dida="Test Didascalia"
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/webp/9.webp"
+          className="col-span-4 md:col-span-3 md:mt-24"
+          imageUrl="assets/images/webp/home/cap2/3.webp"
           dida="Test Didascalia"
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Da sempre il territorio bergamasco si è differenziato per la sua tradizione imprenditoriale e per la sua cultura del lavoro, divenuti con il tempo dei valori radicati all’interno della società, i quali hanno permesso di creare un’identità e un tessuto sociale molto forti, in grado di unire i suoi abitanti costruendo una comunità che opera in un’ottica di associazionismo, volontariato e aggregazione in vari ambiti. Qui il lavoro non è solo economia, ma è soprattutto identità e cultura, due aspetti che arricchiscono un territorio all’interno del quale l’impegno e la dedizione del cittadino bergamasco fanno sì che la Bergamasca abbia raggiunto il livello di sviluppo con il quale la ri-conosciamo oggi e che non smetta mai di evolvere. Questo impegno costante permette anche di creare nuovi posti di lavoro ed iniziative volte all’integrazione di gruppi più deboli e svantaggiati, come i tanti giovani alla ricerca di una posizione lavorativa, consentendo loro, nella maggior parte dei casi, un inserimento in tempi brevi nel mondo del lavoro, nonostante l’odierna crisi. Tale forma mentis ed il conseguente modus operandi sono stati tramandati di generazione in generazione, radicandosi così in quella che oggi possiamo definire come la cultura del lavoro nella Bergamasca. Cospicui sono dunque gli investimenti nel settore lavorativo, ma anche in quello sociale e territoriale, con il fine di formare giovani e non e di trasmettere loro competenze in grado di portare a proficue innovazioni. 15"
+          text="Altri tratti distintivi del territorio bergamasco sono la sua tradizione imprenditoriale e la sua cultura del lavoro, divenuti con il tempo dei valori radicati all’interno della società, i quali hanno permesso di creare un’identità e un tessuto sociale in grado di unire i suoi abitanti costruendo una comunità che opera in un’ottica di associazionismo, volontariato e aggregazione in vari ambiti. Qui il lavoro oltre ad essere economia, è soprattutto identità e cultura, due aspetti che contribuiscono ad arricchire un territorio all’interno del quale l’impegno e la dedizione del cittadino bergamasco fanno sì che la Bergamasca abbia raggiunto il livello di sviluppo con il quale la ri-conosciamo oggi.
+          Tale forma mentis ed il conseguente modus operandi sono stati tramandati di generazione in generazione, radicandosi così in quella che oggi possiamo definire come la cultura del lavoro nella Bergamasca."
         />
         <ImageRect
-          className="col-span-4 md:col-start-2 md:col-span-6"
-          imageUrl="assets/images/webp/10_1.webp"
+          className="col-span-4 md:col-start-3 md:col-span-3 md:mt-32"
+          imageUrl="assets/images/webp/home/cap2/4.webp"
           dida="Test Didascalia"
         />
         <ImageRect
-          className="col-span-4 md:col-start-9 md:col-span-3"
-          imageUrl="assets/images/webp/3.webp"
+          className="col-span-4 md:col-span-3"
+          imageUrl="assets/images/webp/home/cap2/5.webp"
+          dida="Test Didascalia"
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-3 md:mt-48 md:mb-16"
+          imageUrl="assets/images/webp/home/cap2/6.webp"
           dida="Test Didascalia"
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Le connessioni geografiche e il solido si stema imprenditoriale sono due punti chiave che hanno consentito anche lo svi luppo di un sistema economico locale di rilievo all’interno del Paese e dell’Unione Europea, grazie all’andamento demografi co costante e all’alto tasso di occupazione nel settore terziario, di fondamentale im portanza. 16 Questi tratti caratterizzanti del territorio bergamasco hanno portato anche ad uno sviluppo in ambiti di più ampio respiro, come quello culturale: non a caso, Berga mo, insieme a Brescia, ha assunto il ruolo di Capitale italiana della Cultura per il 2023, grazie al suo impegno verso la valorizza zione, la promozione e la preservazione del suo patrimonio culturale ed artistico, in ra gione della presenza sul territorio di varie risorse in tal senso, come lo storico borgo di Città Alta, i molti e vari musei, le mostre d’arte, i monasteri e le chiese, i castelli e gli antichi paesi storici in cui sono stati rinve nuti resti archeologici e fossili. Il territorio della Bergamasca dispone an che di una vasta offerta in termini di turi smo con la possibilità di visitare località montane, lacustri, termali e luoghi situati nella pianura, grazie ai quali si registra una costante domanda turistica, con conse guenti ricavi e nuovi investimenti. 17"
+          text="Le connessioni geografiche e il sistema imprenditoriale sono due punti chiave che hanno consentito anche lo sviluppo di un sistema economico locale di rilievo all’interno del Paese e dell’Unione Europea, grazie all’andamento demografico costante e al tasso di occupazione nel settore terziario. 16
+          Questi tratti caratterizzanti del territorio bergamasco hanno portato ad uno sviluppo in ambiti come quello turistico e culturale: Bergamo, insieme a Brescia, ha assunto il ruolo di Capitale italiana della Cultura per il 2023, grazie al suo impegno verso la valorizzazione, la promozione e la preservazione del patrimonio culturale ed artistico."
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="Una problematica che coinvolge questa zona geografica è però l’inquinamento ambientale, infatti risulta essere una tra le più inquinanti in Italia e in Europa. Questo è causato per una serie di motivi, come ad esempio la sua vicina collocazione alla Pianura Padana, il consumo di suolo, il traffico veicolare e il riscaldamento domestico. Nel tempo, per contrastare questo fenomeno, sono state adottate diverse misure, in costante aggiornamento."
         />
         <SpyTextGalleryLayout
           text="Il territorio Bergamasco"
@@ -241,169 +251,69 @@ export default function Home() {
           backgroundColor="bg-transparent"
         >
           <ImageRect
-            className="col-span-4 md:col-span-3 md:max-h-80 md:overflow-hidden"
-            imageUrl="assets/images/webp/3.webp"
+            className="col-span-4 md:col-span-5"
+            imageUrl="assets/images/webp/home/cap2/7.webp"
             dida="Test Didascalia"
           />
           <ImageRect
-            className="col-span-4 md:col-span-3 md:max-h-80 md:overflow-hidden"
-            imageUrl="assets/images/webp/5_1.webp"
+            className="col-span-4 md:col-start-7 md:col-span-5"
+            imageUrl="assets/images/webp/home/cap2/8.webp"
             dida="Test Didascalia"
           />
           <ImageRect
-            className="col-span-4 md:col-span-3 md:max-h-80 md:overflow-hidden"
-            imageUrl="assets/images/webp/13.webp"
+            className="col-span-4 md:col-start-2 md:col-span-5"
+            imageUrl="assets/images/webp/home/cap2/9.webp"
             dida="Test Didascalia"
           />
           <ImageRect
-            className="col-span-4 md:col-start-4 md:col-span-3 md:max-h-80 md:overflow-hidden"
-            imageUrl="assets/images/webp/14.webp"
-            dida="Test Didascalia"
-          />
-          <ImageRect
-            className="col-span-4 md:col-span-3 md:max-h-80 md:overflow-hidden"
-            imageUrl="assets/images/webp/16.webp"
-            dida="Test Didascalia"
-          />
-          <ImageRect
-            className="col-span-4 md:col-span-3 md:max-h-80 md:overflow-hidden"
-            imageUrl="assets/images/webp/27.webp"
+            className="col-span-4 md:col-start-8 md:col-span-5 md:-mt-20"
+            imageUrl="assets/images/webp/home/cap2/10.webp"
             dida="Test Didascalia"
           />
         </SpyTextGalleryLayout>
-      </div>
-      <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
         <IndexPoint className="col-span-4 md:col-span-3">
-          La produzione tessile Bergamasca
+          La produzione tessile nella Bergamasca
         </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Grazie al solido sistema produttivo, alla forte cultura del lavoro e alle connessioni geografiche, si sono svi luppate, fin dai tempi più lontani, numerose aziende artigiane, le quali ad oggi rappresentano il trentasei percento circa del totale delle imprese produttive che si trovano nel territorio bergamasco. 18 L’artigianato ha da sempre avuto un ruolo fondamen tale e in base alla zona, grazie alle caratteristiche ter ritoriali e culturali, si svilupparono varie produzioni, tra cui quelle della seta e della lana, con la conseguente costruzione di edifici destinati all’attività tessile. L’allevamento dei bachi da seta per la produzione dei bozzoli da cui ricavare il filo di seta portò allo svilup po dell’industria serica e di due delle principali attività, quelle di filatura e di tessitura, sviluppatesi in gran parte del territorio bergamasco. Inizialmente la seta veniva lavorata a mano, fino a quando, nel Seicento, arrivò il primo filatoio idraulico il quale aumentò la produzione e la commercializzazione, in particolare con i Venezia ni, i quali acquistavano soprattutto sete, bozzoli e vellu ti, con una conseguente crescita dell’attività serica ber gamasca; iniziò così ad esserci richiesta di lavoratori anche da Milano e da Paesi esteri. Proprio dall’estero si iniziarono ad importare nel Settecento sete grezze e lane, che venivano lavorate e trasformate nel prodotto finito da esportare, ad esempio in Inghilterra e in Fran cia. "
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Con il passare del tempo il lavoro e la qualità delle lane e delle sete bergamasche aumentavano e i lavo ratori cercavano di emulare le più pregiate esistenti, come quelle orientali. Si contavano centinaia di filatoi e migliaia di operai, ma intorno alla fine del Settecento si iniziò a registrare un calo dell’attività serica e della produzione di lana; questo calo fu dovuto sia alla con correnza estera sia alla diminuzione della pastorizia di pecore ed agnelli, causato dall’aumento dei prezzi del fieno e dalla nascente filatura di lino e canapa, che si sviluppò nel nord di Bergamo."
-        />
-        <SpyTextGalleryLayout
-          text="La produzione tessile Bergamasca"
-          textColor="text-mib-beige-dark"
-        >
-          <ImageRect
-            className="col-span-4 md:col-span-5"
-            imageUrl="assets/images/webp/3_1.webp"
-            dida="Test Didascalia"
-          />
-          <ImageRect
-            className="col-span-4 md:col-start-7 md:col-span-6 mt-48"
-            imageUrl="assets/images/webp/28.webp"
-            dida="Test Didascalia"
-          />
-          <ImageRect
-            className="col-span-4 md:col-span-8"
-            imageUrl="assets/images/webp/4_2.webp"
-            dida="Test Didascalia"
-          />
-          <ImageRect
-            className="col-span-4 md:col-start-8 md:col-span-5"
-            imageUrl="assets/images/webp/5_2.webp"
-            dida="Test Didascalia"
-          />
-        </SpyTextGalleryLayout>
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="La diffusione di fabbriche in tutta la
-
-          provincia continuò nonostante i periodi di declino: ad esempio intorno agli
-          
-          anni Settanta dell'Ottocento nacquero
-          importanti industrie tessili, tra le quali
-          la fabbrica di Cristoforo Crespi, costruita a Crespi d’Adda, uno dei più antichi
-          villaggi operai pensato per la vita quotidiana del lavoratore, con abitazioni e
-          strutture per il suo tempo libero, il “Cotonificio Val Seriana” a Cene e “l’Honegger-Spoerry” ad Albino.
-          Il settore tessile bergamasco ha sicuramente visto periodi di declino, ma
-          non ha mai smesso di esistere, nemmeno con l’arrivo della globalizzazione
-          – intorno agli anni Duemila, in cui si
-          temeva la fine di questa lunga tradizione con l’annullamento dell’Accordo
-          Multifibre nel 2005, il quale azzerò i
-          dazi doganali e favorì, di conseguenza,
-          l’importazione di prodotti dall’estero a
-          prezzi nettamente inferiori rispetto a
-          quelli locali, con la concorrenza cinese
-          o la recente pandemia."
+          text="Grazie al solido sistema produttivo, alla forte cultura del lavoro e alle connessioni geografiche, si sono sviluppate, fin dai tempi più lontani, numerose aziende artigiane, le quali ad oggi rappresentano il trentasei percento circa del totale delle imprese produttive che si trovano nel territorio bergamasco.
+          L’artigianato ha da sempre avuto un ruolo fondamentale e in base alla zona, grazie alle caratteristiche territoriali e culturali, si svilupparono varie produzioni, tra cui quelle della seta e della lana, con la conseguente costruzione di edifici destinati all’attività tessile. 
+          L’allevamento dei bachi da seta per la produzione dei bozzoli da cui ricavare il filo di seta portò allo sviluppo dell’industria serica e di due delle principali attività, quelle di filatura e di tessitura, sviluppatesi in gran parte del territorio bergamasco. Inizialmente la seta veniva lavorata a mano, fino a quando, nel Seicento, arrivò il primo filatoio idraulico il quale aumentò la produzione e la commercializzazione, in particolare con i Veneziani, i quali acquistavano soprattutto sete, bozzoli e velluti, con una conseguente crescita dell’attività serica bergamasca; iniziò così ad esserci richiesta di lavoratori anche da Milano e da Paesi esteri. Proprio dall’estero si iniziarono ad importare nel Settecento sete grezze e lane, che venivano lavorate e trasformate nel prodotto finito da esportare, ad esempio in Inghilterra e in Francia. Con il passare del tempo il lavoro e la qualità delle lane e delle sete bergamasche aumentavano e i lavoratori cercavano di emulare le più pregiate esistenti, come quelle orientali."
         />
         <ImageRect
-          className="col-span-4 md:col-span-6 md:mt-16"
-          imageUrl="assets/images/webp/7_2.webp"
+          className="col-span-4 md:col-start-2 md:col-span-4 md:mt-24"
+          imageUrl="assets/images/webp/home/cap2/11.webp"
           dida="Test Didascalia"
         />
         <ImageRect
-          className="col-span-4 md:col-span-6 md:mt-48"
-          imageUrl="assets/images/webp/6_2.webp"
+          className="col-span-4 md:col-start-7 md:col-span-5 md:mb-16"
+          imageUrl="assets/images/webp/home/cap2/12.webp"
           dida="Test Didascalia"
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Varie aziende, invece, sono riuscite a superare la
-          crisi e a rilanciarsi ampliandosi sul mercato, offrendo nuovi servizi e mantenendo l’intera filiera
-          produttiva sotto la propria gestione, così da diffondere il prodotto italiano in tutto il mondo; alcuni
-          esempi ne sono il Gruppo Albini, la Carvico, la Perofil, la Martinelli Ginetto, solide aziende ad oggi
-          molto attive. 21
-          Oltre alle fabbriche di filatura e tessitura, ci sono
-          anche aziende che si occupano esclusivamente di
-          tintoria e brand di moda che presentano collezioni.
-          Attualmente vari componenti del settore tessile
-          bergamasco lavorano adottando un’ottica di sostenibilità e di cura del territorio in cui operano,  
-          continuando a fare ricerca ed introducendo innovazioni per la produzione, sempre a tutela dell’ambiente."
+          text="Si contavano centinaia di filatoi e migliaia di operai, ma intorno alla fine del Settecento si iniziò a registrare un calo dell’attività serica e della produzione di lana; questo calo fu dovuto sia alla concorrenza estera sia alla diminuzione della pastorizia di pecore ed agnelli, causato dall’aumento dei prezzi del fieno e dalla nascente filatura di lino e canapa, che si sviluppò nel nord di Bergamo.
+          La diffusione di fabbriche in tutta la provincia continuò nonostante i periodi di declino: ad esempio intorno agli anni Settanta dell'Ottocento nacquero importanti industrie tessili, tra le quali la fabbrica di Cristoforo Crespi, costruita a Crespi d’Adda, uno dei più antichi villaggi operai, il “Cotonificio Val Seriana” a Cene e “l’Honegger-Spoerry” ad Albino."
         />
         <ImageRect
-          className="col-span-4 md:col-span-5 md:mb-24"
-          imageUrl="assets/images/webp/10_2.webp"
+          className="col-span-4 md:col-start-7 md:col-span-5"
+          imageUrl="assets/images/webp/home/cap2/8.webp"
           dida="Test Didascalia"
         />
         <ImageRect
-          className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/webp/11_1.webp"
+          className="col-span-4 md:col-start-7 md:col-span-5"
+          imageUrl="assets/images/webp/home/cap2/8.webp"
           dida="Test Didascalia"
         />
-        <ImageRect
-          className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/webp/9_1.webp"
-          dida="Test Didascalia"
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="Si contavano centinaia di filatoi e migliaia di operai, ma intorno alla fine del Settecento si iniziò a registrare un calo dell’attività serica e della produzione di lana; questo calo fu dovuto sia alla concorrenza estera sia alla diminuzione della pastorizia di pecore ed agnelli, causato dall’aumento dei prezzi del fieno e dalla nascente filatura di lino e canapa, che si sviluppò nel nord di Bergamo.
+          La diffusione di fabbriche in tutta la provincia continuò nonostante i periodi di declino: ad esempio intorno agli anni Settanta dell'Ottocento nacquero importanti industrie tessili, tra le quali la fabbrica di Cristoforo Crespi, costruita a Crespi d’Adda, uno dei più antichi villaggi operai, il “Cotonificio Val Seriana” a Cene e “l’Honegger-Spoerry” ad Albino."
         />
-        <ImageRect
-          className="col-span-4 md:col-start-4 md:col-span-3 md:mt-12"
-          imageUrl="assets/images/webp/12_1.webp"
-          dida="Test Didascalia"
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/webp/13_1.webp"
-          dida="Test Didascalia"
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-3 md:-mt-12"
-          imageUrl="assets/images/webp/12_1.webp"
-          dida="Test Didascalia"
-        />
-        <ImageRect
-          className="col-span-4 md:col-start-3 md:col-span-2 md:mt-24 max-h-80 overflow-hidden"
-          imageUrl="assets/images/webp/14_1.webp"
-          dida="Test Didascalia"
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-2 md:mt-24 max-h-80 overflow-hidden"
-          imageUrl="assets/images/webp/16.webp"
-          dida="Test Didascalia"
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-2 md:mt-24 max-h-80 overflow-hidden"
-          imageUrl="assets/images/webp/17.webp"
-          dida="Test Didascalia"
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-2 md:mt-24 max-h-80 overflow-hidden"
-          imageUrl="assets/images/webp/18.webp"
-          dida="Test Didascalia"
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="Il settore tessile bergamasco ha sicuramente visto periodi di declino, ma non ha mai smesso di esistere, nemmeno con l’arrivo della globalizzazione intorno agli anni Duemila.
+          Attualmente vari componenti del settore tessile bergamasco lavorano adottando un’ottica di sostenibilità e di cura del territorio in cui operano, continuando a fare ricerca ed introducendo innovazioni per la produzione, sempre a tutela dell’ambiente."
         />
       </div>
       <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
