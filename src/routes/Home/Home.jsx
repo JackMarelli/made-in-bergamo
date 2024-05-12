@@ -295,26 +295,42 @@ export default function Home() {
           text="Si contavano centinaia di filatoi e migliaia di operai, ma intorno alla fine del Settecento si iniziò a registrare un calo dell’attività serica e della produzione di lana; questo calo fu dovuto sia alla concorrenza estera sia alla diminuzione della pastorizia di pecore ed agnelli, causato dall’aumento dei prezzi del fieno e dalla nascente filatura di lino e canapa, che si sviluppò nel nord di Bergamo.
           La diffusione di fabbriche in tutta la provincia continuò nonostante i periodi di declino: ad esempio intorno agli anni Settanta dell'Ottocento nacquero importanti industrie tessili, tra le quali la fabbrica di Cristoforo Crespi, costruita a Crespi d’Adda, uno dei più antichi villaggi operai, il “Cotonificio Val Seriana” a Cene e “l’Honegger-Spoerry” ad Albino."
         />
-        <ImageRect
-          className="col-span-4 md:col-start-7 md:col-span-5"
-          imageUrl="assets/images/webp/home/cap2/8.webp"
-          dida="Test Didascalia"
-        />
-        <ImageRect
-          className="col-span-4 md:col-start-7 md:col-span-5"
-          imageUrl="assets/images/webp/home/cap2/8.webp"
-          dida="Test Didascalia"
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Si contavano centinaia di filatoi e migliaia di operai, ma intorno alla fine del Settecento si iniziò a registrare un calo dell’attività serica e della produzione di lana; questo calo fu dovuto sia alla concorrenza estera sia alla diminuzione della pastorizia di pecore ed agnelli, causato dall’aumento dei prezzi del fieno e dalla nascente filatura di lino e canapa, che si sviluppò nel nord di Bergamo.
-          La diffusione di fabbriche in tutta la provincia continuò nonostante i periodi di declino: ad esempio intorno agli anni Settanta dell'Ottocento nacquero importanti industrie tessili, tra le quali la fabbrica di Cristoforo Crespi, costruita a Crespi d’Adda, uno dei più antichi villaggi operai, il “Cotonificio Val Seriana” a Cene e “l’Honegger-Spoerry” ad Albino."
-        />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
           text="Il settore tessile bergamasco ha sicuramente visto periodi di declino, ma non ha mai smesso di esistere, nemmeno con l’arrivo della globalizzazione intorno agli anni Duemila.
-          Attualmente vari componenti del settore tessile bergamasco lavorano adottando un’ottica di sostenibilità e di cura del territorio in cui operano, continuando a fare ricerca ed introducendo innovazioni per la produzione, sempre a tutela dell’ambiente."
+            Attualmente vari componenti del settore tessile bergamasco lavorano adottando un’ottica di sostenibilità e di cura del territorio in cui operano, continuando a fare ricerca ed introducendo innovazioni per la produzione, sempre a tutela dell’ambiente."
         />
+        <SpyTextGalleryLayout
+          text="La produzione tessile nella Bergamasca"
+          textColor="text-mib-beige-light"
+          backgroundColor="bg-transparent"
+        >
+          <ImageRect
+            className="col-span-4 md:col-start-3 md:col-span-5"
+            imageUrl="assets/images/webp/home/cap2/14.webp"
+            dida="Test Didascalia"
+          />
+          <ImageRect
+            className="col-span-4 md:col-start-9 md:col-span-3 md:mb-16"
+            imageUrl="assets/images/webp/home/cap2/13.webp"
+            dida="Test Didascalia"
+          />
+          <ImageRect
+            className="col-span-4 md:col-start-0 md:col-span-3 md:-mt-16"
+            imageUrl="assets/images/webp/home/cap2/16.webp"
+            dida="Test Didascalia"
+          />
+          <ImageRect
+            className="col-span-4 md:col-start-5 md:col-span-4 md:mt-40"
+            imageUrl="assets/images/webp/home/cap2/15.webp"
+            dida="Test Didascalia"
+          />
+          <ImageRect
+            className="col-span-4 md:col-start-10 md:col-span-3 md:mb-16"
+            imageUrl="assets/images/webp/home/cap2/17.webp"
+            dida="Test Didascalia"
+          />
+        </SpyTextGalleryLayout>
       </div>
       <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
         <Heading text="La produzione e la sostenibilità" />

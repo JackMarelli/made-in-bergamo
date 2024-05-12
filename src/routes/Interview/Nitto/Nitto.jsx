@@ -4,48 +4,60 @@ import ImageRect from "../../../components/ImageRect/ImageRect";
 import BrandSheet from "../../../components/BrandSheet/BrandSheet";
 import BrandSheetRow from "../../../components/BrandSheetRow/BrandSheetRow";
 
-export default function SophieStique() {
+export default function Nitto() {
   return (
     <>
       <InterviewLayout>
         <h1 className="text-4xl md:text-7xl text-mib-brown-dark font-crimson-text font-semibold leading-[.95em] tracking-tight">
-          Sophie Stique*
+          Nitto
         </h1>
         <BrandSheet>
-          <BrandSheetRow title="Anno di fondazione">2021</BrandSheetRow>
+          <BrandSheetRow title="Anno di fondazione">2020</BrandSheetRow>
           <BrandSheetRow title="Fondatrice e designer">
-            Giulia Terzi
+            Giorgia Colleoni
           </BrandSheetRow>
           <BrandSheetRow title="Collezioni">
-            Una all’anno, Maglieria per uomo/donna in taglia unica
+            Due all’anno - primavera/estate, autunno/inverno <br /> Donna
           </BrandSheetRow>
           <BrandSheetRow title="Target">
-            Persone dai 35/40 anni in su
+            Donne tra i 30 e i 50 anni che amano il no branding e il mondo
+            dell’artigianalità, provenienti da Stati Uniti, Cina, Giappone e
+            Korea
           </BrandSheetRow>
-          <BrandSheetRow title="Produzione">Provincia di Bergamo</BrandSheetRow>
+          <BrandSheetRow title="Valori">
+            Artigianalità <br /> Territorialità <br /> Riduzione dell’impatto
+            ambientale
+          </BrandSheetRow>
+          <BrandSheetRow title="Produzione">
+            Bergamo, Brasile, Peru
+          </BrandSheetRow>
           <BrandSheetRow title="Materiali utilizzati">
-            Filati 100% naturali provenienti dalle lane di pecore e capre <br />{" "}
-            Lana delle pecore delle Isole Shetland <br /> Lana merino
-            neozelandese <br /> Cotone biologico egiziano <br /> Cashmere del
-            Tibet <br /> Lana di cammello <br /> Lana di yak <br /> Lana
-            d’agnello
+            Cotone <br /> Seta <br /> Cashmere <br /> Lana <br /> Materiali
+            brasiliani
           </BrandSheetRow>
           <BrandSheetRow title="Tratti distintivi">
-            Controllo completo della filiera da parte della designer <br /> Alta
-            conoscenza ed esperienza nella maglieria <br /> Capi versatili e
-            reversibili senza cuciture <br /> Indagine sulle varie tecniche
-            utilizzate per ogni fibra <br /> Tecniche di lavorazione antiche con
-            l’obiettivo di continuare a tenerle in vita
+            Impegno costante verso un impatto ambientale minimo <br /> Volontà
+            di produrre i capi nel luogo di provenienza delle materie prime{" "}
+            <br /> Creazione dell’etichetta del capo dettagliata, con la sua
+            tracciabilità <br /> Materiali 100% naturali, provenienti da
+            deadstock <br /> Impegno verso la riduzione degli sprechi in ogni
+            aspetto della filiera produttiva <br /> Presenza sul sito web di una
+            sezione dedicata alla cura e al riparo del capo, con spiegazioni e
+            video tutorial <br /> Insieme al capo inviato alla cliente è
+            presente un kit con strumenti per l’eventuale riparo <br />{" "}
+            Comunicazione di quasi totale silenzio, legata alla filosofia del
+            brand e della designer <br /> Forte legame con la musica, utilizzata
+            per raccontare le collezioni
           </BrandSheetRow>
           <BrandSheetRow title="Contatti">
-            Sito web www.ert-kingdom.com <br /> Instagram @ERT_Kingdom <br />{" "}
-            Facebook @E RT Kingdom <br /> Mail info@ert-kingdom.com <br /> Cell.
-            +39 346 33 91 417
+            sito web www.nittoness.com <br /> Instagram @nitto_ness <br /> mail
+            info@nittoness.com <br /> cell. +39 335 628 4018
           </BrandSheetRow>
         </BrandSheet>
+
         <ImageRect
           className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/materieprime/cotone.webp"
+          imageUrl="../assets/images/webp/interviews/nitto/1.webp"
           dida="Immagine relativa all'intervista, se c'è."
         />
         <InterviewQuestion question="Quando nasce E RT Kingdom, come lavora e quali sono i suoi valori?">

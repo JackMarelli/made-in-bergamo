@@ -16,8 +16,8 @@ export default function InterviewsNavigator() {
       <Link to="/interview/officinae">
         <SmallCta text="Officinae" />
       </Link>
-      <Link to="/interview/sophiestique">
-        <SmallCta text="Sophie Stique*" />
+      <Link to="/interview/nitto">
+        <SmallCta text="Nitto" />
       </Link>
       <Link to="/interview/ertkingdom">
         <SmallCta text="E RT Kingdom" />
