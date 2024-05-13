@@ -332,389 +332,136 @@ export default function Home() {
           />
         </SpyTextGalleryLayout>
       </div>
-      <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
+      <div className="w-full h-fit">
+        <img src="assets/images/webp/home/cap3/3.webp" alt="" />
+      </div>
+      <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
         <Heading text="La produzione e la sostenibilità" />
         <IndexPoint className="col-span-4 md:col-span-3">
           La filiera produttiva: dallo sviluppo del prodotto moda al negozio
         </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="La produzione di un capo d’abbigliamento segue una filiera produttiva composta da più fasi,
-          le quali in vari casi hanno visto, nel corso del
-          tempo, l’ingresso di innovazioni legate alla tecnologia e alla sostenibilità, fino a farne aspetti fondanti e costituenti della progettazione
-          stessa. Le innovazioni si presentano, infatti, fin
-          dall’inizio della progettazione del prodotto, a
-          partire dalla scelta dei materiali tessili da utilizzare, dalle tecniche di tessitura, di finissaggio, di
-          stampa e di tintura, fondamentali per garantire
-          un elevato livello di qualità."
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Numerose aziende produttrici e numerosi brand
-          di abbigliamento che operano nella Bergamasca hanno iniziato a lavorare seguendo questa
-          direzione nella loro produzione, la quale segue
-          delle fasi precise che a volte possono variare leggermente in base al brand. Innanzitutto
-          l’ideatore della collezione, dopo aver ideato e
-          disegnato i capi da realizzare, inizia a collaborare con i fornitori selezionati, conducendo uno
-          studio attento e un’analisi meticolosa dei tessuti da utilizzare. Il fashion designer deve essere
-          ben consapevole del fatto che non tutti i tessuti
-          possono essere impiegati per ogni tipo di capo,
-          ma possono presentare delle limitazioni a livello
-          pratico e visivo."
+          text="La produzione di un capo d’abbigliamento artigianale segue una filiera produttiva composta da più fasi, le quali in vari casi hanno visto, nel corso del tempo, l’ingresso di innovazioni legate alla tecnologia e alla sostenibilità, fino a farne aspetti fondanti e costituenti della progettazione stessa. Le innovazioni si presentano, infatti, fin dall’inizio della progettazione del prodotto, a partire dalla scelta dei materiali tessili da utilizzare, dalle tecniche di tessitura, di finissaggio, di stampa e di tintura, fondamentali per garantire un elevato livello di qualità. 
+          Numerose aziende produttrici e numerosi brand di abbigliamento che operano nella Bergamasca hanno iniziato a lavorare seguendo questa direzione nella loro produzione, la quale segue delle fasi precise che a volte possono variare leggermente in base al brand. Innanzitutto l’ideatore della collezione, dopo aver ideato e disegnato i capi da realizzare, inizia a collaborare con i fornitori selezionati, conducendo uno studio attento e un’analisi meticolosa dei tessuti da utilizzare.
+          Brand bergamaschi come Nei Miei Panni – il quale verrà trattato più approfonditamente in seguito, scelgono di utilizzare tessuti di origine naturale, perseguendo un’idea di alta qualità e di sostenibilità, le quali necessitano dell’impiego di materiali che siano salutari per la persona che li indossa e per l’ambiente."
         />
         <ImageRect
-          className="col-span-4 md:col-start-3 md:col-span-3 md:max-h-96 overflow-hidden"
-          imageUrl="assets/images/webp/1_2.webp"
-          dida="Knitwear fabric"
+          className="col-span-4 md:col-start-2 md:col-span-4 md:mt-24"
+          imageUrl="assets/images/webp/home/cap3/2.webp"
+          dida="Test Didascalia"
         />
         <ImageRect
-          className="col-span-4 md:col-span-3 md:max-h-96 overflow-hidden"
-          imageUrl="assets/images/webp/2_1.webp"
-          dida="Seta di gelso"
+          className="col-span-4 md:col-start-7 md:col-span-5 md:max-h-96"
+          imageUrl="assets/images/webp/home/cap3/1.webp"
+          dida="Test Didascalia"
         />
         <ImageRect
-          className="col-span-4 md:col-span-3 md:max-h-96 overflow-hidden"
-          imageUrl="assets/images/webp/3_2.webp"
-          dida="Lino"
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Brand bergamaschi come Nei Miei Panni e
-          Sophie Stique* – i quali verranno trattati più
-          approfonditamente nelle pagine seguenti –,
-          scelgono di utilizzare tessuti di origine naturale, perseguendo un’idea di alta qualità e di sostenibilità, le quali necessitano dell’impiego di
-          materiali che siano salutari per la persona che
-          li indossa e per l’ambiente. I tessuti che i due
-          brand prediligono sono la lana, la seta, il lino e
-          il cotone, i quali, oltre ad essere di pregio, sono
-          anche molto resistenti."
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="L’ideazione dei capi da realizzare si esprime attraverso degli schizzi realizzati a mano con foglio e matita, tecnica utilizzata ancora oggi in
-          numerose realtà aziendali, oppure, tramite l’ausilio di un computer, con programmi di disegno
-          vettoriale. Qui vengono rappresentate in modo
-          essenziale le linee del capo, le sue cuciture ed
-          i suoi dettagli mediante disegni tecnici, mentre
-          per mostrare la silhouette, il volume e la rotondità si utilizzano disegni tridimensionali che poi si
-          tramutano in figurini d’immagine, i quali rappresentano i capi su una figura: è a questo punto
-          che si verifica se effettivamente l’abbinamento
-          di tessuti e colori funziona, dunque si tratta di
-          una vera"
-        />
-        <ImageRect
-          className="col-span-4 md:col-start-2 md:col-span-10"
-          imageUrl="assets/images/webp/2b.webp"
+          className="col-span-4 md:col-start-6 md:col-span-5 md:-mt-24 md:ms-16 md:mb-16"
+          imageUrl="assets/images/webp/home/cap3/3.webp"
           dida="Test Didascalia"
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="I figurini selezionati vengono poi numerati ed inviati alla produzione, dopodiché si realizzano delle copie dei figurini da allegare alla
-          scheda prodotto, la quale viene poi distribuita ai modellisti per la realizzazione dei cartamodelli e del prototipo. A questo punto, i modellisti, tramite l’utilizzo del manichino, provano i tessuti, verificano
-          le silhouette, la vestibilità e, in caso di difetti da correggere effettuano le necessarie modifiche. Una volta terminata questa procedura,
-          il lavoro arriva in sartoria, dove i sarti realizzano a mano le rifiniture
-          e i bordi, applicano eventuali bottoni e simili, spesso anche tramite
-          l’ausilio di macchine da cucire industriali, per garantire una maggiore
-          precisione. Avere dei sarti esperti che lavorano alla realizzazione dei
-          propri capi è fondamentale, in quanto essi sono in grado di conferire
-          l’unicità e la qualità che contraddistinguono i prodotti artigianali."
+          text="L’ideazione dei capi da realizzare si esprime attraverso degli schizzi realizzati a mano con foglio e matita, tecnica utilizzata ancora oggi in numerose realtà aziendali, oppure, tramite l’ausilio di un computer, con programmi di disegno vettoriale. Qui vengono rappresentate in modo essenziale le linee del capo, le sue cuciture ed i suoi dettagli mediante disegni tecnici, mentre per mostrare la silhouette, il volume e la rotondità si utilizzano disegni tridimensionali che poi si tramutano in figurini d’immagine, i quali rappresentano i capi su una figura."
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-3 md:-mt-20"
+          imageUrl="assets/images/webp/home/cap3/4.webp"
+          dida="Test Didascalia"
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Verso la fine della fase produttiva, si tiene la prima prova dei capi:
-          l’ideatore della collezione verifica se gli schizzi sono stati interpretati
-          nel modo corretto e se il risultato raggiunge le aspettative. Infine i
-          capi vengono adattati dalla taglia standard alle diverse taglie richieste per la vendita."
+          text="I figurini selezionati vengono poi numerati ed inviati alla produzione, dopodiché si realizzano delle copie dei figurini da allegare alla scheda prodotto, la quale viene poi distribuita ai modellisti per la realizzazione dei cartamodelli e del prototipo. Successivamente, i modellisti, tramite l’utilizzo del manichino, provano i tessuti, verificano le silhouette, la vestibilità e, in caso di difetti da correggere effettuano le necessarie modifiche. Una volta terminata questa procedura, il lavoro arriva in sartoria, dove i sarti realizzano a mano le rifiniture e i bordi, applicano eventuali bottoni e simili, spesso anche tramite l’ausilio di macchine da cucire industriali, per garantire una maggiore precisione. Avere dei sarti esperti che lavorano alla realizzazione dei propri capi è fondamentale, in quanto essi sono in grado di conferire l’unicità e la qualità che contraddistinguono i prodotti artigianali.
+          Verso la fine della fase produttiva, si tiene la prima prova dei capi: l’ideatore della collezione verifica se gli schizzi sono stati interpretati nel modo corretto e se il risultato raggiunge le aspettative. Infine i capi vengono adattati dalla taglia standard alle diverse taglie richieste per la vendita.
+          Una volta che i capi sono pronti si effettua un’analisi dei costi di produzione e di confezione, nonché del tessuto utilizzato e di eventuali accessori per stabilire il prezzo di vendita."
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Una volta che i capi sono pronti si effettua un’analisi dei costi di produzione e di confezione, nonché del tessuto utilizzato e di eventuali
-          accessori per stabilire il prezzo di vendita; tale analisi viene condotta
-          alla luce del budget di vendita, che ciascuna azienda deve rispettare
-          per recuperare i costi di produzione e di gestione.
-          I capi vengono consegnati al brand da cui sono stati richiesti per essere venduti in negozio o online in base ai canali di vendita, oppure
-          presentati in show-room o in sfilata, ciò dipende dalle dimensioni e
-          delle possibilità economiche del brand, dalle quali dipendono anche
-          le azioni di comunicazione che si attuano per promuovere la collezione."
+          text="I capi vengono consegnati al brand da cui sono stati richiesti per essere venduti in negozio o online in base ai canali di vendita, oppure presentati in show-room o in sfilata, ciò dipende dalle dimensioni e delle possibilità economiche del brand.
+          Questo specifico processo di sviluppo e realizzazione del prodotto si contraddistingue per il savoir-faire di alta sartorialità riconosciuto in tutto il mondo: valore fondante è proprio la volontà di tramandare il know-how di generazione in generazione, affinché la conoscenza di particolari tecniche non vada perduta nel tempo e, anzi, si arricchisca sempre di più."
         />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Questo specifico processo di sviluppo e realizzazione del prodotto si
-          contraddistingue per il savoir-faire di alta sartorialità riconosciuto in
-          tutto il mondo: valore fondante è proprio la volontà di tramandare il
-          know-how di generazione in generazione, affinché la conoscenza di
-          particolari tecniche non vada perduta nel tempo e, anzi, si arricchisca
-          sempre di più."
+        <ImageRect
+          className="col-span-4 md:col-start-2 md:col-span-5 md:mt-56 md:mb-16"
+          imageUrl="assets/images/webp/home/cap3/5.webp"
+          dida="Test Didascalia"
+        />
+        <ImageRect
+          className="col-span-4 md:col-start-7 md:col-span-5 md:mt-16"
+          imageUrl="assets/images/webp/home/cap3/6.webp"
+          dida="Test Didascalia"
         />
         <IndexPoint className="col-span-4 md:col-span-3">
           Le tecniche produttive sostenibili
         </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Negli ultimi anni il tema della sostenibilità si è rivelato una questione particolarmente dibattuta,
-          poiché esso rileva criticità ed individua necessità
-          sempre più urgenti, in quanto l’inquinamento ambientale registra una crescita vertiginosa, causata anche e soprattutto dalle industrie, comprese
-          quelle della moda. Per far fronte a questo proble  ma, all’interno della filiera produttiva sono state
-          introdotte, dalla ricerca delle materie prime fino
-          alla distribuzione del prodotto finito, numerose in  novazioni volte a ridurre l’impatto sulle persone e
-          sull’ambiente 26; per esempio nel territorio di Ber  gamo, uno tra i più inquinati d’Europa, varie realtà
-          aziendali hanno iniziato a perseguire questo oriz  zonte, adottando specifiche misure."
-        />
-        <ImageRect
-          className="col-span-4 md:col-start-2 md:col-span-4 max-h-96"
-          imageUrl="assets/images/webp/4_3.webp"
-          dida="Test Didascalia"
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-3 max-h-96"
-          imageUrl="assets/images/webp/5_3.webp"
-          dida="Test Didascalia"
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-3 max-h-96"
-          imageUrl="assets/images/webp/6_3.webp"
-          dida="Test Didascalia"
+          text="Negli ultimi anni il tema della sostenibilità si è rivelato una questione particolarmente dibattuta, poiché esso rileva criticità ed individua necessità sempre più urgenti, in quanto l’inquinamento ambientale registra una crescita vertiginosa, causata anche e soprattutto dalle industrie, comprese quelle della moda. Per far fronte a questo problema, all’interno della filiera produttiva sono state introdotte, dalla ricerca delle materie prime fino alla distribuzione del prodotto finito, numerose innovazioni volte a ridurre l’impatto sulle persone e sull’ambiente; per esempio nel territorio di Bergamo, uno tra i più inquinati d’Europa come citato in precedenza, varie realtà aziendali hanno iniziato a perseguire questo orizzonte, adottando specifiche misure."
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Per combattere lo sfruttamento delle risorse naturali utilizzate per la produzione delle materie
-        prime, lo spreco dei tessuti avanzati e dei capi dismessi, si è iniziato a lavorare mediante i principi
-        della moda circolare, basata sul riciclo, sulla rigenerazione e sulla riparazione, per donare una nuova vita ai prodotti. 
-        Vari brand Bergamaschi – e nonsolo – hanno iniziato a lavorare adottando questiprincipi, dunque prestando attenzione all’impiegodi materiali sostenibili, 
-        prediligendo quelli locali,sui quali è anche possibile effettuare un controlloed una tracciabilità della filiera, 
-        fondamentali perdare ai consumatori consapevolezza di ciò chestanno acquistando ed utilizzando. Si prediligono, 
-        ad esempio, fibre biologiche naturali, riciclate o ottenute da risorse rinnovabili, come il lino: 
-        questoprodotto tessile è anche una fibra vegetale innovativa e sostenibile, che si distingue tra le altre per le sue
-         caratteristiche ecologiche ed etiche, infatti lasua coltivazione ha un impatto ambientale molto basso, dato che non necessita 
-         di irrigazione, di pesticidi o altri prodotti per la protezione, non produce scarti; ecco perché il lino è uno dei tessuti più 
-         scelti per produrre le collezioni, comprese quelledi alcuni brand del territorio di Bergamo."
-        />
-        <ImageRect
-          className="col-span-4 md:col-start-3 md:col-span-3"
-          imageUrl="assets/images/webp/8_2.webp"
-          dida="Test Didascalia"
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-3 md:mt-16 md:mb-12"
-          imageUrl="assets/images/webp/9_2.webp"
-          dida="Test Didascalia"
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-3"
-          imageUrl="assets/images/webp/11_2.webp"
-          dida="Test Didascalia"
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="In termini di sostenibilità ambientale, gli scarti
-        all’interno della filiera produttiva rappresentano
-        uno dei maggiori punti critici, perché, se non ven
-        gono smaltiti correttamente, possono diventare
-        un grande rischio di inquinamento per il territorio,
-        perciò alcune aziende si impegnano a riciclare i
-        tessuti avanzati o scartati, affinché vengano impie
-        gati per realizzare nuovi prodotti. Tra le principali
-        tecniche adottate in tal senso vi sono il recycling,
-        l’upcycling ed il downcycling: il recycling è una pra
-        tica sostenibile che si attua al termine dell’utilizzo
-        di un capo per evitare il suo smaltimento e donar
-        gli una nuova vita; si parla di upcycling quando il
-        materiale riciclato è superiore in termini di funzio
-        nalità e di qualità rispetto a quello originale; se, in
-        vece, il materiale riciclato risulta essere inferiore a
-        quello originale, secondo i medesimi parametri di
-        cui prima, si parla di downcycling
-        ."
-        />
-        <ImageRect
-          className="col-span-4 md:col-start-2 md:col-span-6"
-          imageUrl="assets/images/webp/12_2.webp"
-          dida="Test Didascalia"
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-4 md:mt-16 md:mb-12"
-          imageUrl="assets/images/webp/13_2.webp"
-          dida="Test Didascalia"
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Sono sempre di più i brand che, durante la fase
-        di ricerca delle materie prime da utilizzare per la
-        produzione dei capi, scelgono di utilizzare i tessuti
-        deadstock, ovvero rimanenze di materiali avanzati
-        o invenduti di stock e di precedenti produzioni, i
-        quali, se non venissero riutilizzati, finirebbero nelle
-        discariche; tali brand operano, quindi, in una lo
-        gica di riduzione, riuso e recycling delle risorse.
-        Solitamente si tratta di tessuti di qualità, perché,
-        essendo delle rimanenze, sono già stati sottopo
-        sti a controlli che ne garantiscono il pregio, ma un
-        fattore importante è anche quello dell’unicità, in
-        quanto il re-stock non è sempre possibile."
-        />
-
-        <ImageRect
-          className="col-span-4 md:col-start-3 md:col-span-9"
-          imageUrl="assets/images/webp/12b.webp"
-          dida="Test Didascalia"
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Queste pratiche portano ad adottare un metodo produttivo chiamato “cradle-to-cradle”, che letteralmente
-          significa “dalla culla alla culla”: esso si basa su un’idea
-          di circolarità del prodotto, il quale, una volta dismesso,
-          non viene gettato in una discarica o incenerito, ma viene lavorato nuovamente, così gli si dà nuova vita riutilizzando i tessuti impiegati precedentemente. Chi idealizza
-          un capo che segue queste direzioni mira a produrre un
-          oggetto duraturo, riutilizzabile, riciclabile, riparabile e sicuro per la salute di chi lo indossa e per l’ambiente; egli,
-          inoltre, si pone come ulteriore obiettivo di sensibilizzare
-          gli acquirenti: fa loro comprendere la storia del capo, li
-          esorta ad impegnarsi affinché esso duri nel tempo e li
-          mette in condizioni di poterlo fare, progettando dei capi
-          che possano essere facilmente riparati o, laddove ciò
-          non fosse (più) possibile, riciclati. "
+          text="Per combattere lo sfruttamento delle risorse naturali utilizzate per la produzione delle materie prime, lo spreco dei tessuti avanzati e dei capi dismessi, si è iniziato a lavorare mediante i principi della moda circolare, basata sul riciclo, sulla rigenerazione e sulla riparazione, per donare una nuova vita ai prodotti. Vari brand Bergamaschi – e non solo – hanno iniziato a lavorare adottando questi principi, dunque prestando attenzione all’impiego di materiali sostenibili, prediligendo quelli locali, sui quali è anche possibile effettuare un controllo ed una tracciabilità della filiera, fondamentali per dare ai consumatori consapevolezza di ciò che stanno acquistando ed utilizzando. Si prediligono, ad esempio, fibre biologiche naturali, riciclate o ottenute da risorse rinnovabili, come il lino, esso è infatti uno dei tessuti più scelti per produrre le collezioni, comprese quelle di alcuni brand del territorio di Bergamo."
         />
         <SpyTextGalleryLayout
-          text="La filiera produttiva: dallo sviluppo del prodotto moda al negozio"
-          textColor="text-mib-beige-light"
+          text="Le tecniche produttive sostenibili"
+          textColor="text-mib-beige-dark"
           backgroundColor="bg-transparent"
         >
           <ImageRect
-            className="col-span-4 md:col-start-2 md:col-span-3"
-            imageUrl="assets/images/webp/15.webp"
+            className="col-span-4 md:col-span-5 md:-mt-48"
+            imageUrl="assets/images/webp/home/cap3/7.webp"
             dida="Test Didascalia"
           />
           <ImageRect
-            className="col-span-4 md:col-start-8 md:col-span-3"
-            imageUrl="assets/images/webp/14.webp"
+            className="col-span-4 md:col-start-7 md:col-span-6"
+            imageUrl="assets/images/webp/home/cap3/8.webp"
             dida="Test Didascalia"
           />
           <ImageRect
-            className="col-span-4 md:col-start-1 md:col-span-3 md:mt-24"
-            imageUrl="assets/images/webp/19.webp"
-            dida="Test Didascalia"
-          />
-          <ImageRect
-            className="col-span-4 md:col-start-6 md:col-span-3 md:mt-4"
-            imageUrl="assets/images/webp/17_1.webp"
-            dida="Test Didascalia"
-          />
-          <ImageRect
-            className="col-span-4 md:col-start-10 md:col-span-3 md:mt-24"
-            imageUrl="assets/images/webp/22.webp"
+            className="col-span-4 md:col-start-3 md:col-span-8 md:mt-20 md:max-h-[40rem]"
+            imageUrl="assets/images/webp/home/cap3/9.webp"
             dida="Test Didascalia"
           />
         </SpyTextGalleryLayout>
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="In termini di sostenibilità ambientale, gli scarti all’interno della filiera produttiva rappresentano uno dei maggiori punti critici, perché, se non vengono smaltiti correttamente, possono diventare un grande rischio di inquinamento per il territorio, perciò alcune aziende si impegnano a riciclare i tessuti avanzati o scartati, affinché vengano impiegati per realizzare nuovi prodotti. 
+          Sono sempre di più i brand che, durante la fase di ricerca delle materie prime da utilizzare per la produzione dei capi, scelgono di utilizzare i tessuti deadstock, ovvero rimanenze di materiali avanzati o invenduti di stock e di precedenti produzioni, i quali, se non venissero riutilizzati, finirebbero nelle discariche. Solitamente si tratta di tessuti di qualità, perché, essendo delle rimanenze, sono già stati sottoposti a controlli che ne garantiscono il pregio, ma un fattore importante è anche quello dell’unicità, in quanto il re-stock non è sempre possibile."
+        />
+        <Paragraph
+          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
+          text="Chi idealizza un capo che segue queste direzioni, inoltre, si pone come ulteriore obiettivo di sensibilizzare gli acquirenti: fa loro comprendere la storia del capo e li esorta ad impegnarsi affinché esso duri nel tempo."
+        />
         <IndexPoint className="col-span-4 md:col-span-3">
-          Metodi di produzione dei brand Nei Miei Panni e Sophie Stique*
+          Metodi di produzione del brand Nei Miei Panni di Cristina Gamberoni
         </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="All’interno del territorio bergamasco ci sono vari brand
-          di moda artigianale che lavorano seguendo un metodo
-          produttivo specifico, prestando attenzione anche alla
-          sostenibilità: tra questi sono stati presi in analisi Nei Miei
-          Panni e Sophie Stique*. La scelta si deve al fatto che en
-          trambi rappresentano due piccole realtà con due storie
-          differenti ma una produzione simile, utile a comprendere
-          al meglio le ragioni delle tecniche utilizzate ed il valore
-          apportato al territorio. "
+          text="All’interno del territorio bergamasco ci sono vari brand di moda artigianale che lavorano seguendo un metodo produttivo specifico, prestando attenzione anche alla sostenibilità: tra questi è stato preso in analisi Nei Miei Panni, un brand fondato e disegnato da Cristina Gamberoni. Esso nasce come blog e successivamente inizia a produrre capi per bambino, fino ad arrivare a quelli per la donna. Il brand si basa su una produzione esclusivamente artigianale, con principi sostenibili fin dal momento in cui la sua stilista sceglie i tessuti, la cui valutazione rappresenta una fase fondamentale, che caratterizza la qualità dei suoi capi: presso fornitori selezionati, Cristina Gamberoni tocca con mano i tessuti e ne fa un’accurata selezione alla luce delle caratteristiche esaminate. I tessuti in questione sono quasi esclusivamente deadstock e raramente nuovi, ciò si deve alla volontà programmatica di perseguire una linea di produzione che non comprometta il benessere del pianeta, contrastando sprechi ed inquinamento. La stilista bergamasca, infatti, non segue i ritmi dettati da un mercato troppo spesso viziato dal frenetico consumismo, ma decide di produrre con un’idea di moda lenta. Le creazioni sono frutto della sua maestria e del savoir-faire delle sarte. Questa specifica competenza è un fattore determinante per la qualità del prodotto, in quanto esso si fa veicolo di trasmissione del know-how artigianale, il che gli conferisce un valore aggiunto."
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-3 md:-mt-64"
+          imageUrl="assets/images/webp/home/cap3/10.webp"
+          dida="Test Didascalia"
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="NeiMieiPanni è un brand fondato e disegnato da Cristina
-          Gamberoni, nasce come blog e successivamente inizia a
-          produrre capi per bambino, fino ad arrivare a quelli per la
-          donna. Esso si basa su una produzione esclusivamente
-          artigianale, con principi sostenibili fin dal momento
-          in cui la sua stilista sceglie i tessuti, la cui valutazione
-          rappresenta una fase fondamentale, che caratterizza la
-          qualità dei suoi capi: presso fornitori selezionati, Cristina
-          Gamberoni tocca con mano i tessuti e ne fa un’accurata
-          selezione alla luce delle caratteristiche esaminate. I tessuti in questione sono quasi esclusivamente deadstock e
-          raramente nuovi, ciò si deve alla volontà programmatica
-          di perseguire una linea di produzione che non comprometta il benessere del pianeta, contrastando sprechi ed
-          inquinamento. La stilista bergamasca, infatti, non segue i
-          ritmi dettati da un mercato troppo spesso viziato dal frenetico consumismo, ma decide di produrre con un’idea di
-          moda lenta, dunque realizzando capi solo quando realmente ispirata. Le creazioni sono frutto della sua maestria e del savoir-faire delle sarte che si occupano della
-          produzione – le quali in passato lavoravano per Daniela Gregis, stilista del noto omonimo brand bergamasco.
-          Questa specifica competenza è un fattore determinante
-          per la qualità del prodotto, in quanto esso si fa veicolo di
-          trasmissione del know-how artigianale, il che gli conferisce un valore aggiunto."
+          text="Cristina Gamberoni produce i suoi capi in varie taglie e li personalizza in base alla necessità e alla richiesta della cliente (la quale è mediamente una donna di età adulta con un’alta capacità di spesa) e anche in base alla disponibilità del tessuto, infatti, nel caso in cui quello scelto non fosse disponibile, alla cliente ne vengono proposti diversi altri ed il capo diventa così un pezzo realizzato in modo unico, ovvero appositamente per lei. Inoltre, i fornitori e i collaboratori sono tutti situati poco distanti dal suo atelier, così da contenere le emissioni di Co2, ottimizzare i tempi di produzione ed avere un maggiore controllo sulla stessa."
+        />
+        <ImageRect
+          className="col-span-4 md:col-start-2 md:col-span-5 md:mt-36 md:mb-16"
+          imageUrl="assets/images/webp/home/cap3/11.webp"
+          dida="Test Didascalia"
+        />
+        <ImageRect
+          className="col-span-4 md:col-span-5 md:mt-16"
+          imageUrl="assets/images/webp/home/cap3/12.webp"
+          dida="Test Didascalia"
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Sophie Stique* è, invece, un brand a conduzione familiare che nasce 
-          dal know-how e dall’esperienza di Confezioni Iris, un laboratorio di taglio e confezione storico nato
-          nel 1980 e che opera ancora oggi per importanti case di moda."
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Anch’esso produce capi da donna lavorando in un’ottica
-          sostenibile, etica e territoriale, ovvero basandosi sul riciclo, sull’utilizzo di materie prime naturali certificate e collaborando con fornitori locali. I suoi valori sono la qualità,
-          la ricerca, la personalizzazione e la sostenibilità, tramite i
-          quali il brand punta a creare un prodotto curato nei minimi dettagli, adatto a chi cerca un pezzo unico e ne comprende il valore. Le tecniche produttive utilizzate vengono
-          preservate, tramandate nel corso delle generazioni e perfezionate grazie alle nuove tecnologie."
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Ambedue i brand producono i loro capi in varie taglie e li
-          personalizzano in base alla necessità e alla richiesta della
-          cliente (la quale è mediamente una donna di età adulta
-          con un’alta capacità di spesa) e anche in base alla disponibilità del tessuto, infatti, nel caso in cui quello scelto
-          non fosse disponibile, alla cliente ne vengono proposti
-          diversi altri ed il capo diventa così un pezzo realizzato in
-          modo unico, ovvero appositamente per lei. L’idea di unicità è presente in quasi ogni aspetto della progettualità e
-          produzione di questi due brand, per esempio le stampe
-          vengono create in esclusiva, spesso disegnate in collaborazione con giovani artisti per dare vita a dei veri e propri
-          capi artistici. Come Nei Miei Panni, Sophie Stique* non
-          segue le tendenze ma produce in modo lento, con ritmi
-          che non seguono i dettami del mercato ma sono decisi
-          dal brand stesso, inoltre i fornitori e i collaboratori sono
-          tutti situati poco distanti dall’atelier, così da contenere
-          le emissioni di Co2, ottimizzare i tempi di produzione ed
-          avere un maggiore controllo sulla stessa."
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Talvolta è necessario, per ragioni varie, utilizzare dei tessuti con fibre sintetiche: in questo caso ci si assicura che
-          tali fibre siano certificate “post-consumer”, ovvero già utilizzate da un consumatore, inoltre vengono utilizzati anche tessuti d’archivio, sempre al fine di ridar loro nuova
-          vita ed evitare così sprechi."
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Significativo è anche il fatto che entrambi i brand si impegnino per far comprendere alle loro clienti il valore e la
-          qualità che contengono i capi che vanno ad acquistare,
-          sensibilizzando anche sul tema della sostenibilità incentivando al buon mantenimento del capo e al suo corretto
-          smaltimento."
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Uno dei principi fondamentali sul quale si basa la stilista
-          Cristina Gamberoni di Nei Miei Panni è impegnarsi anche
-          da un punto di vista etico, fissando delle corrette retribuzioni per le persone che si occupano della produzione, così
-          da valorizzare concretamente quanti operano, con maestria e competenza, nel settore artigianale e, attraverso di
-          loro, riconoscendo l’importanza del mestiere stesso, un
-          riconoscimento reso ancor più significativo dal fatto che
-          in tempi recenti esso rischi sempre più di estinguersi.
-          Questi brand decidono di produrre a Bergamo con una
-          filiera produttiva racchiusa in questo territorio per dare un
-          valore aggiunto ad esso."
-        />
-        <Paragraph
-          className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="La produzione è seguita con grande cura mediante delle
-          particolari lavorazioni artigianali, come ad esempio alcune tipologie di cuciture. Le clienti comprendono l’importanza ed il valore intrinseco del capo, assumendo una
-          maggiore consapevolezza di ciò che acquistano, dunque
-          verso di loro c’è un’attenzione che fa la differenza. In linea con questo concetto di cura verso la cliente è anche
-          la scelta dei materiali, infatti si opta per tessuti naturali, come il lino e la lana, che, oltre ad essere garanzia di
-          qualità, sono salutari per la pelle. I tessuti utilizzati da Nei
-          Miei Panni vengono selezionati dalla stilista presso i suoi
-          fornitori, i quali offrono tessuti italiani e dell’alta moda,
-          che essa sceglie con attenzione grazie alla conoscenza
-          dei materiali maturata nel corso degli anni di formazione
-          ed esperienza; da essi prendono vita le sue idee creative
-          e nascono quelli che poi diventano i capi delle collezioni.
-          Questi saranno infine venduti negli atelier e sui siti e-commerce dei brand."
+          text="Uno dei principi fondamentali sul quale si basa la stilista Cristina Gamberoni di Nei Miei Panni è impegnarsi anche da un punto di vista etico, fissando delle corrette retribuzioni per le persone che si occupano della produzione, così da valorizzare concretamente quanti operano nel settore artigianale.
+          La produzione è seguita con grande cura mediante delle particolari lavorazioni artigianali, come ad esempio alcune tipologie di cuciture. Le clienti comprendono l’importanza ed il valore intrinseco del capo, assumendo una maggiore consapevolezza di ciò che acquistano. In linea con questo concetto di cura verso la cliente è anche la scelta dei materiali, infatti si opta per tessuti naturali, come il lino e la lana, che, oltre ad essere garanzia di qualità, sono salutari per la pelle. I tessuti utilizzati da Nei Miei Panni vengono selezionati dalla stilista presso i suoi fornitori, i quali offrono tessuti italiani e dell’alta moda, che essa sceglie con attenzione grazie alla conoscenza dei materiali maturata nel corso degli anni di formazione ed esperienza; da essi nascono quelli che poi diventano i capi delle collezioni, venduti nel suo atelier e sul sito e-commerce del brand."
         />
       </div>
     </BaseLayout>
