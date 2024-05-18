@@ -132,7 +132,7 @@ export default function Home() {
           text="Le idee creative dell’artigiano prendevano vita all’interno della bottega, la sua casa a tutti gli effetti, un piccolo spazio in cui egli viveva con la propria famiglia e svolgeva il proprio mestiere. All’interno del laboratorio erano le competenze tecniche dell’individuo a definirne la collocazione gerarchica, per questo il maestro artigiano aveva il compito di comandare, dettare i parametri di qualità, stabilire i criteri per la promozione dei suoi dipendenti e i ruoli dei lavoratori."
         />
         <ImageRect
-          className="col-span-4 md:col-start-2 md:col-span-2 my-4 md:-mt-[12rem]"
+          className="col-span-4 md:col-start-2 md:col-span-2 scale-150 my-4 md:-mt-[12rem]"
           imageUrl="assets/images/webp/home/cap1/2.webp"
           dida="Test Didascalia 333"
           parallax={false}
@@ -314,6 +314,7 @@ export default function Home() {
             className="col-span-4 md:col-start-9 md:col-span-3 md:mb-16"
             imageUrl="assets/images/webp/home/cap2/13.webp"
             dida="Test Didascalia"
+            parallax={false}
           />
           <ImageRect
             className="col-span-4 md:col-start-0 md:col-span-3 md:-mt-16"
@@ -326,7 +327,7 @@ export default function Home() {
             dida="Test Didascalia"
           />
           <ImageRect
-            className="col-span-4 md:col-start-10 md:col-span-3 md:mb-16"
+            className="col-span-4 md:col-start-11 md:col-span-2 md:mb-16 md:mt-16"
             imageUrl="assets/images/webp/home/cap2/17.webp"
             dida="Test Didascalia"
           />
@@ -347,18 +348,13 @@ export default function Home() {
           Brand bergamaschi come Nei Miei Panni – il quale verrà trattato più approfonditamente in seguito, scelgono di utilizzare tessuti di origine naturale, perseguendo un’idea di alta qualità e di sostenibilità, le quali necessitano dell’impiego di materiali che siano salutari per la persona che li indossa e per l’ambiente."
         />
         <ImageRect
-          className="col-span-4 md:col-start-2 md:col-span-4 md:mt-24"
+          className="col-span-4 md:col-start-2 md:col-span-4 md:mt-24 md:mb-16"
           imageUrl="assets/images/webp/home/cap3/2.webp"
           dida="Test Didascalia"
         />
         <ImageRect
           className="col-span-4 md:col-start-7 md:col-span-5 md:max-h-96"
           imageUrl="assets/images/webp/home/cap3/1.webp"
-          dida="Test Didascalia"
-        />
-        <ImageRect
-          className="col-span-4 md:col-start-6 md:col-span-5 md:-mt-24 md:ms-16 md:mb-16"
-          imageUrl="assets/images/webp/home/cap3/3.webp"
           dida="Test Didascalia"
         />
         <Paragraph
@@ -413,12 +409,12 @@ export default function Home() {
             dida="Test Didascalia"
           />
           <ImageRect
-            className="col-span-4 md:col-start-7 md:col-span-6"
+            className="col-span-4 md:col-start-8 md:col-span-5"
             imageUrl="assets/images/webp/home/cap3/8.webp"
             dida="Test Didascalia"
           />
           <ImageRect
-            className="col-span-4 md:col-start-3 md:col-span-8 md:mt-20 md:max-h-[40rem]"
+            className="col-span-4 md:col-start-3 md:col-span-4 md:-mt-32"
             imageUrl="assets/images/webp/home/cap3/9.webp"
             dida="Test Didascalia"
           />
@@ -441,7 +437,7 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-4 md:col-span-3 md:-mt-64"
-          imageUrl="assets/images/webp/home/cap3/10.webp"
+          imageUrl="assets/images/webp/home/cap3/12.webp"
           dida="Test Didascalia"
         />
         <Paragraph
@@ -455,13 +451,18 @@ export default function Home() {
         />
         <ImageRect
           className="col-span-4 md:col-span-5 md:mt-16"
-          imageUrl="assets/images/webp/home/cap3/12.webp"
+          imageUrl="assets/images/webp/home/cap3/10.webp"
           dida="Test Didascalia"
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
           text="Uno dei principi fondamentali sul quale si basa la stilista Cristina Gamberoni di Nei Miei Panni è impegnarsi anche da un punto di vista etico, fissando delle corrette retribuzioni per le persone che si occupano della produzione, così da valorizzare concretamente quanti operano nel settore artigianale.
           La produzione è seguita con grande cura mediante delle particolari lavorazioni artigianali, come ad esempio alcune tipologie di cuciture. Le clienti comprendono l’importanza ed il valore intrinseco del capo, assumendo una maggiore consapevolezza di ciò che acquistano. In linea con questo concetto di cura verso la cliente è anche la scelta dei materiali, infatti si opta per tessuti naturali, come il lino e la lana, che, oltre ad essere garanzia di qualità, sono salutari per la pelle. I tessuti utilizzati da Nei Miei Panni vengono selezionati dalla stilista presso i suoi fornitori, i quali offrono tessuti italiani e dell’alta moda, che essa sceglie con attenzione grazie alla conoscenza dei materiali maturata nel corso degli anni di formazione ed esperienza; da essi nascono quelli che poi diventano i capi delle collezioni, venduti nel suo atelier e sul sito e-commerce del brand."
+        />
+        <ImageRect
+          className="col-span-4 md:col-start-3 md:col-span-8 md:mt-16"
+          imageUrl="assets/images/webp/home/cap3/13.webp"
+          dida="Test Didascalia"
         />
       </div>
     </BaseLayout>
