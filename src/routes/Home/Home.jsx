@@ -8,6 +8,7 @@ import Quote from "../../components/Quote/Quote";
 import ImageRect from "../../components/ImageRect/ImageRect";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import Heading from "../../components/Heading/Heading";
+import Footer from "../../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -35,16 +36,11 @@ export default function Home() {
           author="Phyllis George"
         />
         <ImageRect
-          className="col-span-2 md:col-start-2 md:col-span-5 md:mb-24 md:mt-24 max-h-[27rem]"
+          className="col-span-2 md:col-start-4 md:col-span-6 md:mb-16"
           imageUrl="assets/images/webp/home/intro/1.webp"
           dida="Strumenti di sartoria"
         />
-        <ImageRect
-          className="col-span-2 md:col-span-5 md:mb-32 max-h-[27rem]"
-          imageUrl="assets/images/webp/home/intro/2.webp"
-          dida="Bergamo alta"
-        />
-        <IndexPoint className="col-span-4 md:col-span-3">
+        <IndexPoint className="col-span-4 md:col-start-1 md:col-span-3">
           Presentazione
         </IndexPoint>
         <Paragraph
@@ -57,7 +53,12 @@ export default function Home() {
           che lavorano in questa direzione, ampliando anche le conoscenze dei lettori sul tema
           preso in questione."
         />
-        <IndexPoint className="col-span-4 md:col-span-3">
+        <ImageRect
+          className="col-span-2 md:col-start-4 md:col-span-6 md:mb-16"
+          imageUrl="assets/images/webp/home/intro/2.webp"
+          dida="Strumenti di sartoria"
+        />
+        <IndexPoint className="col-span-4 md:col-start-1 md:col-span-3">
           Introduzione
         </IndexPoint>
         <Paragraph
@@ -365,6 +366,7 @@ export default function Home() {
           className="col-span-4 md:col-span-3 md:-mt-20"
           imageUrl="assets/images/webp/home/cap3/4.webp"
           dida="Test Didascalia"
+          parallax={false}
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
@@ -436,8 +438,8 @@ export default function Home() {
           text="All’interno del territorio bergamasco ci sono vari brand di moda artigianale che lavorano seguendo un metodo produttivo specifico, prestando attenzione anche alla sostenibilità: tra questi è stato preso in analisi Nei Miei Panni, un brand fondato e disegnato da Cristina Gamberoni. Esso nasce come blog e successivamente inizia a produrre capi per bambino, fino ad arrivare a quelli per la donna. Il brand si basa su una produzione esclusivamente artigianale, con principi sostenibili fin dal momento in cui la sua stilista sceglie i tessuti, la cui valutazione rappresenta una fase fondamentale, che caratterizza la qualità dei suoi capi: presso fornitori selezionati, Cristina Gamberoni tocca con mano i tessuti e ne fa un’accurata selezione alla luce delle caratteristiche esaminate. I tessuti in questione sono quasi esclusivamente deadstock e raramente nuovi, ciò si deve alla volontà programmatica di perseguire una linea di produzione che non comprometta il benessere del pianeta, contrastando sprechi ed inquinamento. La stilista bergamasca, infatti, non segue i ritmi dettati da un mercato troppo spesso viziato dal frenetico consumismo, ma decide di produrre con un’idea di moda lenta. Le creazioni sono frutto della sua maestria e del savoir-faire delle sarte. Questa specifica competenza è un fattore determinante per la qualità del prodotto, in quanto esso si fa veicolo di trasmissione del know-how artigianale, il che gli conferisce un valore aggiunto."
         />
         <ImageRect
-          className="col-span-4 md:col-span-3 md:-mt-64"
-          imageUrl="assets/images/webp/home/cap3/12.webp"
+          className="col-span-4 md:col-span-3 md:-mt-96"
+          imageUrl="assets/images/webp/home/cap3/11.webp"
           dida="Test Didascalia"
         />
         <Paragraph
@@ -445,12 +447,7 @@ export default function Home() {
           text="Cristina Gamberoni produce i suoi capi in varie taglie e li personalizza in base alla necessità e alla richiesta della cliente (la quale è mediamente una donna di età adulta con un’alta capacità di spesa) e anche in base alla disponibilità del tessuto, infatti, nel caso in cui quello scelto non fosse disponibile, alla cliente ne vengono proposti diversi altri ed il capo diventa così un pezzo realizzato in modo unico, ovvero appositamente per lei. Inoltre, i fornitori e i collaboratori sono tutti situati poco distanti dal suo atelier, così da contenere le emissioni di Co2, ottimizzare i tempi di produzione ed avere un maggiore controllo sulla stessa."
         />
         <ImageRect
-          className="col-span-4 md:col-start-2 md:col-span-5 md:mt-36 md:mb-16"
-          imageUrl="assets/images/webp/home/cap3/11.webp"
-          dida="Test Didascalia"
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-5 md:mt-16"
+          className="col-span-4 md:col-span-3 md:-mt-24"
           imageUrl="assets/images/webp/home/cap3/10.webp"
           dida="Test Didascalia"
         />
@@ -460,11 +457,17 @@ export default function Home() {
           La produzione è seguita con grande cura mediante delle particolari lavorazioni artigianali, come ad esempio alcune tipologie di cuciture. Le clienti comprendono l’importanza ed il valore intrinseco del capo, assumendo una maggiore consapevolezza di ciò che acquistano. In linea con questo concetto di cura verso la cliente è anche la scelta dei materiali, infatti si opta per tessuti naturali, come il lino e la lana, che, oltre ad essere garanzia di qualità, sono salutari per la pelle. I tessuti utilizzati da Nei Miei Panni vengono selezionati dalla stilista presso i suoi fornitori, i quali offrono tessuti italiani e dell’alta moda, che essa sceglie con attenzione grazie alla conoscenza dei materiali maturata nel corso degli anni di formazione ed esperienza; da essi nascono quelli che poi diventano i capi delle collezioni, venduti nel suo atelier e sul sito e-commerce del brand."
         />
         <ImageRect
-          className="col-span-4 md:col-start-3 md:col-span-8 md:mt-16"
+          className="col-span-4 md:col-start-2 md:col-span-5 md:mt-16"
           imageUrl="assets/images/webp/home/cap3/13.webp"
           dida="Test Didascalia"
         />
+        <ImageRect
+          className="col-span-4 md:col-span-5"
+          imageUrl="assets/images/webp/home/cap3/12.webp"
+          dida="Test Didascalia"
+        />
       </div>
+      <Footer />
     </BaseLayout>
   );
 }

@@ -57,9 +57,8 @@ export default function Navbar() {
             <InterviewsNavigator />
           </div>
           <div className="col-span-4 flex flex-col md:items-center gap-1 mt-40 md:mt-16 z-0 md:z-20">
-            <span className="w-fit">Bergamo, Italy</span>
-            <span className="w-fit">+39 555 555 5555</span>
-            <span className="w-fit">sample@mail.com</span>
+            <span className="w-fit">Bergamo (BG), Italy</span>
+            <span className="w-fit">Instagram, Linkedin: @made_in_bergamo</span>
           </div>
         </div>
       </div>

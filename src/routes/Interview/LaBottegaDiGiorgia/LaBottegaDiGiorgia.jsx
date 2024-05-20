@@ -45,7 +45,7 @@ export default function LaBottegaDiGiorgia() {
             La maggior parte dei tessuti provengono da deadstock e una parte da
             nuovo
           </BrandSheetRow>
-          <BrandSheetRow title="Showroom">?</BrandSheetRow>
+          <BrandSheetRow title="Showroom">Via Viandasso 59 - Ranica (BG)</BrandSheetRow>
           <BrandSheetRow title="Contatti">
             Sito web: www.labottegadigiorgia.it <br />
             Instagram: @la_bottega_di_giorgia <br />

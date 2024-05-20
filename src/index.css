@@ -17,12 +17,13 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #F2F1F0; /* Background of the scrollbar track */
+  min-height: 60px;
+  @apply bg-mib-beige-light /* Background of the scrollbar track */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #24201C; /* Color of the scrollbar handle */
-  border-radius: 4px; /* Optional: adds rounded corners to the scrollbar handle */
+  min-height: 60px;
+  @apply bg-mib-brown-dark /* Color of the scrollbar handle */
 }
 
 /* Remove scrollbar buttons/arrows (not universally supported) */
