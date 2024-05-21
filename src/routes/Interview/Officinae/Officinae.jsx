@@ -88,7 +88,7 @@ export default function Officinae() {
           fashion».
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="assets/images/webp/inteviews/offcinae/0.webp"
+            imageUrl="../assets/images/webp/interviews/officinae/1.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
         </InterviewQuestion>
@@ -99,11 +99,6 @@ export default function Officinae() {
           confezionano uno ad uno ogni creazione.
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/officinae/1.webp"
-            dida="Immagine relativa all'intervista, se c'è."
-          />
-          <ImageRect
-            className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/2.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
@@ -112,17 +107,22 @@ export default function Officinae() {
             imageUrl="../assets/images/webp/interviews/officinae/3.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
-          Mentre per la maglieria collaboriamo da anni con un maglificio a
-          conduzione famigliare a Seriate, sempre in provincia di Bergamo, dove
-          tutta la produzione viene fatta internamente da sei persone.
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/4.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
+          Mentre per la maglieria collaboriamo da anni con un maglificio a
+          conduzione famigliare a Seriate, sempre in provincia di Bergamo, dove
+          tutta la produzione viene fatta internamente da sei persone.
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/officinae/7.webp"
+            imageUrl="../assets/images/webp/interviews/officinae/5.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/6.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           Ogni maglia viene creata una per uno, ci sono pochissime macchine ed
@@ -141,17 +141,17 @@ export default function Officinae() {
           inoltre creiamo anche abiti da cerimonia interamente su misura».
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/officinae/6.webp"
-            dida="Immagine relativa all'intervista, se c'è."
-          />
-          <ImageRect
-            className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/7.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/8.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/9.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
         </InterviewQuestion>
@@ -195,7 +195,7 @@ export default function Officinae() {
           lino, la lana e la seta».
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/officinae/9.webp"
+            imageUrl="../assets/images/webp/interviews/officinae/10.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
         </InterviewQuestion>
@@ -217,6 +217,11 @@ export default function Officinae() {
           reperibili facilmente noi li scegliamo sapendo quanta disponibilità
           abbiamo per ciascuno, facciamo il campionario, le fotografie, lo
           portiamo in negozio e da lì riceviamo i primi ordini».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/11.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Qual’è il vostro target?">
           «Il nostro target è composto da signore di età tra i
@@ -229,6 +234,16 @@ export default function Officinae() {
           rispetto a quello dell’online. Il brand viene apprezzato non solo in
           Italia ma anche all’estero da tante donne provenienti da Inghilterra,
           Spagna, Francia, Stati Uniti, Australia e altri Stati».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/12.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/13.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Quali sono i canali di vendita che utilizzate?">
           «I nostri capi vengono venduti sul sito web, nel negozio in via in via
@@ -245,6 +260,26 @@ export default function Officinae() {
           fisico che online è la capacità di ascoltare la persona, per noi è un
           grande valore in quanto le nostre clienti si affidano a noi e sanno di
           essere ascoltate».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/14.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/15.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/16.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/17.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Per la comunicazione e promozione cosa utilizzate?">
           «Principalmente ci promuoviamo con Instagram e con la nostra
