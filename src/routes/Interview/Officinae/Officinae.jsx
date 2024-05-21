@@ -67,11 +67,6 @@ export default function Officinae() {
           fatturati enormi e altrettanti profitti ma è quello di custodire e
           salvaguardare il valore artigianale, ovviamente con una percentuale di
           guadagno per il brand e per i suoi lavoratori».
-          <ImageRect
-            className="col-span-4 md:col-span-7"
-            imageUrl="assets/images/webp/inteviews/offcinae/1.webp"
-            dida="Immagine relativa all'intervista, se c'è."
-          />
         </InterviewQuestion>
         <InterviewQuestion question="Perché avete così a cuore l’artigianalità?">
           «Pensiamo che ad oggi ci sia ancora poca conoscenza del reale valore
@@ -80,51 +75,85 @@ export default function Officinae() {
           punto di vista economico in quanto i prodotti fatti a mano, con
           filiera corta e quasi su richiesta hanno un costo non paragonabile
           alla produzione industriale, però essi hanno un valore intrinseco
-          totalmente diverso.
-          <ImageRect
-            className="col-span-4 md:col-span-7 max-h-96"
-            imageUrl="../assets/images/fullsize/19.jpg"
-            dida="Immagine relativa all'intervista, se c'è."
-          />
-          C’è un grande interesse da parte della generazione giovane dai
-          vent’anni in su ma è ancora un’interesse più mediatico che concreto,
-          per esempio c’è tanta attenzione anche alla sostenibilità, un valore
-          dell’artigianalità in quanto ciò che è fatto per una persona con
-          materiali di qualità e con grande sapienza è un prodotto pensato per
-          durare. Possiamo dire che non c’è ancora una cultura totale di
+          totalmente diverso. C’è un grande interesse da parte della generazione
+          giovane dai vent’anni in su ma è ancora un’interesse più mediatico che
+          concreto, per esempio c’è tanta attenzione anche alla sostenibilità,
+          un valore dell’artigianalità in quanto ciò che è fatto per una persona
+          con materiali di qualità e con grande sapienza è un prodotto pensato
+          per durare. Possiamo dire che non c’è ancora una cultura totale di
           investimento in un prodotto come questo, ma c’è più una volontà di
           acquistare prodotti in grandi quantità per dare più una
           rappresentazione della propria persona e per fare questo lo si può
           fare solo con una grande disponibilità economica o con dei brand fast
           fashion».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="assets/images/webp/inteviews/offcinae/0.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Com’è organizzata la vostra produzione?">
           «Il nostro atelier dove avviene la produzione dei capi si trova ad
           Albano Sant’Alessandro in provincia di Bergamo. Per quanto riguarda i
           capi in tessuto, qui Luisa e tutte le sue collaboratrici tagliano e
-          confezionano uno ad uno ogni creazione. Mentre per la maglieria
-          collaboriamo da anni con un maglificio a conduzione famigliare a
-          Seriate, sempre in provincia di Bergamo, dove tutta la produzione
-          viene fatta internamente da sei persone. Ogni maglia viene creata una
-          per uno, ci sono pochissime macchine ed ogni persona si dedica ad una
-          maglia. Questo per noi è un grande valore perché significa prendersi
-          cura del prodotto nei minimi dettagli e a differenza delle macchine
-          industriali, le quali mirano a produrre il maggior numero di capi nel
-          minor tempo possibile, le nostre sono antiche, funzionano a mano con
-          una persona che crea i nodi per la maglieria.
+          confezionano uno ad uno ogni creazione.
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/fullsize/6.jpg"
+            imageUrl="../assets/images/webp/interviews/officinae/1.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
-          La possibilità di lavorare ogni capo singolarmente fa si che a volte
-          si possano soddisfare delle richieste particolari da parte delle
-          clienti, sempre mantenendo lo stile di Officinae e dando la
-          possibilità di cambiare il tessuto o le misure, realizzando un capo su
-          misura a tutti gli effetti. Realizziamo anche vari accessori come per
-          esempio le sciarpe patch, un prodotto iconico del brand, i quali
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/2.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/3.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
+          Mentre per la maglieria collaboriamo da anni con un maglificio a
+          conduzione famigliare a Seriate, sempre in provincia di Bergamo, dove
+          tutta la produzione viene fatta internamente da sei persone.
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/4.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/7.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
+          Ogni maglia viene creata una per uno, ci sono pochissime macchine ed
+          ogni persona si dedica ad una maglia. Questo per noi è un grande
+          valore perché significa prendersi cura del prodotto nei minimi
+          dettagli e a differenza delle macchine industriali, le quali mirano a
+          produrre il maggior numero di capi nel minor tempo possibile, le
+          nostre sono antiche, funzionano a mano con una persona che crea i nodi
+          per la maglieria. La possibilità di lavorare ogni capo singolarmente
+          fa si che a volte si possano soddisfare delle richieste particolari da
+          parte delle clienti, sempre mantenendo lo stile di Officinae e dando
+          la possibilità di cambiare il tessuto o le misure, realizzando un capo
+          su misura a tutti gli effetti. Realizziamo anche vari accessori come
+          per esempio le sciarpe patch, un prodotto iconico del brand, i quali
           vengono realizzati a mano con l’uncinetto dalla stilista Paola ed
           inoltre creiamo anche abiti da cerimonia interamente su misura».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/6.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/7.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/8.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Da dove nasce la passione di Paola e come ha appreso queste tecniche di produzione artigianali?">
           «La passione di Paola verso il mondo della moda nasce quando era molto
@@ -164,6 +193,11 @@ export default function Officinae() {
           delle nostre creazioni come i pantaloni, le camicie, le giacche e le
           gonne, sono però realizzate con fibre naturali come il cotone, il
           lino, la lana e la seta».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/officinae/9.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Quante collezioni create all’anno e quali sono i ritmi di vendita?">
           «Due collezioni all’anno, primavera/estate e autunno/inverno, questo
