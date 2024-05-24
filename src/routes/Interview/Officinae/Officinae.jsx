@@ -14,7 +14,7 @@ export default function Officinae() {
         <BrandSheet>
           <BrandSheetRow title="Anno di fondazione">2010</BrandSheetRow>
           <BrandSheetRow title="Fondatrice e designer">
-            Paola Trinzoni
+            Paola Tirinzoni
           </BrandSheetRow>
           <BrandSheetRow title="Collezioni">
             Due all'anno - Primavera/Estate e Autunno/Inverno, <br />
@@ -34,26 +34,27 @@ export default function Officinae() {
             Albano Sant'Alessandro e Seriate, Provincia di Bergamo
           </BrandSheetRow>
           <BrandSheetRow title="Materiali utilizzati">
-            Cotone, Lino, Lana, Seta, Taffetà.
+            Cotone, lino, lana, seta, taffetà.
           </BrandSheetRow>
           <BrandSheetRow title="Tratti distintivi">
-            Realtà famigliare <br />
-            Lavorazione di ogni capo artigianalmente <br />
-            Possibilità di modificare misure e tessuti <br />
+            Realtà famigliare; <br />
+            Lavorazione di ogni capo artigianalmente; <br />
+            Possibilità di modificare misure e tessuti; <br />
             La maggior parte dei tessuti vengono da deadstock e una piccola
-            parte da nuovo <br />
-            Creazioni di abiti da cerimonia interamente su misura <br />
-            Tecniche tramandate di generazione in generazione.
+            parte da nuovo; <br />
+            Creazioni di abiti da cerimonia interamente su misura; <br />
+            Tecniche tramandate di generazione in generazione;
           </BrandSheetRow>
           <BrandSheetRow title="Negozio">
             Via T.Tasso 32 - Bergamo
           </BrandSheetRow>
           <BrandSheetRow title="Contatti">
             Sito web: www.officinaelab.com <br /> Instagram: @officinae_ <br />
-            Facebook Officinae <br /> Mail: info@officinaelab.com <br /> Tel.
-            +39 035 210 643 <br /> Cell. +36 338 181 5859
+            Facebook: Officinae <br /> Mail: info@officinaelab.com <br /> Tel:
+            +39 035 210 643 <br /> Cell.: +36 338 181 5859
           </BrandSheetRow>
         </BrandSheet>
+
         <InterviewQuestion question="Quando è nato Officinae, come lavora e quali sono i suoi valori?">
           «Officinae è un brand che nasce nel 2010 per mano della titolare e
           stilista Paola Tirinzoni ed è una realtà a conduzione famigliare
@@ -268,11 +269,6 @@ export default function Officinae() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/15.webp"
-            dida="Immagine relativa all'intervista, se c'è."
-          />
-          <ImageRect
-            className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/officinae/16.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
           <ImageRect

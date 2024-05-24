@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <BaseLayout>
       <div className="h-fit mx-4 mb-8 md:mx-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0">
-        <div className="col-span-4 md:col-span-12 mt-24 md:mt-44">
+        <div className="col-span-4 md:col-span-12 z-50 mt-24 md:mt-44">
           <img
             className="w-full"
             src="assets/images/svg/madeinbergamo_fold.svg"
@@ -22,7 +22,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="w-full h-[80vh] -mt-4 sm:-mt-5 md:-mt-12 lg:-mt-14 xl:-mt-16">
+      <div className="w-full h-[100vh] z-40 -mt-4 sm:-mt-5 md:-mt-12 lg:-mt-14 xl:-mt-16">
         <img
           className="w-full h-full object-cover"
           src="assets/images/webp/8_1.webp"
@@ -36,9 +36,9 @@ export default function Home() {
           author="Phyllis George"
         />
         <ImageRect
-          className="col-span-2 md:col-start-4 md:col-span-6 md:mb-16"
+          className="col-span-full md:col-start-3 md:col-span-8 md:mb-16"
           imageUrl="assets/images/webp/home/intro/1.webp"
-          dida="Strumenti di sartoria"
+          dida={`"Atelier", Conflenti Italiani`}
         />
         <IndexPoint className="col-span-4 md:col-start-1 md:col-span-3">
           Presentazione
@@ -54,9 +54,9 @@ export default function Home() {
           preso in questione."
         />
         <ImageRect
-          className="col-span-2 md:col-start-4 md:col-span-6 md:mb-16"
+          className="col-span-full md:col-start-3 md:col-span-8 md:mb-16"
           imageUrl="assets/images/webp/home/intro/2.webp"
-          dida="Strumenti di sartoria"
+          dida="Territorio di Bergamo"
         />
         <IndexPoint className="col-span-4 md:col-start-1 md:col-span-3">
           Introduzione
@@ -109,13 +109,13 @@ export default function Home() {
         <ImageRect
           className="col-span-4 md:col-span-3 md:-mb-[24rem] md:-mt-[12rem]"
           imageUrl="assets/images/webp/home/cap1/1.webp"
-          dida="Test Didascalia 333"
+          dida="Vauvenargues, Brunello Cucinelli"
           parallax={false}
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
           text="L’immaginario immediatamente evocato dal termine “artigiano” trova il suo perno nella figura dell’uomo che lavora con i suoi vecchi arnesi all’interno della sua bottega, la quale permette essa stessa di percepire l’elevato grado di conoscenze e abilità manuali dell’uomo che la vive e le dona vita.
-          Una prima celebrazione di questa particolare figura di lavoratore era già comparsa all’interno dell’inno omerico al dio protettore degli artigiani, Efesto, il quale concepiva questa professione come portatrice di pace all’interno della civiltà, arrivando ad attribuirle il suo stesso inizio. La verità storica è, ovviamente, un’altra: gli uomini fabbricavano già da tempo gli attrezzi necessari alla produzione, ma l’artigiano celebrato da Efesto lavorava per il bene collettivo della società, rendendola sedentaria, ed è per questo motivo che i Greci consideravano l’artigianato e la comunità due elementi indissolubili. 2
+          Una prima celebrazione di questa particolare figura di lavoratore era già comparsa all’interno dell’inno omerico al dio protettore degli artigiani, Efesto, il quale concepiva questa professione come portatrice di pace all’interno della civiltà, arrivando ad attribuirle il suo stesso inizio. La verità storica è, ovviamente, un’altra: gli uomini fabbricavano già da tempo gli attrezzi necessari alla produzione, ma l’artigiano celebrato da Efesto lavorava per il bene collettivo della società, rendendola sedentaria, ed è per questo motivo che i Greci consideravano l’artigianato e la comunità due elementi indissolubili.
           "
         />
         <Paragraph
@@ -133,25 +133,25 @@ export default function Home() {
           text="Le idee creative dell’artigiano prendevano vita all’interno della bottega, la sua casa a tutti gli effetti, un piccolo spazio in cui egli viveva con la propria famiglia e svolgeva il proprio mestiere. All’interno del laboratorio erano le competenze tecniche dell’individuo a definirne la collocazione gerarchica, per questo il maestro artigiano aveva il compito di comandare, dettare i parametri di qualità, stabilire i criteri per la promozione dei suoi dipendenti e i ruoli dei lavoratori."
         />
         <ImageRect
-          className="col-span-4 md:col-start-2 md:col-span-2 scale-150 my-4 md:-mt-[12rem]"
+          className="col-span-4 md:col-start-2 md:col-span-3 my-4 md:-ms-16 md:me-16 md:-mt-[12rem]"
           imageUrl="assets/images/webp/home/cap1/2.webp"
-          dida="Test Didascalia 333"
+          dida="Formella 17, fidia o la scultura, Andrea Pisano, 1334-1336"
           parallax={false}
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
-          text="Il suo lavoro era considerato prezioso dalla comunità e questo faceva sì che avesse una certa rilevanza, ma dal Quattrocento, con i trattati di Leon Battista Alberti, artista rinascimentale, quest’idea iniziò a scomparire e l’artigiano cominciò a perdere l’importanza che aveva all’inizio, in quanto si cominciò a darne di più all’intelletto rispetto che alla manualità; questo cambiamento proseguì anche in seguito alla nascita delle Accademie, le quali misero in risalto il sapere accademico, evidenziandone le differenze con il mestiere manuale dell’artigiano, fino ad arrivare alle macchine della Rivoluzione Industriale. 6 "
+          text="Il suo lavoro era considerato prezioso dalla comunità e questo faceva sì che avesse una certa rilevanza, ma dal Quattrocento, con i trattati di Leon Battista Alberti, artista rinascimentale, quest’idea iniziò a scomparire e l’artigiano cominciò a perdere l’importanza che aveva all’inizio, in quanto si cominciò a darne di più all’intelletto rispetto che alla manualità; questo cambiamento proseguì anche in seguito alla nascita delle Accademie, le quali misero in risalto il sapere accademico, evidenziandone le differenze con il mestiere manuale dell’artigiano, fino ad arrivare alle macchine della Rivoluzione Industriale"
         />
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-5 md:mt-40"
           imageUrl="assets/images/webp/home/cap1/3.webp"
-          dida="Test Didascalia 333"
+          dida="Karl schreyner (Schreiner) - Amb. 317.2° Folio 21 recto (Mendel I)"
           parallax={true}
         />
         <ImageRect
           className="col-span-4 md:col-start-7 md:col-span-5 md:mt-16 md:mb-24"
           imageUrl="assets/images/webp/home/cap1/4.webp"
-          dida="Test Didascalia 333"
+          dida="The village carpenter, by Tony Lodewijk George Offermans (1854-1911)"
           parallax={true}
         />
         <IndexPoint className="col-span-4 md:col-span-2">
@@ -170,7 +170,7 @@ export default function Home() {
         <ImageRect
           className="col-span-4 md:col-start-1 md:col-span-3 md:-mt-[32rem]"
           imageUrl="assets/images/webp/home/cap1/5.webp"
-          dida="Test Didascalia"
+          dida="Berlin 13 Heures, 1931 by Hans Baluschek (1870-1935)"
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
@@ -183,7 +183,7 @@ export default function Home() {
         <ImageRect
           className="col-span-4 md:col-start-1 md:col-span-12 md:mt-24"
           imageUrl="assets/images/webp/home/cap1/6.webp"
-          dida="Test Didascalia"
+          dida={`Film "Craft in Motion", Bottega Veneta, 2023`}
         />
       </div>
       <div className="w-full h-fit px-4 py-16 md:py-32 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">
@@ -205,17 +205,18 @@ export default function Home() {
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-3 md:mt-48"
           imageUrl="assets/images/webp/home/cap2/1.webp"
-          dida="Test Didascalia"
+          dida="Foto di Zuma Press/Alamy Foto Stock, Cile, 4th giugno 2011,
+          l’eruzione di Puyehue-Cordon Caulle"
         />
         <ImageRect
           className="col-span-4 md:col-span-4 md:mb-16"
           imageUrl="assets/images/webp/home/cap2/2.webp"
-          dida="Test Didascalia"
+          dida="Foto di João Paulo Bernardes, Spitzberg Glacier, Norway, 2013"
         />
         <ImageRect
           className="col-span-4 md:col-span-3 md:mt-24"
           imageUrl="assets/images/webp/home/cap2/3.webp"
-          dida="Test Didascalia"
+          dida="Foto di Overview.com, Andean Mountain Vineyards, Cile"
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
@@ -225,21 +226,22 @@ export default function Home() {
         <ImageRect
           className="col-span-4 md:col-start-3 md:col-span-3 md:mt-32"
           imageUrl="assets/images/webp/home/cap2/4.webp"
-          dida="Test Didascalia"
+          dida="Foto di Bernhard Edmaier, Zagros Mountains, 2017"
         />
         <ImageRect
           className="col-span-4 md:col-span-3"
           imageUrl="assets/images/webp/home/cap2/5.webp"
-          dida="Test Didascalia"
+          dida="Foto di Lac, Nazca Lines: Lines and Geoglyphs of Nasca and Palpa
+          (Peru), 2018"
         />
         <ImageRect
           className="col-span-4 md:col-span-3 md:mt-48 md:mb-16"
           imageUrl="assets/images/webp/home/cap2/6.webp"
-          dida="Test Didascalia"
+          dida="Foto di Bernhard Edmaier, USA, 2018"
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
-          text="Le connessioni geografiche e il sistema imprenditoriale sono due punti chiave che hanno consentito anche lo sviluppo di un sistema economico locale di rilievo all’interno del Paese e dell’Unione Europea, grazie all’andamento demografico costante e al tasso di occupazione nel settore terziario. 16
+          text="Le connessioni geografiche e il sistema imprenditoriale sono due punti chiave che hanno consentito anche lo sviluppo di un sistema economico locale di rilievo all’interno del Paese e dell’Unione Europea, grazie all’andamento demografico costante e al tasso di occupazione nel settore terziario.
           Questi tratti caratterizzanti del territorio bergamasco hanno portato ad uno sviluppo in ambiti come quello turistico e culturale: Bergamo, insieme a Brescia, ha assunto il ruolo di Capitale italiana della Cultura per il 2023, grazie al suo impegno verso la valorizzazione, la promozione e la preservazione del patrimonio culturale ed artistico."
         />
         <Paragraph
@@ -254,22 +256,23 @@ export default function Home() {
           <ImageRect
             className="col-span-4 md:col-span-5"
             imageUrl="assets/images/webp/home/cap2/7.webp"
-            dida="Test Didascalia"
+            dida="Foto di Reddit.com, Lake Tekapo, New Zealand, 2017"
           />
           <ImageRect
             className="col-span-4 md:col-start-7 md:col-span-5"
             imageUrl="assets/images/webp/home/cap2/8.webp"
-            dida="Test Didascalia"
+            dida="Foto di Bernhard Edmaier, Summer in the Lena Delta, Northeast Siberia, 2017"
           />
           <ImageRect
             className="col-span-4 md:col-start-2 md:col-span-5"
             imageUrl="assets/images/webp/home/cap2/9.webp"
-            dida="Test Didascalia"
+            dida="Foto di Tim Allen, Terra Firma 3/13, 2013"
           />
           <ImageRect
             className="col-span-4 md:col-start-8 md:col-span-5 md:-mt-20"
             imageUrl="assets/images/webp/home/cap2/10.webp"
-            dida="Test Didascalia"
+            dida="Foto di Stas Bartnikas, concorso “Travel Photo Contest” del
+            National Geographic, 2019"
           />
         </SpyTextGalleryLayout>
         <IndexPoint className="col-span-4 md:col-span-3">
@@ -284,12 +287,12 @@ export default function Home() {
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-4 md:mt-24"
           imageUrl="assets/images/webp/home/cap2/11.webp"
-          dida="Test Didascalia"
+          dida="Scopinatura dei bozzoli di seta"
         />
         <ImageRect
           className="col-span-4 md:col-start-7 md:col-span-5 md:mb-16"
           imageUrl="assets/images/webp/home/cap2/12.webp"
-          dida="Test Didascalia"
+          dida="Filandaie Recanatesi, ilcittadinodirecanati.it"
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
@@ -309,28 +312,28 @@ export default function Home() {
           <ImageRect
             className="col-span-4 md:col-start-3 md:col-span-5"
             imageUrl="assets/images/webp/home/cap2/14.webp"
-            dida="Test Didascalia"
+            dida="Filanda a Villa d’Adda"
           />
           <ImageRect
             className="col-span-4 md:col-start-9 md:col-span-3 md:mb-16"
             imageUrl="assets/images/webp/home/cap2/13.webp"
-            dida="Test Didascalia"
+            dida="A mill girl in a spooling room, knittingparadise.com"
             parallax={false}
           />
           <ImageRect
             className="col-span-4 md:col-start-0 md:col-span-3 md:-mt-16"
             imageUrl="assets/images/webp/home/cap2/16.webp"
-            dida="Test Didascalia"
+            dida="Lana"
           />
           <ImageRect
             className="col-span-4 md:col-start-5 md:col-span-4 md:mt-40"
             imageUrl="assets/images/webp/home/cap2/15.webp"
-            dida="Test Didascalia"
+            dida="Farm Women Spinning Wool Telemarken Norway, berufedieserwelt.de"
           />
           <ImageRect
-            className="col-span-4 md:col-start-11 md:col-span-2 md:mb-16 md:mt-16"
+            className="col-span-4 md:col-start-10 md:col-span-2 md:mb-16 md:mt-16"
             imageUrl="assets/images/webp/home/cap2/17.webp"
-            dida="Test Didascalia"
+            dida="Lanificio Bottoli, sgaialand.it"
           />
         </SpyTextGalleryLayout>
       </div>
@@ -351,12 +354,12 @@ export default function Home() {
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-4 md:mt-24 md:mb-16"
           imageUrl="assets/images/webp/home/cap3/2.webp"
-          dida="Test Didascalia"
+          dida="Campioni di tessuti, maekotessuti.com"
         />
         <ImageRect
           className="col-span-4 md:col-start-7 md:col-span-5 md:max-h-96"
           imageUrl="assets/images/webp/home/cap3/1.webp"
-          dida="Test Didascalia"
+          dida="Lino, IG @latapicera.cl"
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
@@ -365,7 +368,7 @@ export default function Home() {
         <ImageRect
           className="col-span-4 md:col-span-3 md:-mt-20"
           imageUrl="assets/images/webp/home/cap3/4.webp"
-          dida="Test Didascalia"
+          dida="Figurino di moda, artsper.com"
           parallax={false}
         />
         <Paragraph
@@ -382,12 +385,12 @@ export default function Home() {
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-5 md:mt-56 md:mb-16"
           imageUrl="assets/images/webp/home/cap3/5.webp"
-          dida="Test Didascalia"
+          dida="Cartamodello, IG @chinatextiletraders"
         />
         <ImageRect
           className="col-span-4 md:col-start-7 md:col-span-5 md:mt-16"
           imageUrl="assets/images/webp/home/cap3/6.webp"
-          dida="Test Didascalia"
+          dida="Elementi di produzione, IG @muup_official"
         />
         <IndexPoint className="col-span-4 md:col-span-3">
           Le tecniche produttive sostenibili
@@ -408,17 +411,17 @@ export default function Home() {
           <ImageRect
             className="col-span-4 md:col-span-5 md:-mt-48"
             imageUrl="assets/images/webp/home/cap3/7.webp"
-            dida="Test Didascalia"
+            dida="Tessuti in lino"
           />
           <ImageRect
             className="col-span-4 md:col-start-8 md:col-span-5"
             imageUrl="assets/images/webp/home/cap3/8.webp"
-            dida="Test Didascalia"
+            dida="Tessuti deadstock, recovo.co"
           />
           <ImageRect
             className="col-span-4 md:col-start-3 md:col-span-4 md:-mt-32"
             imageUrl="assets/images/webp/home/cap3/9.webp"
-            dida="Test Didascalia"
+            dida="Rotoli di tessuto riciclato, olgahenry.design"
           />
         </SpyTextGalleryLayout>
         <Paragraph
@@ -440,7 +443,7 @@ export default function Home() {
         <ImageRect
           className="col-span-4 md:col-span-3 md:-mt-96"
           imageUrl="assets/images/webp/home/cap3/11.webp"
-          dida="Test Didascalia"
+          dida="Giacca con cuciture, Tumblr"
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
@@ -449,7 +452,7 @@ export default function Home() {
         <ImageRect
           className="col-span-4 md:col-span-3 md:-mt-24"
           imageUrl="assets/images/webp/home/cap3/10.webp"
-          dida="Test Didascalia"
+          dida="Tessuti, IG @chinatextiletraders"
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6 text-mib-brown-dark"
@@ -459,16 +462,15 @@ export default function Home() {
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-5 md:mt-16"
           imageUrl="assets/images/webp/home/cap3/13.webp"
-          dida="Test Didascalia"
+          dida="Foto di Cristina Gamberoni, Nei Miei Panni"
         />
         <ImageRect
           className="col-span-4 md:col-span-5"
           imageUrl="assets/images/webp/home/cap3/12.webp"
-          dida="Test Didascalia"
+          dida="Foto di Cristina Gamberoni, Nei Miei Panni"
         />
       </div>
       <Footer />
     </BaseLayout>
   );
 }
-

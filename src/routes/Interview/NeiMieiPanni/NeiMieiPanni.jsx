@@ -17,7 +17,7 @@ export default function NeiMieiPanni() {
             Cristina Gamberoni
           </BrandSheetRow>
           <BrandSheetRow title="Collezioni">
-            Due l'anno - Primavera/Estate, Autunno/Inverno <br />
+            Due all'anno - Primavera/Estate, Autunno/Inverno <br />
             Bambino e principalmente donna
           </BrandSheetRow>
           <BrandSheetRow title="Target">
@@ -32,26 +32,25 @@ export default function NeiMieiPanni() {
           </BrandSheetRow>
           <BrandSheetRow title="Produzione">Provincia di Bergamo</BrandSheetRow>
           <BrandSheetRow title="Materiali utilizzati">
-            Cotone, Lino, Lana.
+            Cotone, lino, lana
           </BrandSheetRow>
           <BrandSheetRow title="Tratti distintivi">
-            Tessuti naturali provenienti da deadstock <br />
-            Lavorazione di ogni capo artigianalmente <br />
+            Tessuti naturali provenienti da deadstock; <br />
+            Lavorazione di ogni capo artigianalmente; <br />
             Capi non su misura ma modificabili su richiesta, sia per le misure
-            che per i tessuti.
+            che per i tessuti;
           </BrandSheetRow>
           <BrandSheetRow title="Showroom">
             Via Pizzo Coca 3/A - Bergamo
           </BrandSheetRow>
           <BrandSheetRow title="Contatti">
             Sito web: www.neimieipanni.it <br />
-            Instagram: @neimieipanni
-            <br />
-            Facebook: Nei Miei Panni
-            <br />
+            Instagram: @neimieipanni <br />
+            Facebook: Nei Miei Panni <br />
             Email: cristina@neimieipanni.it
           </BrandSheetRow>
         </BrandSheet>
+
         <InterviewQuestion question="Quando è nato Nei Miei Panni, come lavora e quali sono i suoi valori?">
           «Nei Miei Panni è nato nel 2012 come blog e poco dopo è diventato un
           brand di moda artigianale, inizialmente per bambino e dal 2018 è stato

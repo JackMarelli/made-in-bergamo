@@ -22,36 +22,37 @@ export default function Nitto() {
           <BrandSheetRow title="Target">
             Donne tra i 30 e i 50 anni che amano il no branding e il mondo
             dell’artigianalità, provenienti da Stati Uniti, Cina, Giappone e
-            Korea
+            Corea
           </BrandSheetRow>
           <BrandSheetRow title="Valori">
             Artigianalità <br /> Territorialità <br /> Riduzione dell’impatto
             ambientale
           </BrandSheetRow>
           <BrandSheetRow title="Produzione">
-            Bergamo, Brasile, Peru
+            Bergamo, Brasile, Perù
           </BrandSheetRow>
           <BrandSheetRow title="Materiali utilizzati">
             Cotone <br /> Seta <br /> Cashmere <br /> Lana <br /> Materiali
             brasiliani
           </BrandSheetRow>
           <BrandSheetRow title="Tratti distintivi">
-            Impegno costante verso un impatto ambientale minimo <br /> Volontà
-            di produrre i capi nel luogo di provenienza delle materie prime{" "}
-            <br /> Creazione dell’etichetta del capo dettagliata, con la sua
-            tracciabilità <br /> Materiali 100% naturali, provenienti da
-            deadstock <br /> Impegno verso la riduzione degli sprechi in ogni
-            aspetto della filiera produttiva <br /> Presenza sul sito web di una
-            sezione dedicata alla cura e al riparo del capo, con spiegazioni e
-            video tutorial <br /> Insieme al capo inviato alla cliente è
-            presente un kit con strumenti per l’eventuale riparo <br />{" "}
+            Impegno costante verso un impatto ambientale minimo; <br /> Volontà
+            di produrre i capi nel luogo di provenienza delle materie prime;{" "}
+            <br />
+            Creazione dell’etichetta del capo dettagliata, con la sua
+            tracciabilità; <br /> Materiali 100% naturali, provenienti da
+            deadstock; <br /> Impegno verso la riduzione degli sprechi in ogni
+            aspetto della filiera produttiva; <br /> Presenza sul sito web di
+            una sezione dedicata alla cura e al riparo del capo, con spiegazioni
+            e video tutorial; <br /> Insieme al capo inviato alla cliente è
+            presente un kit con strumenti per l’eventuale riparo; <br />
             Comunicazione di quasi totale silenzio, legata alla filosofia del
-            brand e della designer <br /> Forte legame con la musica, utilizzata
-            per raccontare le collezioni
+            brand e della designer; <br /> Forte legame con la musica,
+            utilizzata per raccontare le collezioni;
           </BrandSheetRow>
           <BrandSheetRow title="Contatti">
-            sito web www.nittoness.com <br /> Instagram @nitto_ness <br /> mail
-            info@nittoness.com <br /> cell. +39 335 628 4018
+            Sito web: www.nittoness.com <br /> Instagram: @nitto_ness <br />
+            Mail: info@nittoness.com <br /> Cell.: +39 335 628 4018
           </BrandSheetRow>
         </BrandSheet>
 

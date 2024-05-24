@@ -17,17 +17,17 @@ export default function AlbiniGroup() {
         <BrandSheetRow title="Marchi del gruppo">
           Albini
           <br /> Thomas Mason
-          <br /> Abliate
+          <br /> Albiate
           <br /> Albini Donna
         </BrandSheetRow>
         <BrandSheetRow title="Collezioni">
-          Due collezioni all'anno, SS e FW
+          Due collezioni all'anno, Primavera/Estate e Autunno/Inverno
         </BrandSheetRow>
         <BrandSheetRow title="Target">
           Aziende tessili e brand di moda
         </BrandSheetRow>
         <BrandSheetRow title="Valori">
-          Artiginalità
+          Artigianalità
           <br /> Legame famigliare e con il territorio bergamasco
           <br />
           Sostenibilità
@@ -41,16 +41,14 @@ export default function AlbiniGroup() {
           Albino, Gandino e Brebbia (BG)
         </BrandSheetRow>
         <BrandSheetRow title="Materie prime utilizzate">
-          Cotone (Giza 45, Giza 87, Supima, Sea Island Cotton, Biofusion), Lino
+          Cotone (Giza 45, Giza 87, Supima, Sea Island Cotton, Biofusion), lino
         </BrandSheetRow>
         <BrandSheetRow title="Tratti distintivi">
-          Ricerca di materie prime pregiate
-          <br /> 145 anni di esperienza tessile
-          <br />
-          stage e recruiting finalizzati all'assunzione di nuove figure
-          <br />
-          collaborazioni con università
-          <br /> eventi culturali e artistici.
+          Ricerca di materie prime pregiate;
+          <br /> 145 anni di esperienza tessile;
+          <br /> Stage e recruiting finalizzati all'assunzione di nuove figure;
+          <br /> Collaborazioni con università;
+          <br /> Eventi culturali e artistici.
         </BrandSheetRow>
         <BrandSheetRow title="Punto vendita">
           Via Partigiani, 2D - 24012 Albino (BG)
@@ -61,7 +59,8 @@ export default function AlbiniGroup() {
           Linkedin: @Albini Group <br />
           Tel: +39 03777111
         </BrandSheetRow>
-      </BrandSheet>
+</BrandSheet>
+
       <InterviewQuestion question="Quando è nato Albini Group, come lavora e quali sono i suoi valori?">
         «Albini Group nasce nel 1876 ad Albino in provincia di Bergamo e ad oggi
         rimane ancora una realtà familiare guidata dalla quinta generazione
@@ -130,11 +129,6 @@ export default function AlbiniGroup() {
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/3.webp"
-          dida="Immagine relativa all'intervista, se c'è."
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/4.webp"
           dida="Immagine relativa all'intervista, se c'è."
         />
       </InterviewQuestion>
@@ -206,11 +200,6 @@ export default function AlbiniGroup() {
         />
         <ImageRect
           className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/11.webp"
-          dida="Immagine relativa all'intervista, se c'è."
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/12.webp"
           dida="Immagine relativa all'intervista, se c'è."
         />
@@ -237,18 +226,8 @@ export default function AlbiniGroup() {
           imageUrl="../assets/images/webp/interviews/albinigroup/15.webp"
           dida="Immagine relativa all'intervista, se c'è."
         />
-        <ImageRect
-          className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/16.webp"
-          dida="Immagine relativa all'intervista, se c'è."
-        />
         Al rientro dal finissaggio il tessuto viene sottoposto a test fisici e
         chimici in laboratorio, dove l’ispettrice ricerca eventuali difettosità.
-        <ImageRect
-          className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/17.webp"
-          dida="Immagine relativa all'intervista, se c'è."
-        />
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/18.webp"
