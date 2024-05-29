@@ -17,7 +17,7 @@ export default function ERTKingdom() {
             Giulia Terzi
         </BrandSheetRow>
         <BrandSheetRow title="Collezioni">
-            Una all’anno, maglieria per uomo/donna in taglia unica
+            Una all’anno - Maglieria per uomo/donna in taglia unica
         </BrandSheetRow>
         <BrandSheetRow title="Target">
             Persone dai 35/40 anni in su

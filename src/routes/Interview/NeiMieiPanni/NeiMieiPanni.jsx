@@ -38,7 +38,7 @@ export default function NeiMieiPanni() {
             Tessuti naturali provenienti da deadstock; <br />
             Lavorazione di ogni capo artigianalmente; <br />
             Capi non su misura ma modificabili su richiesta, sia per le misure
-            che per i tessuti;
+            che per i tessuti
           </BrandSheetRow>
           <BrandSheetRow title="Showroom">
             Via Pizzo Coca 3/A - Bergamo

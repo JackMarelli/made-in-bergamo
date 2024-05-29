@@ -35,11 +35,6 @@ export default function Home() {
           text="“L’artigianato ci fa sentire radicati, ci dà un senso di appartenenza e ci connette con la nostra storia.” "
           author="Phyllis George"
         />
-        <ImageRect
-          className="col-span-full md:col-start-3 md:col-span-8 md:mb-16"
-          imageUrl="assets/images/webp/home/intro/1.webp"
-          dida={`"Atelier", Conflenti Italiani`}
-        />
         <IndexPoint className="col-span-4 md:col-start-1 md:col-span-3">
           Presentazione
         </IndexPoint>
@@ -54,9 +49,14 @@ export default function Home() {
           preso in questione."
         />
         <ImageRect
-          className="col-span-full md:col-start-3 md:col-span-8 md:mb-16"
+          className="col-span-full md:col-start-2 md:col-span-4 md:mt-8"
+          imageUrl="assets/images/webp/home/intro/1.webp"
+          dida={`"Atelier", Conflenti Italiani`}  
+        />
+        <ImageRect
+          className="col-span-full md:col-start-7 md:col-span-5 md:mb-16"
           imageUrl="assets/images/webp/home/intro/2.webp"
-          dida="Territorio di Bergamo"
+          dida="Territorio di Bergamo, blog.italotreno.it"
         />
         <IndexPoint className="col-span-4 md:col-start-1 md:col-span-3">
           Introduzione
@@ -88,7 +88,7 @@ export default function Home() {
       <div className="w-full h-fit py-16 px-4 md:py-32 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
         <Heading text="L'artigianalità" />
         <IndexPoint className="col-span-4 md:col-span-2">
-          L’importanza della artigianalità e la figura dell’artigiano
+          L’importanza dell'artigianalità e la figura dell’artigiano
         </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
@@ -155,7 +155,7 @@ export default function Home() {
           parallax={true}
         />
         <IndexPoint className="col-span-4 md:col-span-2">
-          L’artigianato dalla industrializzazione ad oggi
+          L’artigianato dall'industrializzazione ad oggi
         </IndexPoint>
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
@@ -232,7 +232,7 @@ export default function Home() {
           className="col-span-4 md:col-span-3"
           imageUrl="assets/images/webp/home/cap2/5.webp"
           dida="Foto di Lac, Nazca Lines: Lines and Geoglyphs of Nasca and Palpa
-          (Peru), 2018"
+          (Perù), 2018"
         />
         <ImageRect
           className="col-span-4 md:col-span-3 md:mt-48 md:mb-16"

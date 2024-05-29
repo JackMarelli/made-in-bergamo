@@ -21,7 +21,7 @@ export default function AlbiniGroup() {
           <br /> Albini Donna
         </BrandSheetRow>
         <BrandSheetRow title="Collezioni">
-          Due collezioni all'anno, Primavera/Estate e Autunno/Inverno
+          Due collezioni all'anno - Primavera/Estate e Autunno/Inverno
         </BrandSheetRow>
         <BrandSheetRow title="Target">
           Aziende tessili e brand di moda
@@ -307,51 +307,6 @@ export default function AlbiniGroup() {
         creative, funzionali e sostenibili insieme ad un numero crescente di
         partner accademici ed industriali, a conferma del successo del modello
         di innovazione basato sull’Open Innovation».
-      </InterviewQuestion>
-      <InterviewQuestion question="Qual’è il procedimento che avviene per creare un tessuto? Dove avviene la produzione?">
-        «Dopo aver eseguito la ricerca delle materie prime si inizia a creare il
-        tessuto mediante la filatura, la quale permette di trasformare una massa
-        di fibre tessili in un’unità di grande lunghezza, ovvero il filato. I
-        processi di filatura sono molteplici e variano in base alle
-        caratteristiche delle fibre e ai filati da ottenere. L’obiettivo è
-        creare un filato di qualità elevata, regolare, resistente e dalla
-        pelosità minima. Dopodiché avviene la tintura mediante l’utilizzo di
-        sostanze coloranti. In seguito alla filatura e alla tintura, il processo
-        di tessitura porta i filati a intrecciarsi per divenire tessuti, sintesi
-        tra la qualità della materia prima, della creatività del disegno, della
-        struttura e dell’esperienza del personale. Successivamente avviene il
-        finissaggio tessile o “nobilitazione”, l’insieme di trattamenti a cui si
-        sottopone il tessuto per migliorarne la tingibilità, la stampabilità,
-        l’idrofilia, il colore, la mano e l’aspetto finale. Al rientro dal
-        finissaggio il tessuto viene sottoposto a test fisici e chimici in
-        laboratorio, dove l’ispettrice ricerca eventuali difettosità. Una volta
-        controllato al 100%, il tessuto viene tagliato e confezionato secondo le
-        esigenze del cliente. La maggior parte delle fasi produttive avviene
-        nelle nostre sedi dislocate sul territorio bergamasco: tintura e
-        tessitura avvengono ad Albino, mentre i controlli finali avvengono nelle
-        sedi di Gandino. Per quanto riguarda il finissaggio, invece, i tessuti
-        vengono inviati alla nostra sede di Brebbia».
-      </InterviewQuestion>
-      <InterviewQuestion question="Quante collezioni proponete durante l’anno e dove vengono presentate?">
-        «Ogni stagione vengono create due collezioni, autunno/inverno e
-        primavera/estate. I diversi temi e mood creativi delle collezioni,
-        sempre ispirati a stili eterogenei, raccontano le tendenze stagionali,
-        esaltando gli aspetti distintivi di ciascun marchio e dando vita a
-        tessuti che ispirano maison di moda, retailer e camiciai specializzati.
-        Abbiamo anche delle collezioni definite continuative per garantire in
-        ogni periodo dell’anno una proposta di tessuti pronti a magazzino ampia
-        ed articolata, adatta ad ogni occasione d’uso. Inoltre creiamo circa
-        4000 tessuti esclusivi ogni stagione, ossia varianti di prodotto
-        realizzate su richieste specifiche di un singolo cliente, al quale si
-        può assicurare non solo l’unicità del disegno ma anche del colore del
-        filato utilizzato. Le collezioni vengono presentate alla fiera Milano
-        Unica, il momento commerciale più importante dell’anno. Durante questo
-        appuntamento i nostri maggiori clienti vengono in fiera per scoprire le
-        collezioni dei nostri brand. Ci sono anche altri momenti di
-        presentazione, come ad esempio nel nostro showroom di Milano, ma anche
-        in quello di Parigi e di New York. Per i clienti più importanti che
-        desiderano dei tessuti esclusivi, riserviamo dei momenti ad hoc per
-        soddisfare i loro desideri».
       </InterviewQuestion>
       <InterviewQuestion question="Vi ritenete un’azienda che opera in modo etico?">
         «Sì. Per noi il rispetto, la tutela e la valorizzazione delle persone

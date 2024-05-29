@@ -34,7 +34,7 @@ export default function Officinae() {
             Albano Sant'Alessandro e Seriate, Provincia di Bergamo
           </BrandSheetRow>
           <BrandSheetRow title="Materiali utilizzati">
-            Cotone, lino, lana, seta, taffetà.
+            Cotone, lino, lana, seta, taffetà
           </BrandSheetRow>
           <BrandSheetRow title="Tratti distintivi">
             Realtà famigliare; <br />
@@ -43,7 +43,7 @@ export default function Officinae() {
             La maggior parte dei tessuti vengono da deadstock e una piccola
             parte da nuovo; <br />
             Creazioni di abiti da cerimonia interamente su misura; <br />
-            Tecniche tramandate di generazione in generazione;
+            Tecniche tramandate di generazione in generazione.
           </BrandSheetRow>
           <BrandSheetRow title="Negozio">
             Via T.Tasso 32 - Bergamo

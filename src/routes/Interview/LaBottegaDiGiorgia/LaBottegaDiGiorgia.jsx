@@ -40,10 +40,10 @@ export default function LaBottegaDiGiorgia() {
             Lana
           </BrandSheetRow>
           <BrandSheetRow title="Tratti distintivi">
-            Unicità; ogni pezzo viene tagliato singolarmente e viene curato in
+            Unicit, ogni pezzo viene tagliato singolarmente e viene curato in
             un determinato modo, artigianalmente; <br />
             La maggior parte dei tessuti provengono da deadstock e una parte da
-            nuovo;
+            nuovo.
           </BrandSheetRow>
           <BrandSheetRow title="Showroom">
             Via Viandasso 59 - Ranica (BG)

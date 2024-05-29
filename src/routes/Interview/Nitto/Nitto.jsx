@@ -80,7 +80,7 @@ export default function Nitto() {
           Le scelte sono limitate anche se i materiali brasiliani sono molto
           caratteristici, alcuni dei quali li usiamo ancora. In questo momento
           siamo tornati in Italia e la produzione si svolge per la maggior parte
-          nel territorio di Bergamo, ma anche in Brasile e in Peru. Negli ultimi
+          nel territorio di Bergamo, ma anche in Brasile e in Perù. Negli ultimi
           due Paesi abbiamo delle signore indipendenti che lavorano per noi. Per
           creare i capi di maglieria, totalmente realizzati a mano, servono
           dalle trenta alle cinquanta ore ciascuno, questo viene scritto
@@ -134,7 +134,7 @@ export default function Nitto() {
           sarebbero più difficili da riciclare. Inoltre, abbiamo sempre operato
           made to order, senza avere uno stock ampio. Per esempio, per quanto
           riguarda le materie prime cerchiamo di lavorarle nel loro luogo di
-          provenienza, come in Brasile e in Peru. I tessuti che acquistiamo sono
+          provenienza, come in Brasile e in Perù. I tessuti che acquistiamo sono
           naturali e spesso bianchi, eventualmente tinti poi da noi, in questo
           modo possiamo utilizzare la quantità di acqua e i prodotti
           strettamente necessari, evitando sprechi. Per esempio, per quanto
@@ -148,14 +148,14 @@ export default function Nitto() {
           consapevole e pensata».
         </InterviewQuestion>
         <InterviewQuestion question="Quante collezioni create all’anno e dove vengono presentate?">
-          «Creiamo due collezioni, autunno/inverno e primavera/estate. I capi
+          «Creiamo due collezioni, Autunno/Anverno e Primavera/Estate. I capi
           sono realizzati quasi tutti in taglia unica e lo stile è molto
           identitario di Giorgia, molto apprezzato dai nostri clienti. Le
           collezioni vengono presentate in uno show-room indipendente a Parigi».
         </InterviewQuestion>
         <InterviewQuestion question="Qual’è il vostro target?">
           «I nostri clienti principali sono per il 90% degli Stati Uniti e per
-          il 10% della Cina, del Giappone e della Korea, i nostri mercati
+          il 10% della Cina, del Giappone e della Corea, i nostri mercati
           principali. Sono donne tra i 30 e i 50 anni con disponibilità
           economica, le quali amano il no branding, sono discrete come il nostro
           brand e desiderano materiali di qualità per i loro capi».
