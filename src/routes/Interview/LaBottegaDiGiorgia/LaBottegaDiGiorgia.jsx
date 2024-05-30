@@ -3,6 +3,7 @@ import InterviewQuestion from "../../../components/InterviewQuestion/InterviewQu
 import ImageRect from "../../../components/ImageRect/ImageRect";
 import BrandSheet from "../../../components/BrandSheet/BrandSheet";
 import BrandSheetRow from "../../../components/BrandSheetRow/BrandSheetRow";
+import InterviewCredits from "../../../components/InterviewCredits/InterviewCredits";
 
 export default function LaBottegaDiGiorgia() {
   return (
@@ -17,7 +18,7 @@ export default function LaBottegaDiGiorgia() {
             Giorgia Totaro
           </BrandSheetRow>
           <BrandSheetRow title="Collezioni">
-            Due all’anno - primavera/estate, autunno/inverno (più una collezione
+            Due all’anno - Primavera/Estate, Autunno/Inverno (più una collezione
             capsule natalizia per bambino) <br />
             Bambino e donna
           </BrandSheetRow>
@@ -40,7 +41,7 @@ export default function LaBottegaDiGiorgia() {
             Lana
           </BrandSheetRow>
           <BrandSheetRow title="Tratti distintivi">
-            Unicit, ogni pezzo viene tagliato singolarmente e viene curato in
+            Unicità, ogni pezzo viene tagliato singolarmente e viene curato in
             un determinato modo, artigianalmente; <br />
             La maggior parte dei tessuti provengono da deadstock e una parte da
             nuovo.
@@ -57,6 +58,7 @@ export default function LaBottegaDiGiorgia() {
             Cell.: +39 3334266426
           </BrandSheetRow>
         </BrandSheet>
+        <InterviewCredits content="Intervista a Giorgia Totaro del brand La Bottega di Giorgia" />
         <InterviewQuestion question="Quando nasce La Bottega di Giorgia, come lavora e quali sono i suoi valori?">
           «Nel 2010 nasce La Bottega di Giorgia ma solo tecnicamente, in realtà
           prende il via nel 2013 quando decido di partecipare e vinco un

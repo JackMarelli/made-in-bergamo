@@ -49,7 +49,7 @@ export default function Home() {
           preso in questione."
         />
         <ImageRect
-          className="col-span-full md:col-start-2 md:col-span-4 md:mt-8"
+          className="col-span-full md:col-start-2 md:col-span-4 md:mt-16"
           imageUrl="assets/images/webp/home/intro/1.webp"
           dida={`"Atelier", Conflenti Italiani`}  
         />

@@ -3,6 +3,7 @@ import InterviewQuestion from "../../../components/InterviewQuestion/InterviewQu
 import ImageRect from "../../../components/ImageRect/ImageRect";
 import BrandSheet from "../../../components/BrandSheet/BrandSheet";
 import BrandSheetRow from "../../../components/BrandSheetRow/BrandSheetRow";
+import InterviewCredits from "../../../components/InterviewCredits/InterviewCredits";
 
 export default function Nitto() {
   return (
@@ -17,7 +18,7 @@ export default function Nitto() {
             Giorgia Colleoni
           </BrandSheetRow>
           <BrandSheetRow title="Collezioni">
-            Due all’anno - primavera/estate, autunno/inverno <br /> Donna
+            Due all’anno - Primavera/Estate, Autunno/Inverno <br /> Donna
           </BrandSheetRow>
           <BrandSheetRow title="Target">
             Donne tra i 30 e i 50 anni che amano il no branding e il mondo
@@ -48,19 +49,14 @@ export default function Nitto() {
             presente un kit con strumenti per l’eventuale riparo; <br />
             Comunicazione di quasi totale silenzio, legata alla filosofia del
             brand e della designer; <br /> Forte legame con la musica,
-            utilizzata per raccontare le collezioni;
+            utilizzata per raccontare le collezioni.
           </BrandSheetRow>
           <BrandSheetRow title="Contatti">
             Sito web: www.nittoness.com <br /> Instagram: @nitto_ness <br />
             Mail: info@nittoness.com <br /> Cell.: +39 335 628 4018
           </BrandSheetRow>
         </BrandSheet>
-
-        <ImageRect
-          className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/nitto/1.webp"
-          dida="Immagine relativa all'intervista, se c'è."
-        />
+        <InterviewCredits content="Intervista con Stefano del brand Nitto" />
         <InterviewQuestion question="Quando è nato Nitto, come lavora e quali sono i suoi valori?">
           «Il brand nasce in Brasile nel 2020 da un’idea di Giorgia, la designer
           e fondatrice, grazie alla sua esperienza pregressa nel settore e alla
@@ -90,6 +86,11 @@ export default function Nitto() {
           cosa vale per il tessuto, creato artigianalmente e lavorato
           interamente a Bergamo».
         </InterviewQuestion>
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/nitto/1.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
         <InterviewQuestion question="Quante persone lavorano all’interno del brand e di cosa si occupano?">
           «Oltre a me e a Giorgia, all’interno del brand ci sono due dipendenti
           che lavorano a Bergamo: una si occupa della parte amministrativa e
@@ -111,6 +112,11 @@ export default function Nitto() {
           quantità non troppo vaste. Per la produzione preferiamo acquistare il
           necessario, evitando sprechi, e per questo motivo coloro che
           acquistano sul sito avranno dei tempi di attesa non brevi».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/nitto/2.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Come nascono le vostre collezioni e com’è organizzata la produzione?">
           «Abbiamo dei capi fissi intorno ai quali creiamo quelli nuovi,
@@ -118,14 +124,24 @@ export default function Nitto() {
           l’ideazione della collezione. Giorgia fa un brain-storming e un
           moodboard iniziale, inserisce su una tavola fisica i pezzi di tessuto
           e i colori, per poi fare una selezione e capire se il numero di
-          prodotti è giusto ed equilibrato con i tessuti. Quindi le fasi
-          principali sono il brainstorming iniziale, la strutturazione della
-          collezione e infine si cerca di capire cosa selezionare, facendo anche
-          delle comparazioni con le vendite precedenti per capire cosa proporre.
-          Cerchiamo anche di dare un’identità alla collezione, punto
-          fondamentale. Poi si passa alla fase di creazione e di produzione,
-          fino ad arrivare allo show-room».
+          prodotti è giusto ed equilibrato con i tessuti.
         </InterviewQuestion>
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/nitto/4.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
+        Quindi le fasi principali sono il brainstorming iniziale, la
+        strutturazione della collezione e infine si cerca di capire cosa
+        selezionare, facendo anche delle comparazioni con le vendite precedenti
+        per capire cosa proporre. Cerchiamo anche di dare un’identità alla
+        collezione, punto fondamentale. Poi si passa alla fase di creazione e di
+        produzione, fino ad arrivare allo show-room».
+        <ImageRect
+          className="col-span-4 md:col-span-7"
+          imageUrl="../assets/images/webp/interviews/nitto/5.webp"
+          dida="Immagine relativa all'intervista, se c'è."
+        />
         <InterviewQuestion question="Prestate attenzione a ciò che riguarda l’impatto sull’ambiente?">
           «Sì, nel nostro piccolo, mediante tante piccole cose ci impegniamo su
           questo aspetto in quanto teniamo molto al valore legato all’impatto
@@ -146,12 +162,22 @@ export default function Nitto() {
           istruzioni e con degli strumenti da utilizzare per l’eventuale riparo,
           sensibilizzando i nostri clienti su questo tema. Ogni nostra scelta è
           consapevole e pensata».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/nitto/6.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Quante collezioni create all’anno e dove vengono presentate?">
-          «Creiamo due collezioni, Autunno/Anverno e Primavera/Estate. I capi
+          «Creiamo due collezioni, autunno/inverno e primavera/estate. I capi
           sono realizzati quasi tutti in taglia unica e lo stile è molto
           identitario di Giorgia, molto apprezzato dai nostri clienti. Le
           collezioni vengono presentate in uno show-room indipendente a Parigi».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/nitto/7.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Qual’è il vostro target?">
           «I nostri clienti principali sono per il 90% degli Stati Uniti e per
@@ -165,6 +191,11 @@ export default function Nitto() {
           tengono altri brand indipendenti, oppure sul nostro sito, il quale
           presenta la minor percentuale di vendite, infatti i maggiori acquisti
           avvengono tramite i negozi».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/nitto/8.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Come gestite la parte relativa alla comunicazione? Quali canali usate e quali messaggi veicolate?">
           «Per quanto riguarda la comunicazione abbiamo adottato fin dall’inizio

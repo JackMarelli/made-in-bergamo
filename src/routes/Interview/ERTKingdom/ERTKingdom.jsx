@@ -3,6 +3,7 @@ import InterviewQuestion from "../../../components/InterviewQuestion/InterviewQu
 import ImageRect from "../../../components/ImageRect/ImageRect";
 import BrandSheet from "../../../components/BrandSheet/BrandSheet";
 import BrandSheetRow from "../../../components/BrandSheetRow/BrandSheetRow";
+import InterviewCredits from "../../../components/InterviewCredits/InterviewCredits";
 
 export default function ERTKingdom() {
   return (
@@ -12,37 +13,38 @@ export default function ERTKingdom() {
           E RT Kingdom
         </h1>
         <BrandSheet>
-        <BrandSheetRow title="Anno di fondazione">2021</BrandSheetRow>
-        <BrandSheetRow title="Fondatrice e designer">
+          <BrandSheetRow title="Anno di fondazione">2021</BrandSheetRow>
+          <BrandSheetRow title="Fondatrice e designer">
             Giulia Terzi
-        </BrandSheetRow>
-        <BrandSheetRow title="Collezioni">
+          </BrandSheetRow>
+          <BrandSheetRow title="Collezioni">
             Una all’anno - Maglieria per uomo/donna in taglia unica
-        </BrandSheetRow>
-        <BrandSheetRow title="Target">
+          </BrandSheetRow>
+          <BrandSheetRow title="Target">
             Persone dai 35/40 anni in su
-        </BrandSheetRow>
-        <BrandSheetRow title="Produzione">Provincia di Bergamo</BrandSheetRow>
-        <BrandSheetRow title="Materiali utilizzati">
+          </BrandSheetRow>
+          <BrandSheetRow title="Produzione">Provincia di Bergamo</BrandSheetRow>
+          <BrandSheetRow title="Materiali utilizzati">
             Filati 100% naturali provenienti dalle lane di pecore e capre <br />
             Lana delle pecore delle Isole Shetland <br /> Lana merino
             neozelandese <br /> Cotone biologico egiziano <br /> Cashmere del
             Tibet <br /> Lana di cammello <br /> Lana di yak <br /> Lana
             d’agnello
-        </BrandSheetRow>
-        <BrandSheetRow title="Tratti distintivi">
-            Controllo completo della filiera da parte della designer; <br /> Alta
-            conoscenza ed esperienza nella maglieria; <br /> Capi versatili e
-            reversibili senza cuciture; <br /> Indagine sulle varie tecniche
-            utilizzate per ogni fibra; <br /> Tecniche di lavorazione antiche con
-            l’obiettivo di continuare a tenerle in vita;
-        </BrandSheetRow>
-        <BrandSheetRow title="Contatti">
+          </BrandSheetRow>
+          <BrandSheetRow title="Tratti distintivi">
+            Controllo completo della filiera da parte della designer; <br />{" "}
+            Alta conoscenza ed esperienza nella maglieria; <br /> Capi versatili
+            e reversibili senza cuciture; <br /> Indagine sulle varie tecniche
+            utilizzate per ogni fibra; <br /> Tecniche di lavorazione antiche
+            con l’obiettivo di continuare a tenerle in vita.
+          </BrandSheetRow>
+          <BrandSheetRow title="Contatti">
             Sito web: www.ert-kingdom.com <br /> Instagram: @ERT_Kingdom <br />
             Facebook: @ERT Kingdom <br /> Mail: info@ert-kingdom.com <br /> Tel:
             +39 346 33 91 417
-        </BrandSheetRow>
-</BrandSheet>
+          </BrandSheetRow>
+        </BrandSheet>
+        <InterviewCredits content="Intervista a Giulia Terzi di E RT Kingdom" />
 
         <ImageRect
           className="col-span-4 md:col-span-7"

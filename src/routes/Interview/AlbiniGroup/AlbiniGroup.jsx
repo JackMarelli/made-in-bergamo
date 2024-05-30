@@ -3,6 +3,7 @@ import InterviewQuestion from "../../../components/InterviewQuestion/InterviewQu
 import ImageRect from "../../../components/ImageRect/ImageRect";
 import BrandSheetRow from "../../../components/BrandSheetRow/BrandSheetRow";
 import BrandSheet from "../../../components/BrandSheet/BrandSheet";
+import InterviewCredits from "../../../components/InterviewCredits/InterviewCredits";
 
 export default function AlbiniGroup() {
   return (
@@ -59,8 +60,8 @@ export default function AlbiniGroup() {
           Linkedin: @Albini Group <br />
           Tel: +39 03777111
         </BrandSheetRow>
-</BrandSheet>
-
+      </BrandSheet>
+      <InterviewCredits content="Intervista con il team di marketing dell'azienda tessile Albini Group" />
       <InterviewQuestion question="Quando è nato Albini Group, come lavora e quali sono i suoi valori?">
         «Albini Group nasce nel 1876 ad Albino in provincia di Bergamo e ad oggi
         rimane ancora una realtà familiare guidata dalla quinta generazione
@@ -327,11 +328,6 @@ export default function AlbiniGroup() {
         mantenere le aree produttive aggiornate e moderne, e sosteniamo eventi
         culturali, artistici, manifestazioni scientifiche, convegni e progetti
         con le università».
-        <ImageRect
-          className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/23.webp"
-          dida="Immagine relativa all'intervista, se c'è."
-        />
       </InterviewQuestion>
       <InterviewQuestion question="Dove vendete i vostri tessuti?">
         «Albini Group è un’azienda B2B (Business-to-business), il che significa

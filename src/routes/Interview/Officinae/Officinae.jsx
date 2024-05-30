@@ -3,6 +3,7 @@ import InterviewQuestion from "../../../components/InterviewQuestion/InterviewQu
 import ImageRect from "../../../components/ImageRect/ImageRect";
 import BrandSheet from "../../../components/BrandSheet/BrandSheet";
 import BrandSheetRow from "../../../components/BrandSheetRow/BrandSheetRow";
+import InterviewCredits from "../../../components/InterviewCredits/InterviewCredits";
 
 export default function Officinae() {
   return (
@@ -54,7 +55,9 @@ export default function Officinae() {
             +39 035 210 643 <br /> Cell.: +36 338 181 5859
           </BrandSheetRow>
         </BrandSheet>
-
+        <InterviewCredits
+          content="Intervista con Tommaso del brand Officinae di Paola Tirinzoni"
+        />
         <InterviewQuestion question="Quando è nato Officinae, come lavora e quali sono i suoi valori?">
           «Officinae è un brand che nasce nel 2010 per mano della titolare e
           stilista Paola Tirinzoni ed è una realtà a conduzione famigliare

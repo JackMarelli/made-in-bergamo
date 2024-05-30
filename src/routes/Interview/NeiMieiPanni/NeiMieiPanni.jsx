@@ -3,6 +3,7 @@ import InterviewQuestion from "../../../components/InterviewQuestion/InterviewQu
 import ImageRect from "../../../components/ImageRect/ImageRect";
 import BrandSheet from "../../../components/BrandSheet/BrandSheet";
 import BrandSheetRow from "../../../components/BrandSheetRow/BrandSheetRow";
+import InterviewCredits from "../../../components/InterviewCredits/InterviewCredits";
 
 export default function NeiMieiPanni() {
   return (
@@ -38,7 +39,7 @@ export default function NeiMieiPanni() {
             Tessuti naturali provenienti da deadstock; <br />
             Lavorazione di ogni capo artigianalmente; <br />
             Capi non su misura ma modificabili su richiesta, sia per le misure
-            che per i tessuti
+            che per i tessuti.
           </BrandSheetRow>
           <BrandSheetRow title="Showroom">
             Via Pizzo Coca 3/A - Bergamo
@@ -50,7 +51,7 @@ export default function NeiMieiPanni() {
             Email: cristina@neimieipanni.it
           </BrandSheetRow>
         </BrandSheet>
-
+        <InterviewCredits content="Intervista a Cristina Gamberoni di Nei Miei Panni" />
         <InterviewQuestion question="Quando è nato Nei Miei Panni, come lavora e quali sono i suoi valori?">
           «Nei Miei Panni è nato nel 2012 come blog e poco dopo è diventato un
           brand di moda artigianale, inizialmente per bambino e dal 2018 è stato
