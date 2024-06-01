@@ -25,7 +25,7 @@ export default function Home() {
       <div className="w-full h-[100vh] z-40 -mt-4 sm:-mt-5 md:-mt-12 lg:-mt-14 xl:-mt-16">
         <img
           className="w-full h-full object-cover"
-          src="assets/images/webp/8_1.webp"
+          src="assets/images/webp/home/8_1.webp"
           alt=""
         />
       </div>

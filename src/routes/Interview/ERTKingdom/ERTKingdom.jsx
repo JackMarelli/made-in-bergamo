@@ -44,7 +44,7 @@ export default function ERTKingdom() {
             +39 346 33 91 417
           </BrandSheetRow>
         </BrandSheet>
-        <InterviewCredits content="Intervista a Giulia Terzi di E RT Kingdom" />
+        <InterviewCredits content="Intervista a Giulia Terzi del brand E RT Kingdom" />
 
         <ImageRect
           className="col-span-4 md:col-span-7"
