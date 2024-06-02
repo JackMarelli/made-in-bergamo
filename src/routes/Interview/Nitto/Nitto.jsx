@@ -90,6 +90,7 @@ export default function Nitto() {
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/nitto/1.webp"
           dida="Immagine relativa all'intervista, se c'è."
+          parallax={false}
         />
         <InterviewQuestion question="Quante persone lavorano all’interno del brand e di cosa si occupano?">
           «Oltre a me e a Giorgia, all’interno del brand ci sono due dipendenti

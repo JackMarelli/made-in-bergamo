@@ -45,12 +45,6 @@ export default function ERTKingdom() {
           </BrandSheetRow>
         </BrandSheet>
         <InterviewCredits content="Intervista a Giulia Terzi del brand E RT Kingdom" />
-
-        <ImageRect
-          className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/materieprime/cotone.webp"
-          dida="Immagine relativa all'intervista, se c'è."
-        />
         <InterviewQuestion question="Quando nasce E RT Kingdom, come lavora e quali sono i suoi valori?">
           «E RT KINGDOM nasce nel 2021, io sono la sua fondatrice e la designer.
           Mi sono laureata in Fashion design nel 2013, lavoro nella maglieria
@@ -77,6 +71,11 @@ export default function ERTKingdom() {
           reversibili e finiti a mano, infatti hanno questa possibilità di
           essere portati sia internamente che esternamente perché non hanno
           cuciture».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/ertkingdom/1.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Quante persone lavorano insieme a lei e di cosa si occupano?">
           «ER T Kingdom è un progetto che coinvolge diverse figure, non ho
@@ -110,6 +109,16 @@ export default function ERTKingdom() {
           produzione, ci sono gli oli della Patagonia e della Nuova Zelanda per
           esempio. Queste statuette richiamano l’origine della materia, infatti
           derivano dalla cera d’opercolo, ad oggi ormai poco utilizzata».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/ertkingdom/2.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/ertkingdom/3.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Come viene prodotto un vostro capo e che tecniche utilizzate?">
           «Dopo aver ideato la collezione, scelto e ricevuto i materiali dai
@@ -138,6 +147,11 @@ export default function ERTKingdom() {
           sviluppo taglie in quanto i nostri capi sono prodotti solo in taglie
           uniche e realizzati solo con diverse proporzioni, perché ad oggi
           abbiamo una produzione ancora piccola».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/ertkingdom/4.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Prestate attenzione a ciò che riguarda la sostenibilità?">
           «Sì, per prima cosa nella scelta dei materiali, i quali sono 100%
@@ -168,13 +182,23 @@ export default function ERTKingdom() {
           gli ordini e stiamo andando ora in produzione con i primi 150 capi.
           Come primo step abbiamo raggiunto dei negozi importanti che hanno
           acquistato, messo dei budget interessanti e ne siamo molto felici».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/ertkingdom/5.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />{" "}
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/ertkingdom/6.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Qual’è il target del brand?">
           «Personalmente punto a rivolgermi a tutti. Quando crei un capo di
           maglieria con una materia prima ben definita e costosa, ovviamente non
           ti rivolgi però ad una fascia giovane, in quanto essi non hanno la
           possibilità economica di acquistare. Ad oggi vendo in Giappone e in
-          Korea e lì è un mercato anche giovane invece, infatti ci stanno
+          Corea e lì è un mercato anche giovane invece, infatti ci stanno
           rispondendo clienti giapponesi dai 30 ai 45 anni in su. Tutto il resto
           sono persone con un’età superiore ai 45 anni, in carriera e quindi con
           un’alta possibilità d’acquisto. Un altro buon mercato che si sta
@@ -193,6 +217,11 @@ export default function ERTKingdom() {
           ad una vibe positiva. Ne sono molto fiera perché i miei capi vogliono
           trasmettere un valore culturale attraverso una tecnica speciale ed
           antica, arrivando al cuore delle persone».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/ertkingdom/7.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Quali sono i canali di vendita che utilizzate?">
           «Vendiamo i nostri capi in vari show-room. Non abbiamo un e-commerce
