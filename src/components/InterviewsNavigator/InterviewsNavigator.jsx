@@ -7,9 +7,6 @@ export default function InterviewsNavigator() {
       <Link to="/interview/neimieipanni">
         <SmallCta text="Nei Miei Panni" />
       </Link>
-      <Link to="/interview/albinigroup">
-        <SmallCta text="Albini Group" />
-      </Link>
       <Link to="/interview/labottegadigiorgia">
         <SmallCta text="La Bottega di Giorgia" />
       </Link>
@@ -21,6 +18,9 @@ export default function InterviewsNavigator() {
       </Link>
       <Link to="/interview/ertkingdom">
         <SmallCta text="E RT Kingdom" />
+      </Link>
+      <Link to="/interview/albinigroup">
+        <SmallCta text="Albini Group" />
       </Link>
     </>
   );
