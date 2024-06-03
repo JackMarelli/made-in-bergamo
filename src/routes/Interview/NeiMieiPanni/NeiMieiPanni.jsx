@@ -219,16 +219,6 @@ export default function NeiMieiPanni() {
             imageUrl="../assets/images/webp/interviews/neimieipanni/10.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
-          <ImageRect
-            className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/neimieipanni/11.webp"
-            dida="Immagine relativa all'intervista, se c'è."
-          />
-          <ImageRect
-            className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/neimieipanni/12.webp"
-            dida="Immagine relativa all'intervista, se c'è."
-          />
         </InterviewQuestion>
         <InterviewQuestion question="Qual’è il suo target preciso?">
           «La donna Nei Miei Panni è generalmente una donna che cerca abiti di

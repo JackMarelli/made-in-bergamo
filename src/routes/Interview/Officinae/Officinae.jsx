@@ -221,11 +221,6 @@ export default function Officinae() {
           reperibili facilmente noi li scegliamo sapendo quanta disponibilità
           abbiamo per ciascuno, facciamo il campionario, le fotografie, lo
           portiamo in negozio e da lì riceviamo i primi ordini».
-          <ImageRect
-            className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/officinae/11.webp"
-            dida="Immagine relativa all'intervista, se c'è."
-          />
         </InterviewQuestion>
         <InterviewQuestion question="Qual’è il vostro target?">
           «Il nostro target è composto da signore di età tra i
@@ -238,16 +233,6 @@ export default function Officinae() {
           rispetto a quello dell’online. Il brand viene apprezzato non solo in
           Italia ma anche all’estero da tante donne provenienti da Inghilterra,
           Spagna, Francia, Stati Uniti, Australia e altri Stati».
-          <ImageRect
-            className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/officinae/12.webp"
-            dida="Immagine relativa all'intervista, se c'è."
-          />
-          <ImageRect
-            className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/officinae/13.webp"
-            dida="Immagine relativa all'intervista, se c'è."
-          />
         </InterviewQuestion>
         <InterviewQuestion question="Quali sono i canali di vendita che utilizzate?">
           «I nostri capi vengono venduti sul sito web, nel negozio in via in via
