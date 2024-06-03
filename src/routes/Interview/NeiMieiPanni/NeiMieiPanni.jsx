@@ -60,14 +60,13 @@ export default function NeiMieiPanni() {
           territorio di Bergamo con un’attenzione particolare ad un
           confezionamento curato e di qualità. La produzione si basa sulla
           realizzazione dei capi in seguito all’ordine, quindi capi singoli per
-          il cliente privato o piccole serie di capi per il retail. <br />
-          <br /> Quando ho avviato il progetto pensavo che per me il vero valore
-          sarebbe arrivato nel momento in cui il mio lavoro avesse generato
-          lavoro anche per altri: inizialmente realizzavo i capi personalmente
-          mentre ora ho una sartoria e una modellista che si occupano della
-          messa a punto e del confezionamento dei capi. Questo ha un impatto per
-          me molto importante. <br />
-          <br /> Negli anni, insieme alla mia clientela, ho lavorato sulla
+          il cliente privato o piccole serie di capi per il retail. Quando ho
+          avviato il progetto pensavo che per me il vero valore sarebbe arrivato
+          nel momento in cui il mio lavoro avesse generato lavoro anche per
+          altri: inizialmente realizzavo i capi personalmente mentre ora ho una
+          sartoria e una modellista che si occupano della messa a punto e del
+          confezionamento dei capi. Questo ha un impatto per me molto
+          importante. Negli anni, insieme alla mia clientela, ho lavorato sulla
           comprensione della differenza fra acquistare un prodotto sartoriale
           rispetto ad un capo fast fashion: non tutti sono abituati a porre
           attenzione al livello di confezionamento di un capo, a riconoscere una
@@ -90,17 +89,15 @@ export default function NeiMieiPanni() {
           100% a parte quando sono elasticizzati da una piccola percentuale di
           elastan. Non sperimento molto con materiali come il poliestere perché
           per me è importante vestire con tessuti che fanno bene alla pelle di
-          chi li indossa. <br />
-          <br /> Uno dei miei fornitori è Albini, un cotonificio rinomato da cui
-          mi rifornisco di tessuti deadstock. Ho anche altri fornitori
-          specializzati in stock provenienti dell’alta moda: da loro scelgo
-          tessuti italiani. <br />
-          <br /> Negli anni ho imparato molto grazie ai miei fornitori e alla
-          mia sartoria, a riconoscere i tessuti con le mani sia per composizione
-          che immaginando la resa finale sul capo. Scegliere di lavorare con
-          stock di tessuto significa decidere di produrre piccole quantità ma
-          anche di creare un’ampia scelta di tessuti all’interno della
-          collezione offrendo più alternative alla clientela».
+          chi li indossa. Uno dei miei fornitori è Albini, un cotonificio
+          rinomato da cui mi rifornisco di tessuti deadstock. Ho anche altri
+          fornitori specializzati in stock provenienti dell’alta moda: da loro
+          scelgo tessuti italiani. Negli anni ho imparato molto grazie ai miei
+          fornitori e alla mia sartoria, a riconoscere i tessuti con le mani sia
+          per composizione che immaginando la resa finale sul capo. Scegliere di
+          lavorare con stock di tessuto significa decidere di produrre piccole
+          quantità ma anche di creare un’ampia scelta di tessuti all’interno
+          della collezione offrendo più alternative alla clientela».
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/neimieipanni/2.webp"
@@ -127,17 +124,16 @@ export default function NeiMieiPanni() {
           «Dodici anni fa alla nascita del brand mi occupavo personalmente di
           tutta la progettazione e produzione, nonché della comunicazione, poi
           nel corso degli anni ho diviso le fasi di lavoro e ho cercato persone
-          con le competenze adatte ai vari compiti. <br />
-          <br /> Per creare una collezione parto sempre dalla scelta dei
-          materiali, prendo dei tessuti e li metto insieme dal punto di vista
-          della texture e dei colori, costruisco delle cartelle di colori e
-          materiali di partenza e da qui inizio a creare. Fondamentalmente alla
-          base c’è sempre un “tessuto guida” da cui si genera la scelta di tutto
-          il resto. <br />
-          <br /> Propongo tre/quattro linee di colore, su una trama costante di
-          colori base che sono il blu, il grigio, il bianco e il nero. Dopodiché
-          inizio ad abbinare i miei modelli base ai tessuti che ho scelto o li
-          seleziono anche sapendo già quello che voglio fare.
+          con le competenze adatte ai vari compiti. Per creare una collezione
+          parto sempre dalla scelta dei materiali, prendo dei tessuti e li metto
+          insieme dal punto di vista della texture e dei colori, costruisco
+          delle cartelle di colori e materiali di partenza e da qui inizio a
+          creare. Fondamentalmente alla base c’è sempre un “tessuto guida” da
+          cui si genera la scelta di tutto il resto. Propongo tre/quattro linee
+          di colore, su una trama costante di colori base che sono il blu, il
+          grigio, il bianco e il nero. Dopodiché inizio ad abbinare i miei
+          modelli base ai tessuti che ho scelto o li seleziono anche sapendo già
+          quello che voglio fare.
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/neimieipanni/4.webp"
@@ -149,21 +145,21 @@ export default function NeiMieiPanni() {
           parlano e con quelli realizzo dei capi nuovi lasciandomi guidare dal
           tessuto. Quindi oltre ai modelli base, in ogni collezione inserisco
           dei modelli nuovi e ne tolgo per non renderla troppo ampia, anche per
-          una questione di costi da tenere sotto controllo. <br />
-          <br /> Segue la progettazione del piano di campionario con i dati dei
-          tessuti e quelli dei vari modelli, abbino e faccio in modo di avere
-          sempre in atelier taglie miste perché quando una cliente viene da me
-          deve provare la taglia migliore per lei e poter poi scegliere il
-          tessuto con il quale realizzare il modello che desidera. Per questo il
-          campionario deve essere sufficientemente vario con un misto di taglie.
-          Nel tempo in cui il laboratorio realizza la parte “base” del
-          campionario, circa un mese/un mese e mezzo, io mi dedico ai modelli
-          nuovi, a partire dal tessuto e dal disegno. Realizzo un modello fatto
-          di carta e poi in tessuto cucito, non troppo preciso che poi passo
-          alla modellista che si occupa della messa a punto del modello, della
-          vestibilità, dello sdifettamento e una volta che il campione ci
-          soddisfa si passa allo sviluppo taglie. Si parte con un lavoro a mano
-          su carta per passare poi tutto a computer.
+          una questione di costi da tenere sotto controllo. Segue la
+          progettazione del piano di campionario con i dati dei tessuti e quelli
+          dei vari modelli, abbino e faccio in modo di avere sempre in atelier
+          taglie miste perché quando una cliente viene da me deve provare la
+          taglia migliore per lei e poter poi scegliere il tessuto con il quale
+          realizzare il modello che desidera. Per questo il campionario deve
+          essere sufficientemente vario con un misto di taglie. Nel tempo in cui
+          il laboratorio realizza la parte “base” del campionario, circa un
+          mese/un mese e mezzo, io mi dedico ai modelli nuovi, a partire dal
+          tessuto e dal disegno. Realizzo un modello fatto di carta e poi in
+          tessuto cucito, non troppo preciso che poi passo alla modellista che
+          si occupa della messa a punto del modello, della vestibilità, dello
+          sdifettamento e una volta che il campione ci soddisfa si passa allo
+          sviluppo taglie. Si parte con un lavoro a mano su carta per passare
+          poi tutto a computer.
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/neimieipanni/5.webp"
@@ -185,31 +181,27 @@ export default function NeiMieiPanni() {
             dida="Immagine relativa all'intervista, se c'è."
           />
           La collezione viene a questo punto fotografata per essere messa online
-          e presentata sui social. <br />
-          <br /> La presentazione della collezione è sempre un momento
-          emozionante in cui tutto il lavoro di preparazione di rivela a chi poi
-          indosserà i miei capi. Ad alcuni giorni di apertura dell’atelier
-          seguono in genere presentazioni in altre in altri luoghi, come nel
-          negozio "Oggetthi" in Santa Caterina a Bergamo. <br />
-          <br /> Durante queste presentazioni prendo gli ordini in base alle
-          richieste delle clienti e procedo alla produzione su ordinazione.{" "}
-          <br />
-          <br /> La vendita diretta è accompagnata dalla vendita sullo shop
-          online: sul sito le clienti acquistano avendo la possibilità di
-          selezionare il modello, la taglia ed il tessuto. Cerchiamo di
-          comunicare sempre con chi acquista online chiarendo dubbi su taglie,
-          colori e tessuti: per questo raramente abbiamo dei resi e in quel caso
-          provvediamo a rifare il capo. L’online funziona bene anche se non ha
-          dei grossi volumi di vendita, in quanto quelli maggiori per ora sono i
-          diretti, anche se l’online è in crescita. Stiamo lavorando anche per
-          sviluppare la vendita ai negozi: dal 2016 Nei Miei Panni ha un
-          rivenditore in Alto Adige e solo in alcune stagioni uno in Sardegna.{" "}
-          <br />
-          <br />
-          Proponiamo delle vendite di campionario ogni due/tre anni di
-          cinque/sei giorni: ci permettono di smaltire i capi invenduti e dare
-          l’occasione di acquistare i nostri capi ad un prezzo più basso a chi
-          normalmente non acquista capi sartoriali».
+          e presentata sui social. La presentazione della collezione è sempre un
+          momento emozionante in cui tutto il lavoro di preparazione di rivela a
+          chi poi indosserà i miei capi. Ad alcuni giorni di apertura
+          dell’atelier seguono in genere presentazioni in altre in altri luoghi,
+          come nel negozio "Oggetthi" in Santa Caterina a Bergamo. Durante
+          queste presentazioni prendo gli ordini in base alle richieste delle
+          clienti e procedo alla produzione su ordinazione. La vendita diretta è
+          accompagnata dalla vendita sullo shop online: sul sito le clienti
+          acquistano avendo la possibilità di selezionare il modello, la taglia
+          ed il tessuto. Cerchiamo di comunicare sempre con chi acquista online
+          chiarendo dubbi su taglie, colori e tessuti: per questo raramente
+          abbiamo dei resi e in quel caso provvediamo a rifare il capo. L’online
+          funziona bene anche se non ha dei grossi volumi di vendita, in quanto
+          quelli maggiori per ora sono i diretti, anche se l’online è in
+          crescita. Stiamo lavorando anche per sviluppare la vendita ai negozi:
+          dal 2016 Nei Miei Panni ha un rivenditore in Alto Adige e solo in
+          alcune stagioni uno in Sardegna. Proponiamo delle vendite di
+          campionario ogni due/tre anni di cinque/sei giorni: ci permettono di
+          smaltire i capi invenduti e dare l’occasione di acquistare i nostri
+          capi ad un prezzo più basso a chi normalmente non acquista capi
+          sartoriali».
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/neimieipanni/9.webp"
@@ -284,13 +276,12 @@ export default function NeiMieiPanni() {
           Bergamo realizzata dalla giornalista responsabile della pagina della
           moda, una persona molto competente con una profonda conoscenza delle
           realtà artigianali presenti sul territorio che mi ha spinta a
-          sviluppare il mio progetto. <br />
-          <br /> Con l’arrivo dei social ho aperto una pagina Facebook e
-          successivamente una su Instagram, il canale che prediligo perché la
-          comunicazione è veicolata da immagini e la fotografia è la mia
-          passione. All’inizio differenziavo la comunicazione ma attualmente
-          duplico su Facebook quello che pubblico su Instagram. <br />
-          <br /> Se il mio target in teoria dovrebbe essere più attivo su
+          sviluppare il mio progetto. Con l’arrivo dei social ho aperto una
+          pagina Facebook e successivamente una su Instagram, il canale che
+          prediligo perché la comunicazione è veicolata da immagini e la
+          fotografia è la mia passione. All’inizio differenziavo la
+          comunicazione ma attualmente duplico su Facebook quello che pubblico
+          su Instagram. Se il mio target in teoria dovrebbe essere più attivo su
           Facebook in realtà la mia clientela arriva principalmente da
           Instagram. Gestisco personalmente i social per costruire un rapporto
           diretto e di fiducia con chi mi segue, in quanto ritengo che sia
@@ -298,24 +289,23 @@ export default function NeiMieiPanni() {
           fondanti del progetto che sta dietro. Ho il mio modo di comunicare nel
           quale metto molto di me e pubblico maggiormente durante l’uscita delle
           collezioni o in vista di eventi, ma ci sono poi periodi con meno
-          pubblicazioni. <br />
-          <br /> La comunicazione del marchio passa attraverso fotografie che
-          scatto personalmente e anche questo è un elemento che crea unità e
-          caratterizzazione oltre al fatto che le modelle da sempre sono le mie
-          figlie, a cui negli ultimi anni ho affiancato delle amiche. Scatto
-          foto tecniche in atelier e realizzo shooting all’aperto in varie
-          location cercando di valorizzare il paesaggio italiano come ho fatto
-          in Sicilia, in Puglia e nelle Marche. Inoltre collaboro da diversi
-          anni con una fotografa francese, concordiamo insieme un progetto poi
-          io le mando i capi e lei fa degli shooting con le sue due figlie che
-          quasi somigliano alle mie. Lei scatta le fotografie ad inizio stagione
-          e poi io ne realizzo altre in vacanza che seguono le sue: il risultato
-          sono degli scatti in dialogo. <br />
-          <br /> Mediante le immagini che scatto e che pubblico sui miei canali
-          di comunicazione miro a mettere in risalto le caratteristiche dei miei
-          capi, mostrandone la vestibilità e la qualità dei tessuti utilizzati,
-          cercando di raccontare la storia che c'è dietro, dall'ideazione al
-          prodotto finito».
+          pubblicazioni. La comunicazione del marchio passa attraverso
+          fotografie che scatto personalmente e anche questo è un elemento che
+          crea unità e caratterizzazione oltre al fatto che le modelle da sempre
+          sono le mie figlie, a cui negli ultimi anni ho affiancato delle
+          amiche. Scatto foto tecniche in atelier e realizzo shooting all’aperto
+          in varie location cercando di valorizzare il paesaggio italiano come
+          ho fatto in Sicilia, in Puglia e nelle Marche. Inoltre collaboro da
+          diversi anni con una fotografa francese, concordiamo insieme un
+          progetto poi io le mando i capi e lei fa degli shooting con le sue due
+          figlie che quasi somigliano alle mie. Lei scatta le fotografie ad
+          inizio stagione e poi io ne realizzo altre in vacanza che seguono le
+          sue: il risultato sono degli scatti in dialogo. Mediante le immagini
+          che scatto e che pubblico sui miei canali di comunicazione miro a
+          mettere in risalto le caratteristiche dei miei capi, mostrandone la
+          vestibilità e la qualità dei tessuti utilizzati, cercando di
+          raccontare la storia che c'è dietro, dall'ideazione al prodotto
+          finito».
         </InterviewQuestion>
       </InterviewLayout>
     </>
