@@ -259,11 +259,6 @@ export default function Officinae() {
             imageUrl="../assets/images/webp/interviews/officinae/15.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
-          <ImageRect
-            className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/officinae/17.webp"
-            dida="Immagine relativa all'intervista, se c'è."
-          />
         </InterviewQuestion>
         <InterviewQuestion question="Per la comunicazione e promozione cosa utilizzate?">
           «Principalmente ci promuoviamo con Instagram e con la nostra
