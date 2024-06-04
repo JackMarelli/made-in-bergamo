@@ -113,14 +113,34 @@ export default function LaBottegaDiGiorgia() {
           creativa di ideazione, poi segue la prototipazione che consiste nello
           studio del cartamodello, nella realizzazione del prototipo e del
           campione, il quale verrà poi inserito all’interno della collezione
-          utilizzata per la vendita e per lo shooting. Una volta raccolti gli
-          ordini vengono sviluppate le taglie, abbastanza numerose specialmente
-          nel bambino e poi il capo viene mandato in produzione, tagliato
-          internamente o da un laboratorio specializzato. Successivamente il
-          capo arriva in un laboratorio che si occupa della realizzazione,
-          ovvero della sua confezione e poi va allo stiro. Infine il capo viene
-          consegnato da noi in laboratorio dove viene controllato, etichettato,
-          imballato e spedito».
+          utilizzata per la vendita e per lo shooting.
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/labottegadigiorgia/2.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/labottegadigiorgia/3.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />{" "}
+          Una volta raccolti gli ordini vengono sviluppate le taglie, abbastanza
+          numerose specialmente nel bambino e poi il capo viene mandato in
+          produzione, tagliato internamente o da un laboratorio specializzato.
+          Successivamente il capo arriva in un laboratorio che si occupa della
+          realizzazione, ovvero della sua confezione e poi va allo stiro. Infine
+          il capo viene consegnato da noi in laboratorio dove viene controllato,
+          etichettato, imballato e spedito».
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/labottegadigiorgia/4.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
+          <ImageRect
+            className="col-span-4 md:col-span-7"
+            imageUrl="../assets/images/webp/interviews/labottegadigiorgia/5.webp"
+            dida="Immagine relativa all'intervista, se c'è."
+          />
         </InterviewQuestion>
         <InterviewQuestion question="Utilizzate tecniche sostenibili o aspetti inerenti ad essa?">
           «Per noi è un aspetto molto importante e di conseguenza, ormai da
@@ -136,7 +156,7 @@ export default function LaBottegaDiGiorgia() {
           carta riducendo gli sprechi».
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/labottegadigiorgia/2.webp"
+            imageUrl="../assets/images/webp/interviews/labottegadigiorgia/6.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
         </InterviewQuestion>
@@ -148,7 +168,7 @@ export default function LaBottegaDiGiorgia() {
           stagione con delle piccole varianti nel colore e nel tessuto».
           <ImageRect
             className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/labottegadigiorgia/3.webp"
+            imageUrl="../assets/images/webp/interviews/labottegadigiorgia/7.webp"
             dida="Immagine relativa all'intervista, se c'è."
           />
         </InterviewQuestion>
@@ -175,11 +195,6 @@ export default function LaBottegaDiGiorgia() {
           all’anno, per circa dieci giorni a marzo e a settembre, apriamo un
           negozio temporaneo in centro a Bergamo. Qui le persone vengono,
           provano i capi e li ordinano».
-          <ImageRect
-            className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/labottegadigiorgia/4.webp"
-            dida="Immagine relativa all'intervista, se c'è."
-          />
         </InterviewQuestion>
         <InterviewQuestion question="Come gestite la parte relativa alla comunicazione e quali canali usate?">
           «Io personalmente non amo utilizzare i social e lavorare con essi, ma
