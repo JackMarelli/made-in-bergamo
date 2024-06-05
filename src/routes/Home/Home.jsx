@@ -415,7 +415,7 @@ export default function Home() {
           <ImageRect
             className="col-span-4 md:col-span-5 md:-mt-48"
             imageUrl="assets/images/webp/home/cap3/7.webp"
-            dida="Tessuti in lino, IG: @pallesso"
+            dida="Tessuti in lino, IG @pallesso"
           />
           <ImageRect
             className="col-span-4 md:col-start-8 md:col-span-5"
