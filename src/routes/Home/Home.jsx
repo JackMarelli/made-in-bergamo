@@ -51,7 +51,7 @@ export default function Home() {
         <ImageRect
           className="col-span-full md:col-start-2 md:col-span-4 md:mt-16"
           imageUrl="assets/images/webp/home/intro/1.webp"
-          dida={`"Atelier", Conflenti Italiani`}  
+          dida={`"Atelier", Conflenti Italiani`}
         />
         <ImageRect
           className="col-span-full md:col-start-7 md:col-span-5 md:mb-16"
@@ -287,7 +287,7 @@ export default function Home() {
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-4 md:mt-24"
           imageUrl="assets/images/webp/home/cap2/11.webp"
-          dida="Scopinatura dei bozzoli di seta"
+          dida="Scopinatura dei bozzoli di seta, cjalzumit.wordpress.com"
         />
         <ImageRect
           className="col-span-4 md:col-start-7 md:col-span-5 md:mb-16"
@@ -312,7 +312,7 @@ export default function Home() {
           <ImageRect
             className="col-span-4 md:col-start-3 md:col-span-5"
             imageUrl="assets/images/webp/home/cap2/14.webp"
-            dida="Filanda a Villa d’Adda"
+            dida="Filanda a Villa d’Adda, piccoledelizieattornoalcanto.wordpress.com"
           />
           <ImageRect
             className="col-span-4 md:col-start-9 md:col-span-3 md:mb-16"
@@ -323,7 +323,7 @@ export default function Home() {
           <ImageRect
             className="col-span-4 md:col-start-0 md:col-span-3 md:-mt-16"
             imageUrl="assets/images/webp/home/cap2/16.webp"
-            dida="Lana"
+            dida="Lana, filatiincotone.it"
           />
           <ImageRect
             className="col-span-4 md:col-start-5 md:col-span-4 md:mt-40"
@@ -338,7 +338,11 @@ export default function Home() {
         </SpyTextGalleryLayout>
       </div>
       <div className="w-full h-fit">
-        <img src="assets/images/webp/home/cap3/3.webp" alt="" />
+        <ImageRect
+          className="w-full h-fit md:my-0 overflow-visible"
+          imageUrl="assets/images/webp/home/cap3/3.webp"
+          dida="Seta, filo.it"
+        />
       </div>
       <div className="w-full h-fit px-4 py-16 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-light">
         <Heading text="La produzione e la sostenibilità" />
@@ -411,7 +415,7 @@ export default function Home() {
           <ImageRect
             className="col-span-4 md:col-span-5 md:-mt-48"
             imageUrl="assets/images/webp/home/cap3/7.webp"
-            dida="Tessuti in lino"
+            dida="Tessuti in lino, IG: @pallesso"
           />
           <ImageRect
             className="col-span-4 md:col-start-8 md:col-span-5"

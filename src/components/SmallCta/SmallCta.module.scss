@@ -2,6 +2,7 @@
   &:hover .arrow {
     opacity: 1;
     transform: translateX(15px);
+    -webkit-transform: translateX(15px); /* Added for Safari support */
   }
 
   .arrow {
@@ -11,6 +12,8 @@
     bottom: 0;
     opacity: 0;
     transition: opacity 0.2s ease, transform 0.2s ease;
+    -webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease; /* Added for Safari support */
     transform: translateX(3px);
+    -webkit-transform: translateX(3px); /* Added for Safari support */
   }
 }
