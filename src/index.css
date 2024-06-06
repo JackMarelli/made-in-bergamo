@@ -9,6 +9,8 @@
   font-family: Inter, sans-serif;
   letter-spacing: -.3px;
   line-height: 140%;
+
+  pointer-events: all;
 }
 
 /* Custom scrollbar for Webkit-based browsers */
@@ -30,3 +32,4 @@
 ::-webkit-scrollbar-button {
   display: none;
 }
+
