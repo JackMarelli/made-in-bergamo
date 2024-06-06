@@ -1,27 +1,40 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import SmallCta from "../SmallCta/SmallCta";
 
 export default function InterviewsNavigator() {
+  const navigate = useNavigate();
+
+  const handleLinkClick = (to) => {
+    console.log("navigating to", to);
+    navigate(to);
+  };
+
   return (
     <>
-      <Link to="/interview/neimieipanni">
-        <SmallCta text="Nei Miei Panni" />
-      </Link>
-      <Link to="/interview/labottegadigiorgia">
-        <SmallCta text="La Bottega di Giorgia" />
-      </Link>
-      <Link to="/interview/officinae">
-        <SmallCta text="Officinae" />
-      </Link>
-      <Link to="/interview/nitto">
-        <SmallCta text="Nitto" />
-      </Link>
-      <Link to="/interview/ertkingdom">
-        <SmallCta text="E RT Kingdom" />
-      </Link>
-      <Link to="/interview/albinigroup">
-        <SmallCta text="Albini Group" />
-      </Link>
+      <SmallCta
+        clickCallback={() => handleLinkClick("/interview/neimieipanni")}
+        text="Nei Miei Panni"
+      />
+      <SmallCta
+        clickCallback={() => handleLinkClick("/interview/labottegadigiorgia")}
+        text="La Bottega di Giorgia"
+      />
+      <SmallCta
+        clickCallback={() => handleLinkClick("/interview/officinae")}
+        text="Officinae"
+      />
+      <SmallCta
+        clickCallback={() => handleLinkClick("/interview/nitto")}
+        text="Nitto"
+      />
+      <SmallCta
+        clickCallback={() => handleLinkClick("/interview/ertkingdom")}
+        text="E RT Kingdom"
+      />
+      <SmallCta
+        clickCallback={() => handleLinkClick("/interview/albinigroup")}
+        text="Albini Group"
+      />
     </>
   );
 }

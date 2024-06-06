@@ -5,6 +5,7 @@ export default function SmallCta(props) {
   return (
     <div
       className={`${styles.cta_container} w-fit my-1 text-sm md:text-base font-semibold leading-[1.2em] cursor-pointer block relative`}
+      onClick={props.clickCallback ? props.clickCallback : undefined}
     >
       {props.text}
       <img
