@@ -90,11 +90,6 @@ export default function Officinae() {
           rappresentazione della propria persona e per fare questo lo si può
           fare solo con una grande disponibilità economica o con dei brand fast
           fashion».
-          <ImageRect
-            className="col-span-4 md:col-span-7"
-            imageUrl="../assets/images/webp/interviews/officinae/1.webp"
-            dida="Immagine relativa all'intervista, se c'è."
-          />
         </InterviewQuestion>
         <InterviewQuestion question="Com’è organizzata la vostra produzione?">
           «Il nostro atelier dove avviene la produzione dei capi si trova ad

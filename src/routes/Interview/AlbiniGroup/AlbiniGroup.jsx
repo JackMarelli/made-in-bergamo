@@ -213,11 +213,6 @@ export default function AlbiniGroup() {
           imageUrl="../assets/images/webp/interviews/albinigroup/13.webp"
           dida="Immagine relativa all'intervista, se c'è."
         />
-        <ImageRect
-          className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/14.webp"
-          dida="Immagine relativa all'intervista, se c'è."
-        />
         Successivamente avviene il finissaggio tessile o “nobilitazione”,
         l’insieme di trattamenti a cui si sottopone il tessuto per migliorarne
         la tingibilità, la stampabilità, l’idrofilia, il colore, la mano e
@@ -232,11 +227,6 @@ export default function AlbiniGroup() {
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/18.webp"
-          dida="Immagine relativa all'intervista, se c'è."
-        />
-        <ImageRect
-          className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/19.webp"
           dida="Immagine relativa all'intervista, se c'è."
         />
         Una volta controllato al 100%, il tessuto viene tagliato e confezionato

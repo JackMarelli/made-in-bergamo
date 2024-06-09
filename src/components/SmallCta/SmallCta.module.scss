@@ -1,19 +1,23 @@
 .cta_container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer; /* Ensuring cursor is set to pointer */
+
   &:hover .arrow {
     opacity: 1;
-    transform: translateX(15px);
-    -webkit-transform: translateX(15px); /* Added for Safari support */
+    transform: translateY(-50%) translateX(15px);
+    -webkit-transform: translateY(-50%) translateX(15px); /* Added for Safari support */
   }
 
   .arrow {
     position: absolute;
     right: 0;
-    top: 0;
-    bottom: 0;
+    top: 50%;
     opacity: 0;
     transition: opacity 0.2s ease, transform 0.2s ease;
     -webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease; /* Added for Safari support */
-    transform: translateX(3px);
+    transform: translateY(-50%) translateX(3px);
     -webkit-transform: translateX(3px); /* Added for Safari support */
   }
 }
