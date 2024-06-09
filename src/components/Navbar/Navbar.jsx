@@ -62,7 +62,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <span className="col-span-3 z-0 md:z-20">
+      <span className="col-span-3 z-0 md:z-20 max-h-20">
         Il prodotto moda artigianale sostenibile: dalle materie prime al
         prodotto finito con un focus sulla produzione territoriale.
       </span>
