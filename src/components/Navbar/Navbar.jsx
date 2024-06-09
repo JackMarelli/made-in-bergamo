@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <nav
       className="h-fit p-4 
-    pt-8 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 text-xs font-semibold z-[99999] text-mib-brown-dark md:fixed md:top-0"
+    pt-8 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 text-xs font-semibold z-[99999] md:max-h-20 text-mib-brown-dark md:fixed md:top-0"
     >
       <div
         ref={menuRef}
