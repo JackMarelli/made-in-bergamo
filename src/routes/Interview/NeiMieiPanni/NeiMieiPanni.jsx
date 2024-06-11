@@ -79,7 +79,7 @@ export default function NeiMieiPanni() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/neimieipanni/1.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Quali materiali vengono utilizzati per la produzione dei capi e da dove provengono?">
@@ -101,7 +101,7 @@ export default function NeiMieiPanni() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/neimieipanni/2.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Quindi utilizza per la maggior parte materiali provenienti da deadstock, non totalmente nuovi?">
@@ -117,7 +117,7 @@ export default function NeiMieiPanni() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/neimieipanni/3.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Com’è organizzata la filiera produttiva e quali sono i suoi step?">
@@ -137,7 +137,7 @@ export default function NeiMieiPanni() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/neimieipanni/4.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           Oggi ho una serie di modelli che si ripetono attraversando le
           stagioni, capi che produco ormai da dieci anni dove la forma è sempre
@@ -163,22 +163,22 @@ export default function NeiMieiPanni() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/neimieipanni/5.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/neimieipanni/6.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/neimieipanni/7.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/neimieipanni/8.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           La collezione viene a questo punto fotografata per essere messa online
           e presentata sui social. La presentazione della collezione è sempre un
@@ -205,7 +205,7 @@ export default function NeiMieiPanni() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/neimieipanni/9.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Dove ha imparato queste tecniche artigianali di produzione?">
@@ -217,7 +217,7 @@ export default function NeiMieiPanni() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/neimieipanni/10.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Qual’è il suo target preciso?">

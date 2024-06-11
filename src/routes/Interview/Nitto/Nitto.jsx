@@ -88,7 +88,7 @@ export default function Nitto() {
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/nitto/1.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
           parallax={false}
         />
         <InterviewQuestion question="Quante persone lavorano all’interno del brand e di cosa si occupano?">
@@ -115,7 +115,7 @@ export default function Nitto() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/nitto/2.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Come nascono le vostre collezioni e com’è organizzata la produzione?">
@@ -129,7 +129,7 @@ export default function Nitto() {
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/nitto/4.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
         Quindi le fasi principali sono il brainstorming iniziale, la
         strutturazione della collezione e infine si cerca di capire cosa
@@ -140,7 +140,7 @@ export default function Nitto() {
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/nitto/5.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
         <InterviewQuestion question="Prestate attenzione a ciò che riguarda l’impatto sull’ambiente?">
           «Sì, nel nostro piccolo, mediante tante piccole cose ci impegniamo su
@@ -165,7 +165,7 @@ export default function Nitto() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/nitto/6.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Quante collezioni create all’anno e dove vengono presentate?">
@@ -176,7 +176,7 @@ export default function Nitto() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/nitto/7.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Qual’è il vostro target?">
@@ -194,7 +194,7 @@ export default function Nitto() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/nitto/8.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Come gestite la parte relativa alla comunicazione? Quali canali usate e quali messaggi veicolate?">

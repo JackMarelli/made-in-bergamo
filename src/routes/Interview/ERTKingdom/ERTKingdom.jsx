@@ -74,7 +74,7 @@ export default function ERTKingdom() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/ertkingdom/1.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Quante persone lavorano insieme a lei e di cosa si occupano?">
@@ -112,12 +112,12 @@ export default function ERTKingdom() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/ertkingdom/2.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/ertkingdom/3.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Come viene prodotto un vostro capo e che tecniche utilizzate?">
@@ -150,7 +150,7 @@ export default function ERTKingdom() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/ertkingdom/4.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Prestate attenzione a ciò che riguarda la sostenibilità?">
@@ -185,12 +185,12 @@ export default function ERTKingdom() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/ertkingdom/5.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />{" "}
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/ertkingdom/6.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Qual’è il target del brand?">
@@ -220,7 +220,7 @@ export default function ERTKingdom() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/ertkingdom/7.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Quali sono i canali di vendita che utilizzate?">

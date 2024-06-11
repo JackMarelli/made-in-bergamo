@@ -24,7 +24,7 @@ export default function Home() {
       </div>
       <div className="w-full min-h-screen z-40 -mt-4 sm:-mt-5 md:-mt-12 lg:-mt-14 xl:-mt-16 -mb-8">
         <ImageRect
-          className="w-full min-h-screen md:my-0 overflow-visible"
+          className="w-full min-h-screen md:my-0 overflow-visdible"
           imageUrl="assets/images/webp/home/8_1.webp"
           imgClassName="min-h-screen"
           parallax={false}

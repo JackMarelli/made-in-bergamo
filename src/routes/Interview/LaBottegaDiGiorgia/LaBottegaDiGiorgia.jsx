@@ -105,7 +105,7 @@ export default function LaBottegaDiGiorgia() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/labottegadigiorgia/1.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Com’è organizzata la filiera produttiva di un capo e quali sono i suoi step?">
@@ -117,12 +117,12 @@ export default function LaBottegaDiGiorgia() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/labottegadigiorgia/2.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/labottegadigiorgia/3.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />{" "}
           Una volta raccolti gli ordini vengono sviluppate le taglie, abbastanza
           numerose specialmente nel bambino e poi il capo viene mandato in
@@ -134,12 +134,12 @@ export default function LaBottegaDiGiorgia() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/labottegadigiorgia/4.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/labottegadigiorgia/5.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Utilizzate tecniche sostenibili o aspetti inerenti ad essa?">
@@ -157,7 +157,7 @@ export default function LaBottegaDiGiorgia() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/labottegadigiorgia/6.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Quante collezioni create all’anno e da quanti capi è composta una collezione solitamente?">
@@ -169,7 +169,7 @@ export default function LaBottegaDiGiorgia() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/labottegadigiorgia/7.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Qual’è il target del brand?">

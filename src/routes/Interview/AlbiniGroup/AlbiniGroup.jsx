@@ -115,12 +115,12 @@ export default function AlbiniGroup() {
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/1.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/2.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
         Per quanto riguarda il lino, esso proviene principalmente dalla
         Normandia ed è noto per essere il migliore al mondo ed è anche
@@ -130,7 +130,7 @@ export default function AlbiniGroup() {
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/3.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
       </InterviewQuestion>
       <InterviewQuestion question="Quali tessuti create e in che quantità?">
@@ -156,7 +156,7 @@ export default function AlbiniGroup() {
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/5.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
         Grazie ai nostri 145 anni di esperienza tessile, riusciamo a creare
         tessuti con filati estremamente fini, coniugando sapientemente manualità
@@ -167,7 +167,7 @@ export default function AlbiniGroup() {
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/6.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
       </InterviewQuestion>
       <InterviewQuestion question="Qual’è il procedimento che avviene per creare un tessuto? Dove avviene la produzione?">
@@ -181,28 +181,28 @@ export default function AlbiniGroup() {
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/7.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/8.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/9.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
         Dopodiché avviene la tintura mediante l’utilizzo di sostanze coloranti.
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/10.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/12.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
         In seguito alla filatura e alla tintura, il processo di tessitura porta
         i filati a intrecciarsi per divenire tessuti, sintesi tra la qualità
@@ -211,7 +211,7 @@ export default function AlbiniGroup() {
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/13.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
         Successivamente avviene il finissaggio tessile o “nobilitazione”,
         l’insieme di trattamenti a cui si sottopone il tessuto per migliorarne
@@ -220,14 +220,14 @@ export default function AlbiniGroup() {
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/15.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
         Al rientro dal finissaggio il tessuto viene sottoposto a test fisici e
         chimici in laboratorio, dove l’ispettrice ricerca eventuali difettosità.
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/18.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
         Una volta controllato al 100%, il tessuto viene tagliato e confezionato
         secondo le esigenze del cliente. La maggior parte delle fasi produttive
@@ -238,12 +238,12 @@ export default function AlbiniGroup() {
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/20.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/21.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
       </InterviewQuestion>
       <InterviewQuestion question="Quante collezioni proponete durante l’anno e dove vengono presentate?">
@@ -269,7 +269,7 @@ export default function AlbiniGroup() {
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/albinigroup/22.webp"
-          dida="Immagine relativa all'intervista, se c'è."
+          dida=""
         />
       </InterviewQuestion>
       <InterviewQuestion question="Prestate attenzione all’aspetto della sostenibilità? Quali tecniche avete adottato?">

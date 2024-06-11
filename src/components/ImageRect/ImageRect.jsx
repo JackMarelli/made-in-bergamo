@@ -55,7 +55,7 @@ export default function ImageRect({
     window.addEventListener("scroll", handleMouseLeaveOnScroll);
     return () => window.removeEventListener("scroll", handleMouseLeaveOnScroll);
   }, [isActive]);
- 
+
   const handleMouseEnter = () => {
     setIsActive(true);
     setIsHovering(true);
@@ -85,7 +85,7 @@ export default function ImageRect({
     overflow: "hidden",
     userSelect: "none",
     minWidth: "260px",
-    maxWidth: "100vw"
+    maxWidth: "100vw",
   };
 
   return (
@@ -99,15 +99,17 @@ export default function ImageRect({
       <img
         ref={imageRef}
         src={imageUrl}
-        alt={altText}   
+        alt={altText}
         className={`w-full h-auto select-none object-cover ${imgClassName}`}
       />
-      <div
-        style={followerStyle}
-        className="px-5 py-2 mx-2 bg-mib-beige-light border-2 border-mib-brown-dark rounded-full font-semibold text-mib-brown-dark text-sm text-center"
-      >
-        {dida}
-      </div>
+      {dida !== "" && (
+        <div
+          style={followerStyle}
+          className="px-5 py-2 mx-2 bg-mib-beige-light border-2 border-mib-brown-dark rounded-full font-semibold text-mib-brown-dark text-sm text-center"
+        >
+          {dida}
+        </div>
+      )}
     </div>
   );
 }

@@ -99,17 +99,17 @@ export default function Officinae() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/2.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/3.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/4.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           Mentre per la maglieria collaboriamo da anni con un maglificio a
           conduzione famigliare a Seriate, sempre in provincia di Bergamo, dove
@@ -117,12 +117,12 @@ export default function Officinae() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/5.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/6.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           Ogni maglia viene creata una per uno, ci sono pochissime macchine ed
           ogni persona si dedica ad una maglia. Questo per noi è un grande
@@ -141,17 +141,17 @@ export default function Officinae() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/7.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/8.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/9.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Da dove nasce la passione di Paola e come ha appreso queste tecniche di produzione artigianali?">
@@ -195,7 +195,7 @@ export default function Officinae() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/10.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Quante collezioni create all’anno e quali sono i ritmi di vendita?">
@@ -247,12 +247,12 @@ export default function Officinae() {
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/14.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/officinae/15.webp"
-            dida="Immagine relativa all'intervista, se c'è."
+            dida=""
           />
         </InterviewQuestion>
         <InterviewQuestion question="Per la comunicazione e promozione cosa utilizzate?">
