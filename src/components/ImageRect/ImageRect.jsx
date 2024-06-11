@@ -6,6 +6,7 @@ export default function ImageRect({
   altText = "",
   dida = "",
   className,
+  imgClassName = "",
   parallax = true,
 }) {
   const [isHovering, setIsHovering] = useState(false);
@@ -90,7 +91,7 @@ export default function ImageRect({
   return (
     <div
       ref={containerRef}
-      className={`h-fit md:my-8 relative rounded-md overflow-hidden ${className}`}
+      className={`md:my-8 relative rounded-md overflow-hidden ${className}`}
       onMouseEnter={handleMouseEnter}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
@@ -99,7 +100,7 @@ export default function ImageRect({
         ref={imageRef}
         src={imageUrl}
         alt={altText}   
-        className="w-full h-full select-none object-cover"
+        className={`w-full h-auto select-none object-cover ${imgClassName}`}
       />
       <div
         style={followerStyle}
