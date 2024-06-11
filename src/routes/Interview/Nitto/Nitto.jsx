@@ -21,7 +21,7 @@ export default function Nitto() {
             Due all’anno - Primavera/Estate, Autunno/Inverno <br /> Donna
           </BrandSheetRow>
           <BrandSheetRow title="Target">
-            Donne tra i 30 e i 50 anni che amano il no branding e il mondo
+            Donne tra i 30 e i 70 anni che amano il no branding e il mondo
             dell’artigianalità, provenienti da Stati Uniti, Cina, Giappone e
             Corea
           </BrandSheetRow>
@@ -33,15 +33,14 @@ export default function Nitto() {
             Bergamo, Brasile, Perù
           </BrandSheetRow>
           <BrandSheetRow title="Materiali utilizzati">
-            Cotone <br /> Seta <br /> Cashmere <br /> Lana <br /> Materiali
-            brasiliani
+            Cotone <br /> Seta <br /> Cashmere <br /> Lana 
           </BrandSheetRow>
           <BrandSheetRow title="Tratti distintivi">
             Impegno costante verso un impatto ambientale minimo; <br /> Volontà
             di produrre i capi nel luogo di provenienza delle materie prime;{" "}
             <br />
             Creazione dell’etichetta del capo dettagliata, con la sua
-            tracciabilità; <br /> Materiali 100% naturali, provenienti da
+            tracciabilità; <br /> Materiali 100% naturali, in parte provenienti da
             deadstock; <br /> Impegno verso la riduzione degli sprechi in ogni
             aspetto della filiera produttiva; <br /> Presenza sul sito web di
             una sezione dedicata alla cura e al riparo del capo, con spiegazioni
@@ -183,7 +182,7 @@ export default function Nitto() {
         <InterviewQuestion question="Qual’è il vostro target?">
           «I nostri clienti principali sono per il 90% degli Stati Uniti e per
           il 10% della Cina, del Giappone e della Corea, i nostri mercati
-          principali. Sono donne tra i 30 e i 50 anni con disponibilità
+          principali. Sono donne tra i 30 e i 70 anni con disponibilità
           economica, le quali amano il no branding, sono discrete come il nostro
           brand e desiderano materiali di qualità per i loro capi».
         </InterviewQuestion>

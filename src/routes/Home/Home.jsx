@@ -22,11 +22,11 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="w-full h-[100vh] z-40 -mt-4 sm:-mt-5 md:-mt-12 lg:-mt-14 xl:-mt-16">
-        <img
-          className="w-full h-full object-cover"
-          src="assets/images/webp/home/8_1.webp"
-          alt=""
+      <div className="w-full min-h-[100vh] z-40 -mt-4 sm:-mt-5 md:-mt-12 lg:-mt-14 xl:-mt-16 -mb-8">
+        <ImageRect
+          className="w-full min-h-[100vh] md:my-0 overflow-visible"
+          imageUrl="assets/images/webp/home/8_1.webp"
+          dida="Capturing Something Different: Abstract Aerial Art Creates Amazing Images of the Hearth Texture by Ty Poland, 2017"
         />
       </div>
       <div className="w-full h-fit py-16 md:py-24 px-4 md:py-32 md:px-8 xl:px-8 grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-y-0 bg-mib-beige-dark">

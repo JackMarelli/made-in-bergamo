@@ -99,7 +99,7 @@ export default function ImageRect({
         ref={imageRef}
         src={imageUrl}
         alt={altText}   
-        className="w-full h-auto select-none"
+        className="w-full h-full select-none object-cover"
       />
       <div
         style={followerStyle}
