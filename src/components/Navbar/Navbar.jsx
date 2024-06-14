@@ -58,7 +58,8 @@ export default function Navbar() {
           </div>
           <div className="col-span-4 flex flex-col md:items-center gap-1 mt-40 md:mt-16 z-0 md:z-20">
             <span className="w-fit">Bergamo (BG), Italy</span>
-            <span className="w-fit">Instagram, Linkedin: @made_in_bergamo</span>
+            <span className="w-fit">Instagram: @made_in_bergamo</span>
+            <span className="w-fit">LinkedIn: @Made In Bergamo</span>
           </div>
         </div>
       </div>

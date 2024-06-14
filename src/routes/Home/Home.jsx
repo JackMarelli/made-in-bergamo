@@ -341,7 +341,7 @@ export default function Home() {
       </div>
       <div className="w-full h-fit">
         <ImageRect
-          className="w-full h-fit md:my-0 overflow-visible"
+          className="w-full h-fit md:my-0 overflow-visible md:-mt-8"
           imageUrl="assets/images/webp/home/cap3/3.webp"
           dida="Seta, filo.it"
         />
