@@ -58,7 +58,7 @@ export default function AlbiniGroup() {
           Sito web: www.albinigroup.com <br />
           Email: info@albinigroup.com <br />
           Linkedin: @Albini Group <br />
-          Tel: +39 03777111
+          Tel: +39 0377 7111
         </BrandSheetRow>
       </BrandSheet>
       <InterviewCredits content="Intervista con il team di marketing dell'azienda tessile Albini Group" />
@@ -240,11 +240,6 @@ export default function AlbiniGroup() {
           imageUrl="../assets/images/webp/interviews/albinigroup/20.webp"
           dida=""
         />
-        <ImageRect
-          className="col-span-4 md:col-span-7"
-          imageUrl="../assets/images/webp/interviews/albinigroup/21.webp"
-          dida=""
-        />
       </InterviewQuestion>
       <InterviewQuestion question="Quante collezioni proponete durante l’anno e dove vengono presentate?">
         «Ogni stagione vengono create due collezioni, autunno/inverno e
@@ -328,7 +323,7 @@ export default function AlbiniGroup() {
         per confezionare i loro capi. Inoltre, abbiamo anche una Business Unit
         chiamata “Bespoke", la quale si occupa di creare delle collezioni ad hoc
         per i più prestigiosi sarti del mondo. I sarti interessati ad avere i
-        nostri tessuti possono ordinarli e in 24h (se in Europa) o in 48h (nel
+        nostri tessuti possono ordinarli e in 24 ore (se in Europa) o in 48 ore (nel
         resto del mondo) ricevono il tessuto desiderato. Infine, il nostro punto
         vendita di Albino nasce per soddisfare le esigenze dei clienti finali
         che vogliono un taglio di tessuto realizzato con la qualità Albini, per

@@ -125,7 +125,6 @@ export default function Nitto() {
           moodboard iniziale, inserisce su una tavola fisica i pezzi di tessuto
           e i colori, per poi fare una selezione e capire se il numero di
           prodotti è giusto ed equilibrato con i tessuti.
-        </InterviewQuestion>
         <ImageRect
           className="col-span-4 md:col-span-7"
           imageUrl="../assets/images/webp/interviews/nitto/4.webp"
@@ -142,6 +141,7 @@ export default function Nitto() {
           imageUrl="../assets/images/webp/interviews/nitto/5.webp"
           dida=""
         />
+        </InterviewQuestion>
         <InterviewQuestion question="Prestate attenzione a ciò che riguarda l’impatto sull’ambiente?">
           «Sì, nel nostro piccolo, mediante tante piccole cose ci impegniamo su
           questo aspetto in quanto teniamo molto al valore legato all’impatto
@@ -182,7 +182,7 @@ export default function Nitto() {
         <InterviewQuestion question="Qual’è il vostro target?">
           «I nostri clienti principali sono per il 90% degli Stati Uniti e per
           il 10% della Cina, del Giappone e della Corea, i nostri mercati
-          principali. Sono donne tra i 30 e i 70 anni con disponibilità
+          principali. Sono donne tra i trenta e i settant'anni con disponibilità
           economica, le quali amano il no branding, sono discrete come il nostro
           brand e desiderano materiali di qualità per i loro capi».
         </InterviewQuestion>

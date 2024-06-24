@@ -55,7 +55,7 @@ export default function LaBottegaDiGiorgia() {
             Facebook: @La Bottega di Giorgia <br />
             Mail: info@labottegadigiorgia.it <br />
             Tel.: +39 035 19967890 <br />
-            Cell.: +39 3334266426
+            Cell.: +39 333 426 6426
           </BrandSheetRow>
         </BrandSheet>
         <InterviewCredits content="Intervista a Giorgia Totaro del brand La Bottega di Giorgia" />
@@ -177,7 +177,7 @@ export default function LaBottegaDiGiorgia() {
           livello di gusto è molto ricercato, soprattutto nel bambino,
           costituito da donne e madri che amano vestire con capi dalle linee
           pulite, semplici e con volumi morbidi. Le donne che acquistano hanno
-          un’età compresa tra i 35 e i 60 anni ma a volte ci sono anche delle
+          un’età compresa tra i trentacinque e i sessant’anni anni ma a volte ci sono anche delle
           eccezioni al di fuori di questa fascia».
         </InterviewQuestion>
         <InterviewQuestion question="Dove vengono vendute le collezioni?">

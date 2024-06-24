@@ -41,7 +41,7 @@ export default function ERTKingdom() {
           <BrandSheetRow title="Contatti">
             Sito web: www.ert-kingdom.com <br /> Instagram: @ERT_Kingdom <br />
             Facebook: @ERT Kingdom <br /> Mail: info@ert-kingdom.com <br /> Tel:
-            +39 346 33 91 417
+            +39 346 339 1417
           </BrandSheetRow>
         </BrandSheet>
         <InterviewCredits content="Intervista a Giulia Terzi del brand E RT Kingdom" />
@@ -231,7 +231,7 @@ export default function ERTKingdom() {
           grandi catene, i quali hanno poi richiesto i capi tramite un ordine.
           Noi valutiamo la richiesta, produciamo e consegniamo a questi
           show-room. Per esempio vendiamo in tre importanti negozi in Giappone,
-          in Korea, in uno a New York, a Rimini e su un negozio e-commerce di
+          in Corea, in uno a New York, a Rimini e su un negozio e-commerce di
           Venezia. Riceviamo anche tante richieste di ordini tramite Instagram,
           ma difficilmente realizzo una taglia apposta in quanto preferisco
           vendere tramite buyer e indirizzare il cliente lì».

@@ -91,7 +91,7 @@ export default function NeiMieiPanni() {
           per me è importante vestire con tessuti che fanno bene alla pelle di
           chi li indossa. Uno dei miei fornitori è Albini, un cotonificio
           rinomato da cui mi rifornisco di tessuti deadstock. Ho anche altri
-          fornitori specializzati in stock provenienti dell’alta moda: da loro
+          fornitori specializzati in stock provenienti dall’alta moda: da loro
           scelgo tessuti italiani. Negli anni ho imparato molto grazie ai miei
           fornitori e alla mia sartoria, a riconoscere i tessuti con le mani sia
           per composizione che immaginando la resa finale sul capo. Scegliere di
@@ -234,7 +234,7 @@ export default function NeiMieiPanni() {
           «Sullo shop online si trova sempre la collezione declinata sia per
           bambina che per donna. Nel settore bambina si trovano i capi base che
           è possibile realizzare nei tessuti della stagione. Ricevo ancora
-          ordini per bambine specialmente fra i 6 e gli 11 anni e sono sempre
+          ordini per bambine specialmente fra i sei e gli undici anni e sono sempre
           felice di ricevere in atelier le bambine con le loro mamme, sono
           momenti gioiosi e rilassanti. Il mercato del bambino è stato
           sorpassato negli anni da quello della donna ed è in calo anche perché
@@ -251,7 +251,7 @@ export default function NeiMieiPanni() {
           toccarlo con mano. Sono obiettivi molto concreti e un passo alla
           volta, in linea con ciò che ho sempre fatto».
         </InterviewQuestion>
-        <InterviewQuestion question="Per la comunicazione quali canali usa?">
+        <InterviewQuestion question="Per la comunicazione quali canali usa e quali messaggi veicola?">
           «Nei Miei Panni nasce come blog inseguendo pensieri, immagini, mani e
           tessuti: ha avuto da subito un suo carattere di riconoscibilità che mi
           ha convinta a registrare il marchio già dopo le prime pubblicazioni.
