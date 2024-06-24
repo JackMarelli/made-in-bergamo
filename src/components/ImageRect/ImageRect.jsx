@@ -91,7 +91,7 @@ export default function ImageRect({
   return (
     <div
       ref={containerRef}
-      className={`md:my-8 relative rounded-md overflow-hidden ${className}`}
+      className={`h-fit md:my-8 relative rounded-md overflow-hidden ${className}`}
       onMouseEnter={handleMouseEnter}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}

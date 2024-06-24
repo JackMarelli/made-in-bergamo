@@ -76,8 +76,7 @@ export default function Home() {
           approfondimento dei vari aspetti e ambiti che caratterizzano questa zona.
           Infine c’è una sezione che si concentra sulla produzione e sulla sostenibilità, all’interno
           della quale attraverso uno sguardo tecnico, viene spiegato come si produce un capo
-          artigianalmente, prendendo come esempio alcuni brand bergamaschi che lavorano in
-          questo modo. Di pari passo con l’analisi delle fasi della filiera produttiva, delle tecniche e
+          artigianalmente, prendendo come esempio un brand bergamasco che lavora in questo modo. Di pari passo con l’analisi delle fasi della filiera produttiva, delle tecniche e
           delle materie prime utilizzate, viene trattata anche la questione della sostenibilità, giacché
           in ragione di essa sono stati realizzati nuovi metodi di produzione, basati su un’idea di
           riciclaggio e di recupero dei materiali.
@@ -142,7 +141,7 @@ export default function Home() {
         />
         <Paragraph
           className="col-span-4 md:col-start-5 md:col-span-6"
-          text="Il suo lavoro era considerato prezioso dalla comunità e questo faceva sì che avesse una certa rilevanza, ma dal Quattrocento, con i trattati di Leon Battista Alberti, artista rinascimentale, quest’idea iniziò a scomparire e l’artigiano cominciò a perdere l’importanza che aveva all’inizio, in quanto si cominciò a darne di più all’intelletto rispetto che alla manualità; questo cambiamento proseguì anche in seguito alla nascita delle Accademie, le quali misero in risalto il sapere accademico, evidenziandone le differenze con il mestiere manuale dell’artigiano, fino ad arrivare alle macchine della Rivoluzione Industriale"
+          text="Il suo lavoro era considerato prezioso dalla comunità e questo faceva sì che avesse una certa rilevanza, ma dal Quattrocento, con i trattati di Leon Battista Alberti, artista rinascimentale, quest’idea iniziò a scomparire e l’artigiano cominciò a perdere l’importanza che aveva all’inizio, in quanto si cominciò a darne di più all’intelletto rispetto che alla manualità; questo cambiamento proseguì anche in seguito alla nascita delle Accademie, le quali misero in risalto il sapere accademico, evidenziandone le differenze con il mestiere manuale dell’artigiano, fino ad arrivare alle macchine della Rivoluzione Industriale."
         />
         <ImageRect
           className="col-span-4 md:col-start-2 md:col-span-5 md:mt-40"
