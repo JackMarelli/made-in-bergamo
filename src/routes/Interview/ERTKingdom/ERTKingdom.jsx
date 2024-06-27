@@ -171,17 +171,17 @@ export default function ERTKingdom() {
           l’inverno. La nostra primissima collezione di partenza risale al 2022
           e si chiama “Kingdom 00”, lì avevo utilizzato fibre di vari animali
           come il cammello, in quanto voleva essere una maglieria a 360 gradi.
-          Essa era composta da … capi, mentre la successiva, “Kingdom 01” da 18
-          capi. Essa è stata lanciata l’anno scorso, nel 2023, senza una
-          presentazione ufficiale ma facendo una cartella stampa che abbiamo
-          inviato a circa 50 clienti in tutto il mondo. Una parte di questi
-          hanno comprato e una parte ha espresso il desiderio di vedere la
-          collezione dal vivo. Per questo motivo abbiamo poi deciso di
-          presentare la collezione di quest’anno, “Kingdom 02” composta da una
-          quarantina di capi, a Parigi nel mese di marzo, dove abbiamo raccolto
-          gli ordini e stiamo andando ora in produzione con i primi 150 capi.
-          Come primo step abbiamo raggiunto dei negozi importanti che hanno
-          acquistato, messo dei budget interessanti e ne siamo molto felici».
+          La successiva, “Kingdom 01”, composta da diciotto capi, è stata
+          lanciata l’anno scorso, nel 2023, senza una presentazione ufficiale ma
+          facendo una cartella stampa che abbiamo inviato a circa 50 clienti in
+          tutto il mondo. Una parte di questi hanno comprato e una parte ha
+          espresso il desiderio di vedere la collezione dal vivo. Per questo
+          motivo abbiamo poi deciso di presentare la collezione di quest’anno,
+          “Kingdom 02” composta da una quarantina di capi, a Parigi nel mese di
+          marzo, dove abbiamo raccolto gli ordini e stiamo andando ora in
+          produzione con i primi 150 capi. Come primo step abbiamo raggiunto dei
+          negozi importanti che hanno acquistato, messo dei budget interessanti
+          e ne siamo molto felici».
           <ImageRect
             className="col-span-4 md:col-span-7"
             imageUrl="../assets/images/webp/interviews/ertkingdom/5.webp"
